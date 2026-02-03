@@ -1,0 +1,162 @@
+{
+  "site": {
+    "brandName": "Moonshine Capital",
+    "domain": "distilledfunding.com",
+    "defaultOgImage": "/og/default.jpg",
+    "primaryCta": {
+      "label": "Check What You Qualify For",
+      "href": "https://YOUR-PRIMARY-APPLY-LINK"
+    },
+    "secondaryCta": {
+      "label": "Talk to a Funding Advisor",
+      "href": "https://YOUR-CALENDAR-LINK"
+    },
+    "compliance": {
+      "disclaimerShort": "Funding options vary by profile. Not a lender. Terms depend on underwriting."
+    }
+  },
+  "verticals": [
+    {
+      "slug": "gig-worker-loans",
+      "status": "published",
+      "seo": {
+        "title": "Gig Worker Funding (2026): Fast Options for Irregular Income",
+        "description": "Compare fast funding paths for gig workers, freelancers, and creators—based on deposits, not pay stubs. Apply, prep, or get a straight answer.",
+        "canonical": "https://distilledfunding.com/gig-worker-loans",
+        "ogImage": "/og/gig-worker.jpg",
+        "noindex": false
+      },
+      "hero": {
+        "h1": "Gig Worker & Creator Funding (2026): Fast Options for Irregular Income",
+        "subhead": "Banks love pay stubs. You have deposits. This page shows funding lanes that fit gig workers and creators—based on bank activity, not paperwork cosplay.",
+        "bullets": [
+          "Fast paths: same-day to 72-hour options when you qualify",
+          "Deposit-first underwriting: bank activity matters more than perfect forms",
+          "Straight answer policy: Apply, Prep, or No (with receipts)"
+        ],
+        "image": {
+          "src": "/img/heroes/gig-worker.jpg",
+          "alt": "Gig worker and creator funding"
+        }
+      },
+      "audience": {
+        "bestFor": [
+          "consistent deposits",
+          "active gig platforms (Uber/DoorDash/Instacart)",
+          "creators with subscriptions (Patreon/OnlyFans/etc.)"
+        ],
+        "notFor": [
+          "no deposits / no income",
+          "brand-new bank account with no history",
+          "frequent overdrafts (until cleaned up)"
+        ]
+      },
+      "options": [
+        {
+          "id": "instant-advance",
+          "title": "Instant Deposit-Based Advance",
+          "oneLiner": "When you need money like you need oxygen—fast.",
+          "bestFor": ["short-term needs", "steady deposits"],
+          "watchOuts": ["higher cost", "don’t stack repeat advances"],
+          "cta": { "label": "See Instant Options", "href": "https://YOUR-INSTANT-OFFER-LINK" },
+          "tags": ["fastest", "low-doc"]
+        },
+        {
+          "id": "rbf",
+          "title": "Revenue-Based Funding (RBF)",
+          "oneLiner": "Funding that cares about cashflow patterns, not résumés.",
+          "bestFor": ["growth purchases", "consistent deposits"],
+          "watchOuts": ["repayment can pinch if deposits dip"],
+          "cta": { "label": "Compare RBF Offers", "href": "https://YOUR-RBF-LINK" },
+          "tags": ["growth", "deposit-based"]
+        },
+        {
+          "id": "mca",
+          "title": "Merchant Cash Advance (MCA)",
+          "oneLiner": "Fast and available—use it like a tool, not a lifestyle.",
+          "bestFor": ["high card volume", "creators/sellers"],
+          "watchOuts": ["daily payments can crush cashflow"],
+          "cta": { "label": "Check MCA Eligibility", "href": "https://YOUR-MCA-LINK" },
+          "tags": ["card-volume", "fast"]
+        }
+      ],
+      "decisionTree": {
+        "headline": "The “Don’t Overthink It” Decision Tree",
+        "paths": [
+          {
+            "id": "need-fast",
+            "title": "Need funding in 24–72 hours",
+            "summary": "Go Instant → RBF → MCA depending on deposits/card volume.",
+            "expect": ["fast review", "bank activity matters", "minimal docs"],
+            "cta": { "label": "Check What You Qualify For", "href": "https://YOUR-PRIMARY-APPLY-LINK" }
+          },
+          {
+            "id": "repeatable-access",
+            "title": "Want repeatable access (not panic-funding)",
+            "summary": "Explore LOC + credit-based lanes for stability and better terms.",
+            "expect": ["better structure", "slower approvals", "more requirements"],
+            "cta": { "label": "See Ongoing Credit Options", "href": "https://YOUR-LOC-LINK" }
+          },
+          {
+            "id": "prep",
+            "title": "Not ready yet (but want to be)",
+            "summary": "Run the 7–14 day prep plan to stop denial loops.",
+            "expect": ["stabilize deposits", "eliminate negative days", "clean banking behavior"],
+            "cta": { "label": "Get My Prep Plan", "href": "https://YOUR-PREP-LINK" }
+          }
+        ]
+      },
+      "internalLinks": {
+        "hubAnchors": [
+          "gig worker loans",
+          "funding options for gig workers",
+          "instant funding for gig workers",
+          "self-employed funding without tax returns",
+          "gig worker funding hub (2026)"
+        ],
+        "recommendedSpokes": [
+          { "title": "Instant Funding for Gig Workers (2026): Up to $20K Fast", "href": "/blog/instant-funding-gig-workers" },
+          { "title": "No Tax Returns? Here’s What Lenders Use Instead", "href": "/blog/no-tax-return-funding" }
+        ]
+      },
+      "faqs": [
+        {
+          "q": "Can gig workers get loans without tax returns?",
+          "a": "Yes. Many funding options use bank statements, deposits, and revenue patterns instead of tax returns."
+        },
+        {
+          "q": "What’s the fastest funding option for gig workers?",
+          "a": "Deposit-based advances and some revenue-based options can fund same-day to 72 hours if your banking activity supports it."
+        }
+      ],
+      "widgets": {
+        "tallyEmbedUrl": "https://tally.so/r/YOURFORM",
+        "calendlyUrl": "https://calendly.com/YOURCALL",
+        "chatWidget": { "provider": "tawk", "enabled": false }
+      }
+    },
+
+    {
+      "slug": "electricians",
+      "status": "draft",
+      "seo": {
+        "title": "Material Financing for Electricians Waiting on Net-30 Checks",
+        "description": "Fast capital options for electricians covering materials, payroll gaps, and job growth—based on deposits and activity.",
+        "canonical": "https://distilledfunding.com/electricians",
+        "ogImage": "/og/electricians.jpg",
+        "noindex": true
+      },
+      "hero": {
+        "h1": "Material Financing for Electricians Waiting on Net-30 Checks",
+        "subhead": "Your supplier wants money today. Your client pays next month. This page covers funding lanes built for that exact pain.",
+        "bullets": [
+          "Cover materials and payroll gaps without begging a bank",
+          "Funding lanes that respect real-world contractor cashflow",
+          "Apply, Prep, or No—fast"
+        ],
+        "image": { "src": "/img/heroes/electricians.jpg", "alt": "Electrician funding" }
+      }
+    }
+  ]
+}
+

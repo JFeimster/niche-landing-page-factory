@@ -1,0 +1,40 @@
+{
+  "name": "niche-landing-page-factory",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@radix-ui/react-accordion": "^1.2.11",
+    "@radix-ui/react-separator": "^1.1.7",
+    "@radix-ui/react-slot": "^1.2.3",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.539.0",
+    "next": "^16.1.0",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "tailwind-merge": "^3.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.0",
+    "@types/react": "^19.2.4",
+    "@types/react-dom": "^19.2.4",
+    "@tailwindcss/postcss": "^4.1.0",
+    "eslint": "^9.19.0",
+    "eslint-config-next": "^16.1.0",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^4.1.0",
+    "tw-animate-css": "^1.2.10",
+    "typescript": "^5.7.3"
+  },
+  "engines": {
+    "node": ">=20.9"
+  }
+}
