@@ -3,14 +3,13 @@ import { loadData } from "@/lib/verticals";
 
 export default function robots(): MetadataRoute.Robots {
   const { site } = loadData();
-  const base = `https://${site.domain}`;
+  const base = site.domain.startsWith("http") ? site.domain : `https://${site.domain}`;
+
   return {
-    rules: [
-      {
-        userAgent: "*",
-        allow: "/",
-      },
-    ],
+    rules: {
+      userAgent: "*",
+      allow: "/",
+    },
     sitemap: `${base}/sitemap.xml`,
   };
 }

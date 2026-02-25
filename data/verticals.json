@@ -1,823 +1,161 @@
 {
+  "site": {
+    "brandName": "Moonshine Capital",
+    "domain": "distilledfunding.com",
+    "defaultOgImage": "/og/default.jpg",
+    "primaryCta": {
+      "label": "Check What You Qualify For",
+      "href": "https://YOUR-PRIMARY-APPLY-LINK"
+    },
+    "secondaryCta": {
+      "label": "Talk to a Funding Advisor",
+      "href": "https://YOUR-CALENDAR-LINK"
+    },
+    "compliance": {
+      "disclaimerShort": "Funding options vary by profile. Not a lender. Terms depend on underwriting."
+    }
+  },
   "verticals": [
     {
-      "slug": "startups-saas-funding",
-      "status": "draft",
-      "noindex": true,
-      "title": "Startup & SaaS Funding (2026): Real Options When Banks Say “Come Back Later”",
-      "description": "A brutally honest funding map for startups and SaaS founders—what’s realistic, what’s hype, and what actually gets approved.",
-      "hero": {
-        "h1": "Startup & SaaS Funding Without the Fairy Tales",
-        "subhead": "If your bank wants 2+ years of profitability, congrats: you’ve met capitalism. Here are the options that actually exist.",
-        "image": "/img/saas.jpg"
-      },
+      "slug": "gig-worker-loans",
+      "status": "published",
       "seo": {
-        "metaTitle": "Startup & SaaS Funding (2026) — Real Options That Actually Work",
-        "metaDescription": "Explore funding paths for startups and SaaS: revenue-based financing, lines of credit, business credit, founders’ strategy, and what lenders really want.",
-        "canonical": "/startups-saas-funding"
+        "title": "Gig Worker Funding (2026): Fast Options for Irregular Income",
+        "description": "Compare fast funding paths for gig workers, freelancers, and creators—based on deposits, not pay stubs. Apply, prep, or get a straight answer.",
+        "canonical": "https://distilledfunding.com/gig-worker-loans",
+        "ogImage": "/og/gig-worker.jpg",
+        "noindex": false
       },
-      "badges": ["Founder-friendly", "Reality-based", "Strategy-first"],
+      "hero": {
+        "h1": "Gig Worker & Creator Funding (2026): Fast Options for Irregular Income",
+        "subhead": "Banks love pay stubs. You have deposits. This page shows funding lanes that fit gig workers and creators—based on bank activity, not paperwork cosplay.",
+        "bullets": [
+          "Fast paths: same-day to 72-hour options when you qualify",
+          "Deposit-first underwriting: bank activity matters more than perfect forms",
+          "Straight answer policy: Apply, Prep, or No (with receipts)"
+        ],
+        "image": {
+          "src": "/img/heroes/gig-worker.jpg",
+          "alt": "Gig worker and creator funding"
+        }
+      },
+      "audience": {
+        "bestFor": [
+          "consistent deposits",
+          "active gig platforms (Uber/DoorDash/Instacart)",
+          "creators with subscriptions (Patreon/OnlyFans/etc.)"
+        ],
+        "notFor": [
+          "no deposits / no income",
+          "brand-new bank account with no history",
+          "frequent overdrafts (until cleaned up)"
+        ]
+      },
       "options": [
         {
-          "title": "Revenue-Based Financing (RBF)",
-          "desc": "If you have consistent revenue, this can beat begging for a bank loan.",
-          "bestFor": "SaaS with steady MRR/ARR",
-          "ctaLabel": "See if RBF fits",
-          "ctaHref": "https://YOUR-PRIMARY-APPLY-LINK"
+          "id": "instant-advance",
+          "title": "Instant Deposit-Based Advance",
+          "oneLiner": "When you need money like you need oxygen—fast.",
+          "bestFor": ["short-term needs", "steady deposits"],
+          "watchOuts": ["higher cost", "don’t stack repeat advances"],
+          "cta": { "label": "See Instant Options", "href": "https://YOUR-INSTANT-OFFER-LINK" },
+          "tags": ["fastest", "low-doc"]
         },
         {
-          "title": "Business Credit + 0% Intro (Credit Stacking)",
-          "desc": "Works when your personal credit is strong and your story is clean.",
-          "bestFor": "Founders with 680+ credit",
-          "ctaLabel": "Check eligibility",
-          "ctaHref": "https://YOUR-PRIMARY-APPLY-LINK"
+          "id": "rbf",
+          "title": "Revenue-Based Funding (RBF)",
+          "oneLiner": "Funding that cares about cashflow patterns, not résumés.",
+          "bestFor": ["growth purchases", "consistent deposits"],
+          "watchOuts": ["repayment can pinch if deposits dip"],
+          "cta": { "label": "Compare RBF Offers", "href": "https://YOUR-RBF-LINK" },
+          "tags": ["growth", "deposit-based"]
         },
         {
-          "title": "Line of Credit (Cash Flow Buffer)",
-          "desc": "Best used to smooth cash flow—not to fund a dream that doesn’t sell.",
-          "bestFor": "Founders with revenue + clean banking",
-          "ctaLabel": "Explore LOC options",
-          "ctaHref": "https://YOUR-PRIMARY-APPLY-LINK"
+          "id": "mca",
+          "title": "Merchant Cash Advance (MCA)",
+          "oneLiner": "Fast and available—use it like a tool, not a lifestyle.",
+          "bestFor": ["high card volume", "creators/sellers"],
+          "watchOuts": ["daily payments can crush cashflow"],
+          "cta": { "label": "Check MCA Eligibility", "href": "https://YOUR-MCA-LINK" },
+          "tags": ["card-volume", "fast"]
         }
       ],
       "decisionTree": {
-        "question": "What’s your current reality?",
-        "choices": [
+        "headline": "The “Don’t Overthink It” Decision Tree",
+        "paths": [
           {
-            "label": "I have consistent revenue (MRR/ARR) already",
-            "result": "RBF or LOC are your best starting points."
+            "id": "need-fast",
+            "title": "Need funding in 24–72 hours",
+            "summary": "Go Instant → RBF → MCA depending on deposits/card volume.",
+            "expect": ["fast review", "bank activity matters", "minimal docs"],
+            "cta": { "label": "Check What You Qualify For", "href": "https://YOUR-PRIMARY-APPLY-LINK" }
           },
           {
-            "label": "I’m pre-revenue / launching",
-            "result": "Business credit strategy + lean launch plan. Avoid predatory debt."
+            "id": "repeatable-access",
+            "title": "Want repeatable access (not panic-funding)",
+            "summary": "Explore LOC + credit-based lanes for stability and better terms.",
+            "expect": ["better structure", "slower approvals", "more requirements"],
+            "cta": { "label": "See Ongoing Credit Options", "href": "https://YOUR-LOC-LINK" }
           },
           {
-            "label": "I’m scaling and need marketing/inventory/cash buffer",
-            "result": "RBF/LOC + cash flow discipline. Get a plan, not a prayer."
+            "id": "prep",
+            "title": "Not ready yet (but want to be)",
+            "summary": "Run the 7–14 day prep plan to stop denial loops.",
+            "expect": ["stabilize deposits", "eliminate negative days", "clean banking behavior"],
+            "cta": { "label": "Get My Prep Plan", "href": "https://YOUR-PREP-LINK" }
           }
+        ]
+      },
+      "internalLinks": {
+        "hubAnchors": [
+          "gig worker loans",
+          "funding options for gig workers",
+          "instant funding for gig workers",
+          "self-employed funding without tax returns",
+          "gig worker funding hub (2026)"
+        ],
+        "recommendedSpokes": [
+          { "title": "Instant Funding for Gig Workers (2026): Up to $20K Fast", "href": "/blog/instant-funding-gig-workers" },
+          { "title": "No Tax Returns? Here’s What Lenders Use Instead", "href": "/blog/no-tax-return-funding" }
         ]
       },
       "faqs": [
         {
-          "q": "Can a startup get a traditional bank loan?",
-          "a": "Sometimes, but banks usually want strong time-in-business, cash flow, and collateral. Most early-stage founders do better with alternative paths."
+          "q": "Can gig workers get loans without tax returns?",
+          "a": "Yes. Many funding options use bank statements, deposits, and revenue patterns instead of tax returns."
         },
         {
-          "q": "Is revenue-based financing a good idea?",
-          "a": "It can be—if your revenue is consistent and you understand the payback mechanics. It’s not “free money,” it’s structured cash flow."
-        },
-        {
-          "q": "What’s the fastest approval path?",
-          "a": "If you have strong deposits and clean banking history, you’ll typically move faster than pre-revenue founders."
+          "q": "What’s the fastest funding option for gig workers?",
+          "a": "Deposit-based advances and some revenue-based options can fund same-day to 72 hours if your banking activity supports it."
         }
       ],
-      "ctas": {
-        "primary": {
-          "label": "Check What You Qualify For",
-          "href": "https://YOUR-PRIMARY-APPLY-LINK"
-        },
-        "secondary": {
-          "label": "Talk to a Funding Advisor",
-          "href": "https://YOUR-CALENDAR-LINK"
-        },
-        "leadForm": {
-          "label": "Get the Founder Funding Map",
-          "href": "https://YOUR-TALLY-FORM-URL"
-        }
-      },
-      "compliance": {
-        "disclaimerShort": "Funding options vary by profile. Not a lender. Terms depend on underwriting."
-      },
-      "relatedGuides": [
-        { "title": "Business Credit Basics for Founders", "href": "/business-credit-builder" },
-        { "title": "RBF vs Line of Credit: What’s the difference?", "href": "/lender-reviews" }
-      ],
-      "internalLinkAnchors": [
-        "startup funding options",
-        "saas funding without collateral",
-        "revenue based financing for saas",
-        "business credit for startups",
-        "line of credit for saas founders"
-      ]
+      "widgets": {
+        "tallyEmbedUrl": "https://tally.so/r/w4R2Ad",
+        "calendlyUrl": "https://calendly.com/YOURCALL",
+        "chatWidget": { "provider": "tawk", "enabled": false }
+      }
     },
 
     {
       "slug": "electricians",
       "status": "draft",
-      "noindex": true,
-      "title": "Material Financing for Electricians Waiting on Net-30 Checks",
-      "description": "Fast funding paths for electricians covering materials, payroll gaps, and job growth—built around deposits and activity, not tax returns.",
-      "hero": {
-        "h1": "Electricians: Stop Fronting Materials Like You’re a Bank",
-        "subhead": "Net-30 is cute until payroll hits Friday. Here are funding options that match real contractor cash flow.",
-        "image": "/img/electricians.jpg"
-      },
       "seo": {
-        "metaTitle": "Electrician Financing (2026) — Materials, Payroll, Job Growth",
-        "metaDescription": "Funding options for electricians: materials financing, working capital, payroll gaps, and contractor-friendly approvals based on deposits.",
-        "canonical": "/electricians"
+        "title": "Material Financing for Electricians Waiting on Net-30 Checks",
+        "description": "Fast capital options for electricians covering materials, payroll gaps, and job growth—based on deposits and activity.",
+        "canonical": "https://distilledfunding.com/electricians",
+        "ogImage": "/og/electricians.jpg",
+        "noindex": true
       },
-      "badges": ["Net-30 friendly", "Job-growth capital", "Fast decisions"],
-      "options": [
-        {
-          "title": "Working Capital (Deposit-Based)",
-          "desc": "Built for contractors with consistent deposits and job flow.",
-          "bestFor": "Established electricians with steady income",
-          "ctaLabel": "Check my options",
-          "ctaHref": "https://YOUR-PRIMARY-APPLY-LINK"
-        },
-        {
-          "title": "Material / Equipment Funding",
-          "desc": "Cover big purchase orders, tools, and materials for active projects.",
-          "bestFor": "Bigger jobs, bigger materials list",
-          "ctaLabel": "See equipment options",
-          "ctaHref": "https://YOUR-PRIMARY-APPLY-LINK"
-        },
-        {
-          "title": "Business Credit Builder Path",
-          "desc": "If you’re early, build the profile so lenders stop ghosting you.",
-          "bestFor": "Newer contractors / scaling",
-          "ctaLabel": "Build business credit",
-          "ctaHref": "https://YOUR-PRIMARY-APPLY-LINK"
-        }
-      ],
-      "decisionTree": {
-        "question": "What’s your biggest pain right now?",
-        "choices": [
-          { "label": "Materials are crushing me upfront", "result": "Material/equipment funding + working capital review." },
-          { "label": "Payroll is the weekly boss fight", "result": "Working capital based on deposits and bank activity." },
-          { "label": "I’m new and keep getting declined", "result": "Business credit builder path + cleaner banking setup." }
-        ]
-      },
-      "faqs": [
-        { "q": "Do I need perfect credit?", "a": "No—many options weigh deposits and business activity heavily. Credit still matters, but it’s not the only lever." },
-        { "q": "How fast can funding happen?", "a": "If your docs and bank activity are clean, decisions can move quickly. Delays usually come from messy accounts or missing info." }
-      ],
-      "ctas": {
-        "primary": { "label": "Check What You Qualify For", "href": "https://YOUR-PRIMARY-APPLY-LINK" },
-        "secondary": { "label": "Talk to a Funding Advisor", "href": "https://YOUR-CALENDAR-LINK" },
-        "leadForm": { "label": "Get the Contractor Funding Checklist", "href": "https://YOUR-TALLY-FORM-URL" }
-      },
-      "compliance": { "disclaimerShort": "Funding options vary by profile. Not a lender. Terms depend on underwriting." },
-      "relatedGuides": [
-        { "title": "Contractor Funding Playbook", "href": "/alternative-business-funding" },
-        { "title": "Build Business Credit Faster", "href": "/business-credit-builder" }
-      ],
-      "internalLinkAnchors": [
-        "electrician financing",
-        "materials financing for electricians",
-        "working capital for electricians",
-        "contractor payroll funding",
-        "net 30 cash flow help"
-      ]
-    },
-
-    {
-      "slug": "ecommerce-amazon",
-      "status": "published",
-      "noindex": false,
-      "title": "Amazon Seller Funding (2026): Inventory Capital Without Killing Cash Flow",
-      "description": "Funding paths for Amazon sellers to stay in stock, scale ads, and survive payout delays—without signing your life away.",
       "hero": {
-        "h1": "Amazon Sellers: Stay In Stock or Die Quietly",
-        "subhead": "Inventory doesn’t care about your payout schedule. Here’s how to fund growth without torching margins.",
-        "image": "/img/amazon.jpg"
-      },
-      "seo": {
-        "metaTitle": "Amazon Seller Funding (2026) — Inventory Capital & Cash Flow Options",
-        "metaDescription": "Compare funding options for Amazon sellers: inventory financing, working capital, and growth funding based on revenue and deposits.",
-        "canonical": "/ecommerce-amazon"
-      },
-      "badges": ["Inventory-first", "Seller-friendly", "Growth ready"],
-      "options": [
-        {
-          "title": "Inventory / Purchase Order Funding",
-          "desc": "Get product moving without waiting for Amazon’s timeline.",
-          "bestFor": "Scaling SKUs + predictable demand",
-          "ctaLabel": "Check inventory funding",
-          "ctaHref": "https://YOUR-PRIMARY-APPLY-LINK"
-        },
-        {
-          "title": "Working Capital for Ads + Operations",
-          "desc": "Smooth PPC and operating gaps when cash is tight.",
-          "bestFor": "Sellers reinvesting aggressively",
-          "ctaLabel": "See working capital options",
-          "ctaHref": "https://YOUR-PRIMARY-APPLY-LINK"
-        },
-        {
-          "title": "Business Credit Strategy",
-          "desc": "Build lender confidence and unlock better terms over time.",
-          "bestFor": "Early-stage sellers",
-          "ctaLabel": "Start business credit plan",
-          "ctaHref": "https://YOUR-PRIMARY-APPLY-LINK"
-        }
-      ],
-      "decisionTree": {
-        "question": "What’s blocking growth?",
-        "choices": [
-          { "label": "I’m going out of stock", "result": "Inventory funding + PO strategy." },
-          { "label": "PPC spend is choking me", "result": "Working capital + cash flow guardrails." },
-          { "label": "I need better terms long-term", "result": "Business credit + bank hygiene upgrades." }
-        ]
-      },
-      "faqs": [
-        { "q": "Will this work if I’m a newer seller?", "a": "Potentially, but newer sellers often need stronger documentation and a cleaner banking trail. There are still paths—just different." },
-        { "q": "What documents are typically needed?", "a": "Expect basics like bank statements and business details. Some options may request store metrics or marketplace performance." }
-      ],
-      "ctas": {
-        "primary": { "label": "Check What You Qualify For", "href": "https://YOUR-PRIMARY-APPLY-LINK" },
-        "secondary": { "label": "Talk to a Funding Advisor", "href": "https://YOUR-CALENDAR-LINK" },
-        "leadForm": { "label": "Get the Seller Funding Scorecard", "href": "https://YOUR-TALLY-FORM-URL" }
-      },
-      "compliance": { "disclaimerShort": "Funding options vary by profile. Not a lender. Terms depend on underwriting." },
-      "relatedGuides": [
-        { "title": "Ecommerce Funding Hub", "href": "/ecommerce-funding" },
-        { "title": "Lender Reviews & Comparisons", "href": "/lender-reviews" }
-      ],
-      "internalLinkAnchors": [
-        "amazon seller funding",
-        "inventory financing for amazon sellers",
-        "working capital for amazon sellers",
-        "ecommerce funding options",
-        "amazon inventory cash flow"
-      ]
-    },
-
-    {
-      "slug": "ecommerce-shopify",
-      "status": "published",
-      "noindex": false,
-      "title": "Shopify Funding (2026): Capital for Inventory, Ads, and Cash Flow Gaps",
-      "description": "Funding options for Shopify brands dealing with ad spend volatility, inventory cycles, and scaling pain.",
-      "hero": {
-        "h1": "Shopify Brands: Your Cash Flow Shouldn’t Be Held Hostage by Meta",
-        "subhead": "Ads spike, inventory arrives late, chargebacks happen. Here’s funding built for ecommerce chaos.",
-        "image": "/img/shopify.jpg"
-      },
-      "seo": {
-        "metaTitle": "Shopify Funding (2026) — Inventory, Ads, Working Capital",
-        "metaDescription": "Compare funding options for Shopify stores: working capital, inventory funding, and growth funding based on sales and deposits.",
-        "canonical": "/ecommerce-shopify"
-      },
-      "badges": ["Ad-spend aware", "Inventory cycles", "Fast options"],
-      "options": [
-        {
-          "title": "Working Capital (Sales/Deposit-Based)",
-          "desc": "Designed for brands with consistent sales and deposits.",
-          "bestFor": "Stores with steady order volume",
-          "ctaLabel": "Check my options",
-          "ctaHref": "https://YOUR-PRIMARY-APPLY-LINK"
-        },
-        {
-          "title": "Inventory Funding",
-          "desc": "Stay in stock without draining operating cash.",
-          "bestFor": "Brands scaling SKUs",
-          "ctaLabel": "Explore inventory options",
-          "ctaHref": "https://YOUR-PRIMARY-APPLY-LINK"
-        },
-        {
-          "title": "Business Credit Builder",
-          "desc": "Build the profile so approvals get easier and cheaper.",
-          "bestFor": "Newer brands or founders rebuilding",
-          "ctaLabel": "Start credit plan",
-          "ctaHref": "https://YOUR-PRIMARY-APPLY-LINK"
-        }
-      ],
-      "decisionTree": {
-        "question": "What’s the bottleneck?",
-        "choices": [
-          { "label": "Ads are eating my cash", "result": "Working capital + ad-spend guardrails." },
-          { "label": "Inventory timing is killing me", "result": "Inventory funding + reorder planning." },
-          { "label": "I need better approvals long-term", "result": "Business credit builder + bank hygiene." }
-        ]
-      },
-      "faqs": [
-        { "q": "Do lenders look at my Shopify dashboard?", "a": "Some do, but many focus on bank deposits and overall business activity first." },
-        { "q": "What’s the biggest mistake brands make?", "a": "Funding growth without fixing cash conversion cycles. Capital helps—but it doesn’t replace fundamentals." }
-      ],
-      "ctas": {
-        "primary": { "label": "Check What You Qualify For", "href": "https://YOUR-PRIMARY-APPLY-LINK" },
-        "secondary": { "label": "Talk to a Funding Advisor", "href": "https://YOUR-CALENDAR-LINK" },
-        "leadForm": { "label": "Get the Shopify Cash Flow Checklist", "href": "https://YOUR-TALLY-FORM-URL" }
-      },
-      "compliance": { "disclaimerShort": "Funding options vary by profile. Not a lender. Terms depend on underwriting." },
-      "relatedGuides": [
-        { "title": "Ecommerce Funding Hub", "href": "/ecommerce-funding" },
-        { "title": "Alternative Business Funding Hub", "href": "/alternative-business-funding" }
-      ],
-      "internalLinkAnchors": [
-        "shopify funding",
-        "working capital for shopify stores",
-        "inventory financing for shopify",
-        "ecommerce working capital",
-        "funding for online stores"
-      ]
-    },
-
-    {
-      "slug": "hvac-contractors",
-      "status": "draft",
-      "noindex": true,
-      "title": "HVAC Contractor Funding (2026): Equipment, Payroll, and Seasonal Survival",
-      "description": "Funding options for HVAC contractors to cover equipment, payroll, truck repairs, and seasonal swings—without getting smoked by bad terms.",
-      "hero": {
-        "h1": "HVAC Contractors: Summer Cash, Winter Panic",
-        "subhead": "Seasonality is normal. Chaos isn’t. Here’s funding built for contractors who actually do the work.",
-        "image": "/img/hvac.jpg"
-      },
-      "seo": {
-        "metaTitle": "HVAC Contractor Funding (2026) — Equipment, Payroll, Working Capital",
-        "metaDescription": "Explore funding options for HVAC contractors: working capital, equipment financing, payroll buffers, and contractor-friendly approvals.",
-        "canonical": "/hvac-contractors"
-      },
-      "badges": ["Seasonality-ready", "Equipment friendly", "Contractor cash flow"],
-      "options": [
-        {
-          "title": "Working Capital (Deposit-Based)",
-          "desc": "For contractors with steady deposits and job flow.",
-          "bestFor": "Established HVAC businesses",
-          "ctaLabel": "Check what I qualify for",
-          "ctaHref": "https://YOUR-PRIMARY-APPLY-LINK"
-        },
-        {
-          "title": "Equipment Financing",
-          "desc": "Trucks, tools, and equipment so you can handle bigger jobs.",
-          "bestFor": "Upgrades + expansion",
-          "ctaLabel": "Explore equipment options",
-          "ctaHref": "https://YOUR-PRIMARY-APPLY-LINK"
-        },
-        {
-          "title": "Business Credit Builder Path",
-          "desc": "Build your profile so lenders take you seriously.",
-          "bestFor": "Newer HVAC shops",
-          "ctaLabel": "Start business credit plan",
-          "ctaHref": "https://YOUR-PRIMARY-APPLY-LINK"
-        }
-      ],
-      "decisionTree": {
-        "question": "What do you need money for?",
-        "choices": [
-          { "label": "Equipment/truck/tools", "result": "Equipment financing is your best first stop." },
-          { "label": "Payroll + operating cash flow", "result": "Working capital based on deposits and banking activity." },
-          { "label": "I’m new / rebuilding credibility", "result": "Business credit builder path + banking cleanup." }
-        ]
-      },
-      "faqs": [
-        { "q": "Is this only for big HVAC companies?", "a": "No—options exist for smaller teams too. Strong deposits and clean operations help more than hype." },
-        { "q": "How do I improve approval odds?", "a": "Separate business banking, keep deposits consistent, avoid overdrafts, and be document-ready." }
-      ],
-      "ctas": {
-        "primary": { "label": "Check What You Qualify For", "href": "https://YOUR-PRIMARY-APPLY-LINK" },
-        "secondary": { "label": "Talk to a Funding Advisor", "href": "https://YOUR-CALENDAR-LINK" },
-        "leadForm": { "label": "Get the HVAC Funding Checklist", "href": "https://YOUR-TALLY-FORM-URL" }
-      },
-      "compliance": { "disclaimerShort": "Funding options vary by profile. Not a lender. Terms depend on underwriting." },
-      "relatedGuides": [
-        { "title": "Alternative Business Funding Hub", "href": "/alternative-business-funding" },
-        { "title": "Build Business Credit Faster", "href": "/business-credit-builder" }
-      ],
-      "internalLinkAnchors": [
-        "hvac contractor funding",
-        "hvac equipment financing",
-        "working capital for hvac contractors",
-        "contractor payroll funding",
-        "seasonal business cash flow"
-      ]
-    },
-
-    {
-      "slug": "general-contractors",
-      "status": "draft",
-      "noindex": true,
-      "title": "Construction & General Contractor Funding: Payroll, Materials, and Project Cash Flow",
-      "description": "Funding paths for general contractors dealing with payroll, subs, materials, and payment delays—so you can run projects without going broke.",
-      "hero": {
-        "h1": "General Contractors: You Build the World… Then Wait to Get Paid",
-        "subhead": "Progress billing is a special kind of stress. Here’s funding built for job cycles and real contractor math.",
-        "image": "/img/contractors.jpg"
-      },
-      "seo": {
-        "metaTitle": "General Contractor Funding (2026) — Payroll, Materials, Working Capital",
-        "metaDescription": "Explore funding options for general contractors: working capital, materials funding, cash flow buffers, and contractor approvals based on activity.",
-        "canonical": "/general-contractors"
-      },
-      "badges": ["Progress-billing aware", "Payroll & subs", "Materials coverage"],
-      "options": [
-        {
-          "title": "Working Capital (Deposit-Based)",
-          "desc": "For steady contractors with consistent deposits and operations.",
-          "bestFor": "Active contractors with job flow",
-          "ctaLabel": "Check options",
-          "ctaHref": "https://YOUR-PRIMARY-APPLY-LINK"
-        },
-        {
-          "title": "Materials / Project Funding",
-          "desc": "Cover materials and front-loaded project costs.",
-          "bestFor": "Large jobs with big upfront costs",
-          "ctaLabel": "Explore project funding",
-          "ctaHref": "https://YOUR-PRIMARY-APPLY-LINK"
-        },
-        {
-          "title": "Business Credit Builder",
-          "desc": "Build credibility and improve approvals over time.",
-          "bestFor": "Newer contractors / rebuild mode",
-          "ctaLabel": "Start credit plan",
-          "ctaHref": "https://YOUR-PRIMARY-APPLY-LINK"
-        }
-      ],
-      "decisionTree": {
-        "question": "What’s your pain point?",
-        "choices": [
-          { "label": "Payroll/subs are crushing me", "result": "Working capital based on deposits and bank activity." },
-          { "label": "Materials are front-loaded", "result": "Materials/project funding review." },
-          { "label": "Declines keep happening", "result": "Business credit builder + banking cleanup." }
-        ]
-      },
-      "faqs": [
-        { "q": "Do I need contracts/invoices?", "a": "Sometimes. Many funders focus on bank deposits first, but project documentation can strengthen your file." },
-        { "q": "What kills approvals most often?", "a": "Overdrafts, messy accounts, inconsistent deposits, or missing documentation." }
-      ],
-      "ctas": {
-        "primary": { "label": "Check What You Qualify For", "href": "https://YOUR-PRIMARY-APPLY-LINK" },
-        "secondary": { "label": "Talk to a Funding Advisor", "href": "https://YOUR-CALENDAR-LINK" },
-        "leadForm": { "label": "Get the Contractor Cash Flow Toolkit", "href": "https://YOUR-TALLY-FORM-URL" }
-      },
-      "compliance": { "disclaimerShort": "Funding options vary by profile. Not a lender. Terms depend on underwriting." },
-      "relatedGuides": [
-        { "title": "Alternative Business Funding Hub", "href": "/alternative-business-funding" },
-        { "title": "Lender Reviews & Comparisons", "href": "/lender-reviews" }
-      ],
-      "internalLinkAnchors": [
-        "general contractor funding",
-        "construction working capital",
-        "materials funding for contractors",
-        "payroll funding for contractors",
-        "project cash flow financing"
-      ]
-    },
-
-    {
-      "slug": "home-healthcare-agencies",
-      "status": "draft",
-      "noindex": true,
-      "title": "Home Healthcare Agency Funding: Payroll Float, Hiring, and Growth Capital",
-      "description": "Funding options for home healthcare agencies managing payroll float, reimbursements, hiring, and growth—without getting trapped by bad terms.",
-      "hero": {
-        "h1": "Home Healthcare: Payroll Hits Before Reimbursements Do",
-        "subhead": "You’re doing real care work. Your cash flow shouldn’t be a horror movie. Here are sane funding options.",
-        "image": "/img/home-healthcare.jpg"
-      },
-      "seo": {
-        "metaTitle": "Home Healthcare Agency Funding (2026) — Payroll Float & Growth Capital",
-        "metaDescription": "Explore funding options for home healthcare agencies: payroll float support, working capital, hiring and growth financing based on deposits.",
-        "canonical": "/home-healthcare-agencies"
-      },
-      "badges": ["Payroll float", "Reimbursement aware", "Growth capital"],
-      "options": [
-        {
-          "title": "Working Capital (Deposit-Based)",
-          "desc": "Support payroll gaps and operating cash flow.",
-          "bestFor": "Agencies with consistent deposits",
-          "ctaLabel": "Check my options",
-          "ctaHref": "https://YOUR-PRIMARY-APPLY-LINK"
-        },
-        {
-          "title": "Line of Credit",
-          "desc": "A buffer so hiring and payroll don’t choke growth.",
-          "bestFor": "Agencies scaling headcount",
-          "ctaLabel": "Explore LOC",
-          "ctaHref": "https://YOUR-PRIMARY-APPLY-LINK"
-        },
-        {
-          "title": "Business Credit Builder",
-          "desc": "Improve the profile so approvals get easier and cheaper.",
-          "bestFor": "Newer agencies / rebuild mode",
-          "ctaLabel": "Start business credit",
-          "ctaHref": "https://YOUR-PRIMARY-APPLY-LINK"
-        }
-      ],
-      "decisionTree": {
-        "question": "What do you need capital for?",
-        "choices": [
-          { "label": "Payroll float", "result": "Working capital or LOC depending on deposits and banking history." },
-          { "label": "Hiring + expansion", "result": "LOC + growth plan review." },
-          { "label": "I’m new / struggling to get approved", "result": "Business credit builder + banking cleanup." }
-        ]
-      },
-      "faqs": [
-        { "q": "Is this only for Medicare/insurance billing agencies?", "a": "No. Approval is usually more about deposits and operational stability than your specific payer mix." },
-        { "q": "What improves approval odds?", "a": "Clean business banking, consistent deposits, fewer overdrafts, and document readiness." }
-      ],
-      "ctas": {
-        "primary": { "label": "Check What You Qualify For", "href": "https://YOUR-PRIMARY-APPLY-LINK" },
-        "secondary": { "label": "Talk to a Funding Advisor", "href": "https://YOUR-CALENDAR-LINK" },
-        "leadForm": { "label": "Get the Agency Funding Scorecard", "href": "https://YOUR-TALLY-FORM-URL" }
-      },
-      "compliance": { "disclaimerShort": "Funding options vary by profile. Not a lender. Terms depend on underwriting." },
-      "relatedGuides": [
-        { "title": "Alternative Business Funding Hub", "href": "/alternative-business-funding" },
-        { "title": "Business Credit Builder Hub", "href": "/business-credit-builder" }
-      ],
-      "internalLinkAnchors": [
-        "home healthcare agency funding",
-        "payroll float financing",
-        "working capital for home healthcare",
-        "line of credit for agencies",
-        "healthcare business funding options"
-      ]
-    },
-
-    {
-      "slug": "dental-practice",
-      "status": "draft",
-      "noindex": true,
-      "title": "Dental Practice Funding: Equipment, Expansion, and Working Capital",
-      "description": "Funding options for dental practices looking to buy equipment, expand, hire, or smooth cash flow—without wasting time on bad-fit lenders.",
-      "hero": {
-        "h1": "Dental Practices: Growth Capital Without the Headache",
-        "subhead": "New chairs, new rooms, new hires—patients don’t pay for expansions upfront. Capital can bridge the gap.",
-        "image": "/img/dental.jpg"
-      },
-      "seo": {
-        "metaTitle": "Dental Practice Funding (2026) — Equipment, Expansion, Working Capital",
-        "metaDescription": "Explore funding options for dental practices: equipment financing, working capital, lines of credit, and growth capital based on business strength.",
-        "canonical": "/dental-practice"
-      },
-      "badges": ["Equipment", "Expansion", "Practice growth"],
-      "options": [
-        {
-          "title": "Equipment Financing",
-          "desc": "Chairs, imaging, build-out—fund the tools that print revenue.",
-          "bestFor": "Equipment upgrades & build-outs",
-          "ctaLabel": "Explore equipment options",
-          "ctaHref": "https://YOUR-PRIMARY-APPLY-LINK"
-        },
-        {
-          "title": "Working Capital / Line of Credit",
-          "desc": "Smooth cash flow and fund hiring or marketing.",
-          "bestFor": "Operational stability + growth",
-          "ctaLabel": "Check capital options",
-          "ctaHref": "https://YOUR-PRIMARY-APPLY-LINK"
-        },
-        {
-          "title": "Business Credit Builder Path",
-          "desc": "Improve approvals and terms over time.",
-          "bestFor": "Newer practices / transitions",
-          "ctaLabel": "Start credit plan",
-          "ctaHref": "https://YOUR-PRIMARY-APPLY-LINK"
-        }
-      ],
-      "decisionTree": {
-        "question": "What are you funding?",
-        "choices": [
-          { "label": "Equipment/build-out", "result": "Equipment financing + expansion plan review." },
-          { "label": "Hiring/marketing/cash buffer", "result": "Working capital or LOC based on banking and deposits." },
-          { "label": "I need to improve approvals", "result": "Business credit builder + profile cleanup." }
-        ]
-      },
-      "faqs": [
-        { "q": "Will this affect my clinical operations?", "a": "No—this is about financing options and fit, not clinical decisions." },
-        { "q": "What’s typically reviewed?", "a": "Banking activity, time in business, credit profile, and sometimes practice financials." }
-      ],
-      "ctas": {
-        "primary": { "label": "Check What You Qualify For", "href": "https://YOUR-PRIMARY-APPLY-LINK" },
-        "secondary": { "label": "Talk to a Funding Advisor", "href": "https://YOUR-CALENDAR-LINK" },
-        "leadForm": { "label": "Get the Practice Funding Checklist", "href": "https://YOUR-TALLY-FORM-URL" }
-      },
-      "compliance": { "disclaimerShort": "Funding options vary by profile. Not a lender. Terms depend on underwriting." },
-      "relatedGuides": [
-        { "title": "Lender Reviews & Comparisons", "href": "/lender-reviews" },
-        { "title": "Alternative Business Funding Hub", "href": "/alternative-business-funding" }
-      ],
-      "internalLinkAnchors": [
-        "dental practice funding",
-        "dental equipment financing",
-        "working capital for dental practices",
-        "line of credit for dental practice",
-        "practice expansion capital"
-      ]
-    },
-
-    {
-      "slug": "creator-economy-funding",
-      "status": "draft",
-      "noindex": true,
-      "title": "Creator Economy Funding: Cash Flow for Content Businesses (No Cringe, No Fairy Dust)",
-      "description": "Funding paths for creators and online businesses with irregular income—based on deposits, stability, and actual business behavior.",
-      "hero": {
-        "h1": "Creators: Your Income Isn’t “Unreliable.” It’s Just Not Salaried.",
-        "subhead": "Brands pay late, platforms change rules, and your audience isn’t a W-2. Here are funding options that match reality.",
-        "image": "/img/creators.jpg"
-      },
-      "seo": {
-        "metaTitle": "Creator Economy Funding (2026) — Options for Irregular Income",
-        "metaDescription": "Explore funding options for creators: working capital, credit strategies, and cash flow buffers based on deposits and business stability.",
-        "canonical": "/creator-economy-funding"
-      },
-      "badges": ["Irregular income", "Deposit-based", "No fluff"],
-      "options": [
-        {
-          "title": "Working Capital (Deposit-Based)",
-          "desc": "If your deposits are consistent enough, you’re not “unfundable.”",
-          "bestFor": "Creators with steady monthly inflow",
-          "ctaLabel": "Check what I qualify for",
-          "ctaHref": "https://YOUR-PRIMARY-APPLY-LINK"
-        },
-        {
-          "title": "Business Credit Strategy",
-          "desc": "Set up the business properly so approvals stop being random.",
-          "bestFor": "Creators becoming real businesses",
-          "ctaLabel": "Start business credit plan",
-          "ctaHref": "https://YOUR-PRIMARY-APPLY-LINK"
-        },
-        {
-          "title": "Line of Credit (Stability Buffer)",
-          "desc": "A buffer for slow months and production costs—when you qualify.",
-          "bestFor": "Established creator businesses",
-          "ctaLabel": "Explore LOC",
-          "ctaHref": "https://YOUR-PRIMARY-APPLY-LINK"
-        }
-      ],
-      "decisionTree": {
-        "question": "What’s your current situation?",
-        "choices": [
-          { "label": "I have consistent deposits (most months)", "result": "Working capital or LOC depending on strength of banking." },
-          { "label": "My income is spiky/seasonal", "result": "Business credit strategy + income smoothing plan." },
-          { "label": "I’m trying to look more legit to lenders", "result": "Banking cleanup + business credit builder path." }
-        ]
-      },
-      "faqs": [
-        { "q": "Do platforms matter (YouTube, TikTok, etc.)?", "a": "Sometimes, but deposits and banking behavior usually matter more than the platform name." },
-        { "q": "What helps approval odds?", "a": "Clean business banking, consistent deposits, fewer chargebacks/overdrafts, and document readiness." }
-      ],
-      "ctas": {
-        "primary": { "label": "Check What You Qualify For", "href": "https://YOUR-PRIMARY-APPLY-LINK" },
-        "secondary": { "label": "Talk to a Funding Advisor", "href": "https://YOUR-CALENDAR-LINK" },
-        "leadForm": { "label": "Get the Creator Funding Checklist", "href": "https://YOUR-TALLY-FORM-URL" }
-      },
-      "compliance": { "disclaimerShort": "Funding options vary by profile. Not a lender. Terms depend on underwriting." },
-      "relatedGuides": [
-        { "title": "Gig Worker & Creator Funding Hub", "href": "/gig-worker-loans" },
-        { "title": "Business Credit Builder Hub", "href": "/business-credit-builder" }
-      ],
-      "internalLinkAnchors": [
-        "creator economy funding",
-        "funding for creators with irregular income",
-        "working capital for creators",
-        "business credit for creators",
-        "line of credit for creators"
-      ]
-    },
-
-    {
-      "slug": "onlyfans-funding",
-      "status": "draft",
-      "noindex": true,
-      "title": "OnlyFans Funding: Cash Flow Options for Adult Creators (With Realistic Rules)",
-      "description": "Funding paths for adult creators—focused on deposits, stability, and compliant underwriting reality. No judgement. No miracles.",
-      "hero": {
-        "h1": "OnlyFans Creators: You’re a Business. Fund It Like One.",
-        "subhead": "Some lenders get weird about adult income. That’s not your problem—but it is a constraint. Here’s how to navigate it.",
-        "image": "/img/onlyfans.jpg"
-      },
-      "seo": {
-        "metaTitle": "OnlyFans Funding (2026) — Compliant Cash Flow Options for Adult Creators",
-        "metaDescription": "Explore funding options for OnlyFans and adult creators: deposit-based working capital, business credit strategies, and stability buffers.",
-        "canonical": "/onlyfans-funding"
-      },
-      "badges": ["Compliant approach", "Deposit-based", "Business-first"],
-      "options": [
-        {
-          "title": "Working Capital (Deposit-Based)",
-          "desc": "Some options focus on deposit history over industry labels.",
-          "bestFor": "Creators with steady deposits",
-          "ctaLabel": "Check what I qualify for",
-          "ctaHref": "https://YOUR-PRIMARY-APPLY-LINK"
-        },
-        {
-          "title": "Business Credit Builder Strategy",
-          "desc": "Structure matters. Banking setup matters. Consistency matters.",
-          "bestFor": "Creators formalizing operations",
-          "ctaLabel": "Start business credit plan",
-          "ctaHref": "https://YOUR-PRIMARY-APPLY-LINK"
-        },
-        {
-          "title": "Line of Credit (When Available)",
-          "desc": "A buffer for production costs and slow cycles—if your profile supports it.",
-          "bestFor": "Established creators with clean banking",
-          "ctaLabel": "Explore LOC",
-          "ctaHref": "https://YOUR-PRIMARY-APPLY-LINK"
-        }
-      ],
-      "decisionTree": {
-        "question": "What’s true for you right now?",
-        "choices": [
-          { "label": "My deposits are consistent and documented", "result": "Working capital/LOC review is worth doing." },
-          { "label": "My deposits are spiky or messy", "result": "Start with structure + business credit strategy." },
-          { "label": "I want to stop getting blocked by 'policy'", "result": "Build a cleaner banking + documentation trail first." }
-        ]
-      },
-      "faqs": [
-        {
-          "q": "Will my industry block me from funding?",
-          "a": "Some providers have restrictions. Others focus on deposit history and overall risk. Your best move is clean documentation and stable banking."
-        },
-        {
-          "q": "What helps the most?",
-          "a": "Consistent deposits, fewer chargebacks/returns, clean banking behavior, and being document-ready."
-        }
-      ],
-      "ctas": {
-        "primary": { "label": "Check What You Qualify For", "href": "https://YOUR-PRIMARY-APPLY-LINK" },
-        "secondary": { "label": "Talk to a Funding Advisor", "href": "https://YOUR-CALENDAR-LINK" },
-        "leadForm": { "label": "Get the Creator Funding Checklist", "href": "https://YOUR-TALLY-FORM-URL" }
-      },
-      "compliance": {
-        "disclaimerShort": "Funding options vary by profile. Not a lender. Terms depend on underwriting.",
-        "notes": "Avoid claims of guaranteed approval. Some providers may restrict certain industries; screening is normal."
-      },
-      "relatedGuides": [
-        { "title": "Creator Economy Funding Hub", "href": "/creator-economy-funding" },
-        { "title": "Gig Worker & Creator Funding Hub", "href": "/gig-worker-loans" }
-      ],
-      "internalLinkAnchors": [
-        "onlyfans funding",
-        "funding for adult creators",
-        "working capital for onlyfans creators",
-        "business credit for creators",
-        "irregular income funding options"
-      ]
-    },
-
-    {
-      "slug": "plumbers",
-      "status": "draft",
-      "noindex": true,
-      "title": "Plumber Funding (2026): Cover Trucks, Tools, Payroll, and Big Jobs",
-      "description": "Funding options for plumbers handling emergency jobs, equipment needs, payroll gaps, and growth—without getting trapped by bad terms.",
-      "hero": {
-        "h1": "Plumbers: Emergency Jobs, Non-Emergency Cash Flow",
-        "subhead": "You can fix a flooded basement at 2am, but you can’t fix net-30 with optimism. Here are funding options that fit plumbing reality.",
-        "image": "/img/plumbers.jpg"
-      },
-      "seo": {
-        "metaTitle": "Plumber Funding (2026) — Working Capital, Equipment, Payroll Options",
-        "metaDescription": "Explore funding options for plumbers: working capital, equipment financing, truck repairs, payroll buffers, and contractor-friendly approvals.",
-        "canonical": "/plumbers"
-      },
-      "badges": ["Emergency-ready", "Equipment friendly", "Contractor cash flow"],
-      "options": [
-        {
-          "title": "Working Capital (Deposit-Based)",
-          "desc": "For plumbers with steady deposits and business activity.",
-          "bestFor": "Established plumbing businesses",
-          "ctaLabel": "Check what I qualify for",
-          "ctaHref": "https://YOUR-PRIMARY-APPLY-LINK"
-        },
-        {
-          "title": "Equipment / Truck Financing",
-          "desc": "Tools and trucks that keep you on the road and on the job.",
-          "bestFor": "Upgrades + repairs",
-          "ctaLabel": "Explore equipment options",
-          "ctaHref": "https://YOUR-PRIMARY-APPLY-LINK"
-        },
-        {
-          "title": "Business Credit Builder Path",
-          "desc": "Build your file so approvals stop being a coin flip.",
-          "bestFor": "Newer plumbers / rebuild mode",
-          "ctaLabel": "Start business credit plan",
-          "ctaHref": "https://YOUR-PRIMARY-APPLY-LINK"
-        }
-      ],
-      "decisionTree": {
-        "question": "What’s the problem?",
-        "choices": [
-          { "label": "Truck/tools need upgrades or repairs", "result": "Equipment financing review first." },
-          { "label": "Payroll/ops cash flow is tight", "result": "Working capital based on deposits and bank activity." },
-          { "label": "I keep getting declined", "result": "Business credit builder + banking cleanup." }
-        ]
-      },
-      "faqs": [
-        { "q": "How fast can I get a decision?", "a": "Speed depends on document readiness and clean banking. Clean files move. Messy files crawl." },
-        { "q": "What improves approval odds most?", "a": "Consistent deposits, fewer overdrafts, and separate business banking." }
-      ],
-      "ctas": {
-        "primary": { "label": "Check What You Qualify For", "href": "https://YOUR-PRIMARY-APPLY-LINK" },
-        "secondary": { "label": "Talk to a Funding Advisor", "href": "https://YOUR-CALENDAR-LINK" },
-        "leadForm": { "label": "Get the Contractor Funding Checklist", "href": "https://YOUR-TALLY-FORM-URL" }
-      },
-      "compliance": { "disclaimerShort": "Funding options vary by profile. Not a lender. Terms depend on underwriting." },
-      "relatedGuides": [
-        { "title": "Alternative Business Funding Hub", "href": "/alternative-business-funding" },
-        { "title": "Business Credit Builder Hub", "href": "/business-credit-builder" }
-      ],
-      "internalLinkAnchors": [
-        "plumber funding",
-        "plumbing business financing",
-        "working capital for plumbers",
-        "plumber equipment financing",
-        "contractor payroll funding"
-      ]
+        "h1": "Material Financing for Electricians Waiting on Net-30 Checks",
+        "subhead": "Your supplier wants money today. Your client pays next month. This page covers funding lanes built for that exact pain.",
+        "bullets": [
+          "Cover materials and payroll gaps without begging a bank",
+          "Funding lanes that respect real-world contractor cashflow",
+          "Apply, Prep, or No—fast"
+        ],
+        "image": { "src": "/img/heroes/electricians.jpg", "alt": "Electrician funding" }
+      }
     }
   ]
 }
