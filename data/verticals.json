@@ -200,75 +200,99 @@
     },
 
     {
-      "slug": "ecommerce-amazon",
-      "status": "published",
-      "seo": {
-        "title": "Amazon Seller Funding (2026) — Inventory Capital & Cash Flow Options",
-        "description": "Compare funding options for Amazon sellers: inventory financing, working capital, and growth funding based on revenue and deposits.",
-        "canonical": "/ecommerce-amazon",
-        "noindex": false
-      },
-      "hero": {
-        "h1": "Amazon Sellers: Stay In Stock or Die Quietly",
-        "subhead": "Inventory doesn’t care about your payout schedule. Here’s how to fund growth without torching margins.",
-        "image": { "src": "/img/amazon.jpg", "alt": "Amazon seller inventory funding" }
-      },
-      "options": [
-        {
-          "id": "inventory-po",
-          "title": "Inventory / Purchase Order Funding",
-          "oneLiner": "Get product moving without waiting for Amazon’s timeline.",
-          "bestFor": ["Scaling SKUs + predictable demand"],
-          "watchOuts": [],
-          "cta": { "label": "Check inventory funding", "href": "https://YOUR-PRIMARY-APPLY-LINK" }
-        },
-        {
-          "id": "wc-ads",
-          "title": "Working Capital for Ads + Operations",
-          "oneLiner": "Smooth PPC and operating gaps when cash is tight.",
-          "bestFor": ["Sellers reinvesting aggressively"],
-          "watchOuts": [],
-          "cta": { "label": "See working capital options", "href": "https://YOUR-PRIMARY-APPLY-LINK" }
-        },
-        {
-          "id": "credit",
-          "title": "Business Credit Strategy",
-          "oneLiner": "Build lender confidence and unlock better terms over time.",
-          "bestFor": ["Early-stage sellers"],
-          "watchOuts": [],
-          "cta": { "label": "Start business credit plan", "href": "https://YOUR-PRIMARY-APPLY-LINK" }
-        }
-      ],
-      "decisionTree": {
-        "headline": "What’s blocking growth?",
-        "paths": [
-          { "id": "oos", "title": "I’m going out of stock", "summary": "Inventory funding + PO strategy.", "cta": { "label": "Fix inventory funding", "href": "https://YOUR-PRIMARY-APPLY-LINK" } },
-          { "id": "ppc", "title": "PPC spend is choking me", "summary": "Working capital + cash flow guardrails.", "cta": { "label": "See working capital", "href": "https://YOUR-PRIMARY-APPLY-LINK" } },
-          { "id": "terms", "title": "I need better terms long-term", "summary": "Business credit + bank hygiene upgrades.", "cta": { "label": "Start credit plan", "href": "https://YOUR-PRIMARY-APPLY-LINK" } }
-        ]
-      },
-      "faqs": [
-        { "q": "Will this work if I’m a newer seller?", "a": "Potentially, but newer sellers often need stronger documentation and a cleaner banking trail. There are still paths—just different." },
-        { "q": "What documents are typically needed?", "a": "Expect basics like bank statements and business details. Some options may request store metrics or marketplace performance." }
-      ],
-      "internalLinks": {
-        "hubAnchors": [
-          "amazon seller funding",
-          "inventory financing for amazon sellers",
-          "working capital for amazon sellers",
-          "ecommerce funding options",
-          "amazon inventory cash flow"
-        ],
-        "recommendedSpokes": [
-          { "title": "Ecommerce Funding Hub", "href": "/ecommerce-funding" },
-          { "title": "Lender Reviews & Comparisons", "href": "/lender-reviews" }
-        ]
-      },
-      "widgets": {
-        "tallyEmbedUrl": "https://YOUR-TALLY-FORM-URL",
-        "calendlyUrl": "https://YOUR-CALENDAR-LINK"
-      }
+  "slug": "ecommerce-amazon",
+  "status": "published",
+  "seo": {
+    "title": "Amazon Seller Funding (2026) — Inventory Capital & Cash Flow Options",
+    "description": "Compare funding options for Amazon sellers: inventory financing, working capital, and growth funding based on revenue and deposits.",
+    "canonical": "/ecommerce-amazon",
+    "noindex": false
+  },
+  "hero": {
+    "h1": "Amazon Sellers: Stay In Stock or Die Quietly",
+    "subhead": "Inventory doesn’t care about your payout schedule. Here’s how to fund growth without torching margins.",
+    "image": { "src": "/img/amazon.jpg", "alt": "Amazon seller funding" }
+  },
+  "options": [
+    {
+      "id": "inventory-po",
+      "title": "Inventory / Purchase Order Funding",
+      "oneLiner": "Get product moving without waiting for Amazon’s timeline.",
+      "bestFor": ["Scaling SKUs + predictable demand"],
+      "watchOuts": [],
+      "cta": { "label": "Check inventory funding", "href": "https://YOUR-PRIMARY-APPLY-LINK" },
+      "tags": ["inventory"]
     },
+    {
+      "id": "wc-ads",
+      "title": "Working Capital for Ads + Operations",
+      "oneLiner": "Smooth PPC and operating gaps when cash is tight.",
+      "bestFor": ["Sellers reinvesting aggressively"],
+      "watchOuts": [],
+      "cta": { "label": "See working capital options", "href": "https://YOUR-PRIMARY-APPLY-LINK" },
+      "tags": ["working-capital"]
+    },
+    {
+      "id": "biz-credit",
+      "title": "Business Credit Strategy",
+      "oneLiner": "Build lender confidence and unlock better terms over time.",
+      "bestFor": ["Early-stage sellers"],
+      "watchOuts": [],
+      "cta": { "label": "Start business credit plan", "href": "https://YOUR-PRIMARY-APPLY-LINK" },
+      "tags": ["business-credit"]
+    }
+  ],
+  "decisionTree": {
+    "headline": "What’s blocking growth?",
+    "paths": [
+      {
+        "id": "stockout",
+        "title": "I’m going out of stock",
+        "summary": "Inventory funding + PO strategy.",
+        "cta": { "label": "Fix inventory funding", "href": "https://YOUR-PRIMARY-APPLY-LINK" }
+      },
+      {
+        "id": "ppc",
+        "title": "PPC spend is choking me",
+        "summary": "Working capital + cash flow guardrails.",
+        "cta": { "label": "See working capital", "href": "https://YOUR-PRIMARY-APPLY-LINK" }
+      },
+      {
+        "id": "terms",
+        "title": "I need better terms long-term",
+        "summary": "Business credit + bank hygiene upgrades.",
+        "cta": { "label": "Start credit plan", "href": "https://YOUR-PRIMARY-APPLY-LINK" }
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "q": "Will this work if I’m a newer seller?",
+      "a": "Potentially, but newer sellers often need stronger documentation and a cleaner banking trail. There are still paths—just different."
+    },
+    {
+      "q": "What documents are typically needed?",
+      "a": "Expect basics like bank statements and business details. Some options may request store metrics or marketplace performance."
+    }
+  ],
+  "internalLinks": {
+    "hubAnchors": [
+      "amazon seller funding",
+      "inventory financing for amazon sellers",
+      "working capital for amazon sellers",
+      "ecommerce funding options",
+      "amazon inventory cash flow"
+    ],
+    "recommendedSpokes": [
+      { "title": "Ecommerce Funding Hub", "href": "/ecommerce-funding" },
+      { "title": "Lender Reviews & Comparisons", "href": "/lender-reviews" }
+    ]
+  },
+  "widgets": {
+    "tallyEmbedUrl": "https://YOUR-TALLY-FORM-URL",
+    "calendlyUrl": "https://YOUR-CALENDAR-LINK"
+  }
+},
 
     {
       "slug": "ecommerce-shopify",
