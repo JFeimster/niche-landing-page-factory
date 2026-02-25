@@ -1,5 +1,3 @@
-// app/[vertical]/page.tsx
-import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -22,11 +20,22 @@ export async function generateStaticParams() {
 // Ensures unknown slugs 404 at build/runtime
 export const dynamicParams = false;
 
+// ---------- Helpers ----------
+async function resolveSlug(params: unknown): Promise<string | null> {
+  // Next 15/16 can pass params as a Promise in App Router. Safely unwrap either way.
+  const p = await Promise.resolve(params as any);
+  const slug = p?.vertical;
+  return typeof slug === "string" && slug.length ? slug : null;
+}
+
 // ---------- SEO Metadata per vertical ----------
 export async function generateMetadata(
-  { params }: { params: { vertical: string } }
+  { params }: { params: Promise<{ vertical: string }> | { vertical: string } }
 ): Promise<Metadata> {
-  const found = getVertical(params.vertical);
+  const slug = await resolveSlug(params);
+  if (!slug) return { title: "Not Found" };
+
+  const found = getVertical(slug);
   if (!found) return { title: "Not Found" };
 
   const { site, vertical } = found;
@@ -78,8 +87,13 @@ function Section({ title, children }: { title: string; children: React.ReactNode
   );
 }
 
-export default function VerticalLandingPage({ params }: { params: { vertical: string } }) {
-  const found = getVertical(params.vertical);
+export default async function VerticalLandingPage(
+  { params }: { params: Promise<{ vertical: string }> | { vertical: string } }
+) {
+  const slug = await resolveSlug(params);
+  if (!slug) return notFound();
+
+  const found = getVertical(slug);
   if (!found) return notFound();
 
   const { site, vertical } = found;
@@ -144,7 +158,8 @@ export default function VerticalLandingPage({ params }: { params: { vertical: st
             </div>
 
             <p className="mt-3 text-sm text-muted-foreground">
-              {site.compliance?.disclaimerShort || "Funding options vary by profile. Terms depend on underwriting."}
+              {site.compliance?.disclaimerShort ||
+                "Funding options vary by profile. Terms depend on underwriting."}
             </p>
           </div>
 
@@ -287,7 +302,9 @@ export default function VerticalLandingPage({ params }: { params: { vertical: st
 
                     <div className="mt-5">
                       <Button asChild>
-                        <a href={p.cta?.href || primaryCta.href}>{p.cta?.label || primaryCta.label}</a>
+                        <a href={p.cta?.href || primaryCta.href}>
+                          {p.cta?.label || primaryCta.label}
+                        </a>
                       </Button>
                     </div>
                   </CardContent>
@@ -343,7 +360,9 @@ export default function VerticalLandingPage({ params }: { params: { vertical: st
       <section className="mx-auto max-w-6xl px-4 pb-16 pt-6">
         <div className="rounded-3xl border border-border/60 bg-gradient-to-b from-muted/40 to-muted/10 p-8">
           <h2 className="text-2xl font-extrabold tracking-tight">
-            {hero?.h1 ? "You’ve got deposits. Let’s route you to the right lane." : "Ready to see your best path?"}
+            {hero?.h1
+              ? "You’ve got deposits. Let’s route you to the right lane."
+              : "Ready to see your best path?"}
           </h2>
           <p className="mt-3 max-w-3xl text-muted-foreground">
             Pick the right lane based on deposits, speed, and what you’re trying to do. We’ll route you to Apply,
