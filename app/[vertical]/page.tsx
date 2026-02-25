@@ -1,3 +1,5 @@
+// app/[vertical]/page.tsx
+import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -8,6 +10,10 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { Separator } from "@/components/ui/separator";
+
+type Props = {
+  params: Promise<{ vertical: string }>;
+};
 
 // ---------- SSG: build routes for "published" verticals ----------
 export async function generateStaticParams() {
@@ -20,20 +26,9 @@ export async function generateStaticParams() {
 // Ensures unknown slugs 404 at build/runtime
 export const dynamicParams = false;
 
-// ---------- Helpers ----------
-async function resolveSlug(params: unknown): Promise<string | null> {
-  // Next 15/16 can pass params as a Promise in App Router. Safely unwrap either way.
-  const p = await Promise.resolve(params as any);
-  const slug = p?.vertical;
-  return typeof slug === "string" && slug.length ? slug : null;
-}
-
 // ---------- SEO Metadata per vertical ----------
-export async function generateMetadata(
-  { params }: { params: Promise<{ vertical: string }> | { vertical: string } }
-): Promise<Metadata> {
-  const slug = await resolveSlug(params);
-  if (!slug) return { title: "Not Found" };
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { vertical: slug } = await params;
 
   const found = getVertical(slug);
   if (!found) return { title: "Not Found" };
@@ -87,16 +82,16 @@ function Section({ title, children }: { title: string; children: React.ReactNode
   );
 }
 
-export default async function VerticalLandingPage(
-  { params }: { params: Promise<{ vertical: string }> | { vertical: string } }
-) {
-  const slug = await resolveSlug(params);
-  if (!slug) return notFound();
+export default async function VerticalLandingPage({ params }: Props) {
+  const { vertical: slug } = await params;
 
   const found = getVertical(slug);
   if (!found) return notFound();
 
   const { site, vertical } = found;
+
+  // Optional safety: only serve published even if someone flips dynamicParams later
+  if (vertical.status !== "published") return notFound();
 
   const hero = vertical.hero;
   const options = vertical.options || [];
@@ -104,7 +99,6 @@ export default async function VerticalLandingPage(
   const faqs = vertical.faqs || [];
   const spokes = vertical.internalLinks?.recommendedSpokes || [];
 
-  // CTAs: allow vertical overrides later if you add them
   const primaryCta = site.primaryCta;
   const secondaryCta = site.secondaryCta;
 
@@ -302,9 +296,7 @@ export default async function VerticalLandingPage(
 
                     <div className="mt-5">
                       <Button asChild>
-                        <a href={p.cta?.href || primaryCta.href}>
-                          {p.cta?.label || primaryCta.label}
-                        </a>
+                        <a href={p.cta?.href || primaryCta.href}>{p.cta?.label || primaryCta.label}</a>
                       </Button>
                     </div>
                   </CardContent>
@@ -360,9 +352,7 @@ export default async function VerticalLandingPage(
       <section className="mx-auto max-w-6xl px-4 pb-16 pt-6">
         <div className="rounded-3xl border border-border/60 bg-gradient-to-b from-muted/40 to-muted/10 p-8">
           <h2 className="text-2xl font-extrabold tracking-tight">
-            {hero?.h1
-              ? "You’ve got deposits. Let’s route you to the right lane."
-              : "Ready to see your best path?"}
+            {hero?.h1 ? "You’ve got deposits. Let’s route you to the right lane." : "Ready to see your best path?"}
           </h2>
           <p className="mt-3 max-w-3xl text-muted-foreground">
             Pick the right lane based on deposits, speed, and what you’re trying to do. We’ll route you to Apply,
