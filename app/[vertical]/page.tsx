@@ -11,6 +11,10 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { Separator } from "@/components/ui/separator";
 
+type Props = {
+  params: Promise<{ vertical: string }>;
+};
+
 // ---------- SSG: build routes for "published" verticals ----------
 export async function generateStaticParams() {
   const data = loadData();
@@ -23,10 +27,10 @@ export async function generateStaticParams() {
 export const dynamicParams = false;
 
 // ---------- SEO Metadata per vertical ----------
-export async function generateMetadata(
-  { params }: { params: { vertical: string } }
-): Promise<Metadata> {
-  const found = getVertical(params.vertical);
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { vertical: slug } = await params;
+
+  const found = getVertical(slug);
   if (!found) return { title: "Not Found" };
 
   const { site, vertical } = found;
@@ -78,11 +82,16 @@ function Section({ title, children }: { title: string; children: React.ReactNode
   );
 }
 
-export default function VerticalLandingPage({ params }: { params: { vertical: string } }) {
-  const found = getVertical(params.vertical);
+export default async function VerticalLandingPage({ params }: Props) {
+  const { vertical: slug } = await params;
+
+  const found = getVertical(slug);
   if (!found) return notFound();
 
   const { site, vertical } = found;
+
+  // Optional safety: only serve published even if someone flips dynamicParams later
+  if (vertical.status !== "published") return notFound();
 
   const hero = vertical.hero;
   const options = vertical.options || [];
@@ -90,7 +99,6 @@ export default function VerticalLandingPage({ params }: { params: { vertical: st
   const faqs = vertical.faqs || [];
   const spokes = vertical.internalLinks?.recommendedSpokes || [];
 
-  // CTAs: allow vertical overrides later if you add them
   const primaryCta = site.primaryCta;
   const secondaryCta = site.secondaryCta;
 
@@ -144,7 +152,8 @@ export default function VerticalLandingPage({ params }: { params: { vertical: st
             </div>
 
             <p className="mt-3 text-sm text-muted-foreground">
-              {site.compliance?.disclaimerShort || "Funding options vary by profile. Terms depend on underwriting."}
+              {site.compliance?.disclaimerShort ||
+                "Funding options vary by profile. Terms depend on underwriting."}
             </p>
           </div>
 

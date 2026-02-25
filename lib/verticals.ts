@@ -1,7 +1,5 @@
-import fs from "node:fs";
-import path from "node:path";
+import data from "@/data/verticals.json";
 
-// ---------- Types ----------
 export type SiteConfig = {
   brandName: string;
   domain: string;
@@ -50,7 +48,6 @@ export type VerticalDecisionTree = {
 };
 
 export type VerticalFAQ = { q: string; a: string };
-
 export type InternalLink = { title: string; href: string };
 
 export type VerticalConfig = {
@@ -58,16 +55,10 @@ export type VerticalConfig = {
   status: "published" | "draft" | "archived";
   seo: VerticalSEO;
   hero?: VerticalHero;
-  audience?: {
-    bestFor?: string[];
-    notFor?: string[];
-  };
+  audience?: { bestFor?: string[]; notFor?: string[] };
   options?: VerticalOption[];
   decisionTree?: VerticalDecisionTree;
-  internalLinks?: {
-    hubAnchors?: string[];
-    recommendedSpokes?: InternalLink[];
-  };
+  internalLinks?: { hubAnchors?: string[]; recommendedSpokes?: InternalLink[] };
   faqs?: VerticalFAQ[];
   widgets?: {
     tallyEmbedUrl?: string;
@@ -81,26 +72,23 @@ export type DataFile = {
   verticals: VerticalConfig[];
 };
 
-// ---------- Data Loader ----------
+// Now loadData is trivial and 100% bundle-safe:
 export function loadData(): DataFile {
-  const filePath = path.join(process.cwd(), "data", "verticals.json");
-  const raw = fs.readFileSync(filePath, "utf8");
-  return JSON.parse(raw) as DataFile;
+  return data as unknown as DataFile;
 }
 
 export function getVertical(slug: string): { site: SiteConfig; vertical: VerticalConfig } | null {
-  const data = loadData();
-  const vertical = data.verticals.find((v) => v.slug === slug);
-  if (!vertical) return null;
-  return { site: data.site, vertical };
+  const d = loadData();
+  const vertical = d.verticals.find((v) => v.slug === slug);
+  return vertical ? { site: d.site, vertical } : null;
 }
 
 export function getPublishedVerticals(): { site: SiteConfig; verticals: VerticalConfig[] } {
-  const data = loadData();
-  return { site: data.site, verticals: data.verticals.filter((v) => v.status === "published") };
+  const d = loadData();
+  return { site: d.site, verticals: d.verticals.filter((v) => v.status === "published") };
 }
 
 export function getAllVerticals(): { site: SiteConfig; verticals: VerticalConfig[] } {
-  const data = loadData();
-  return { site: data.site, verticals: data.verticals };
+  const d = loadData();
+  return { site: d.site, verticals: d.verticals };
 }
