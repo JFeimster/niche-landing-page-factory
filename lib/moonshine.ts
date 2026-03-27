@@ -474,8 +474,8 @@ function normalizeRelatedGuides(control: MoonshineControl): Array<{ title: strin
   if (!control.relatedGuides?.length) return [];
   return control.relatedGuides
     .map((guide) => {
-      const href = guide.href || guide.url || "";
-      const title = guide.title || guide.label || guide.id || "";
+      const href = toItemHref(guide);
+      const title = toItemTitle(guide);
       if (!href || !title) return null;
       return { title, href };
     })
@@ -503,6 +503,16 @@ function compactStrings(values: Array<string | undefined | null>): string[] {
         .filter((value): value is string => Boolean(value)),
     ),
   );
+}
+
+function toItemTitle(item: MoonshineItem | string | null | undefined): string {
+  if (typeof item === "string") return item;
+  return item?.title || item?.label || item?.id || "";
+}
+
+function toItemHref(item: MoonshineItem | string | null | undefined): string {
+  if (typeof item === "string") return "";
+  return item?.href || item?.url || "";
 }
 
 function stripBrandSuffix(value: string): string {
@@ -789,7 +799,7 @@ function buildGeneratedContent(control: MoonshineControl, route: MoonshineRoute 
     reason: "Suggested internal path to support topical depth and crawl discovery.",
   }));
 
-  const safeguards = [
+  const safeguards: GeneratedPageContent["safeguards"] = [
     {
       label: "Unique angle",
       status: brief.uniqueValueProposition ? "pass" : "warn",
