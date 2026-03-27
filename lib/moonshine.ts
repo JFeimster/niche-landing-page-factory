@@ -545,7 +545,7 @@ function buildPageBrief(control: MoonshineControl, route: MoonshineRoute | null)
     ...(control.objections || []).map((objection) => objection.q),
   ]);
   const internalLinks = compactStrings([
-    ...(control.relatedGuides || []).map((item) => item.title || item.label || item.id),
+    ...(control.relatedGuides || []).map((item) => toItemTitle(item)),
     ...(control.navigationRouteIds || []).map((routeId) => findRouteById(routeId)?.title || toTitleCase(routeId)),
   ]);
 
@@ -785,16 +785,18 @@ function buildGeneratedContent(control: MoonshineControl, route: MoonshineRoute 
     brief.uniqueValueProposition ||
     `${control.label} designed for ${brief.audience}.`;
   const headingOutline = sections.map((section) => section.title);
+  const relatedGuideTitles = compactStrings((control.relatedGuides || []).map((item) => toItemTitle(item)));
+  const partnerTitles = compactStrings((control.partners || []).map((item) => toItemTitle(item)));
 
   const internalLinks = compactStrings([
-    ...(control.relatedGuides || []).map((item) => item.title || item.label || item.id),
+    ...relatedGuideTitles,
     ...(control.navigationRouteIds || []).map((routeId) => findRouteById(routeId)?.title || toTitleCase(routeId)),
-    ...(control.partners || []).map((item) => item.title || item.label || item.id),
+    ...partnerTitles,
   ]).map((title) => ({
     title,
     href:
-      (control.relatedGuides || []).find((item) => (item.title || item.label || item.id) === title)?.href ||
-      (control.relatedGuides || []).find((item) => (item.title || item.label || item.id) === title)?.url ||
+      (control.relatedGuides || []).find((item) => toItemTitle(item) === title)?.href ||
+      (control.relatedGuides || []).find((item) => toItemTitle(item) === title)?.url ||
       `/${title.toLowerCase().replace(/\s+/g, "-")}`,
     reason: "Suggested internal path to support topical depth and crawl discovery.",
   }));
