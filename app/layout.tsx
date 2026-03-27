@@ -34,6 +34,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               {site.brandName}
             </Link>
             <div className="flex items-center gap-2">
+              <Link
+                href="/industries"
+                className="rounded-xl border border-border/60 px-4 py-2 text-sm font-semibold text-foreground/90 hover:bg-accent"
+              >
+                Industries
+              </Link>
               <a
                 href={site.primaryCta.href}
                 className="rounded-xl bg-primary px-4 py-2 text-sm font-semibold text-primary-foreground hover:opacity-90"
