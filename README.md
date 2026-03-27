@@ -1,9 +1,9 @@
 # Niche Landing Page Factory (Next.js App Router)
 
-**Goal:** ship dozens of niche landing pages from a single JSON config.
+**Goal:** ship dozens of niche landing pages from Moonshine JSON configs.
 
-- Route: `/[vertical]` (SSG for `status: "published"` verticals)
-- Config: `data/verticals.json`
+- Route: `/[vertical]` and `/tools` (Moonshine resolver-backed)
+- Config: `data/moonshine/*.json`
 - UI: Tailwind v4 + shadcn/ui-style components (Button/Card/Accordion/Badge)
 
 ## Quick start
@@ -15,21 +15,20 @@ npm run dev
 
 Open http://localhost:3000
 
-## Add / publish a vertical
+## Sync Moonshine content
 
-1. Edit `data/verticals.json`
-2. Add a new object under `verticals[]`
-3. Set:
-
-```json
-{
-  "slug": "my-vertical",
-  "status": "published",
-  "seo": { "noindex": false }
-}
+```bash
+npm run content:import
+npm run content:validate
 ```
 
-Build-time routes are generated from `status === "published"`.
+Use `MOONSHINE_SOURCE_DIR` to override import source path:
+
+```bash
+MOONSHINE_SOURCE_DIR=/path/to/json npm run content:import
+```
+
+Build-time routes are generated from `manifest.json` + route/control mapping.
 
 ```bash
 npm run build
@@ -64,5 +63,5 @@ npx shadcn@latest add dropdown-menu
 ### Notes
 
 - Node version: `>= 20.9` (see `.nvmrc` + `package.json engines`)
-- Your CTA links are currently in `data/verticals.json`. Replace the `YOUR-*` placeholders.
+- Moonshine files are treated as source-of-truth in this app.
 - Keep Next.js/React patched when new security advisories ship (especially for RSC-related CVEs).

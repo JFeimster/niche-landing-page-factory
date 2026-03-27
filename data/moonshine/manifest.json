@@ -1,0 +1,122 @@
+{
+  "version": "1.0.0",
+  "generatedFor": "Moonshine Capital",
+  "files": [
+    {
+      "label": "Moonshine",
+      "path": "/moonshine",
+      "filename": "moonshine.control.json"
+    },
+    {
+      "label": "ecom-sellers",
+      "path": "/ecom-sellers",
+      "filename": "ecom-sellers.control.json"
+    },
+    {
+      "label": "real-estate",
+      "path": "/real-estate",
+      "filename": "real-estate.control.json"
+    },
+    {
+      "label": "DAC Team",
+      "path": "/dac-team",
+      "filename": "dac-team.control.json"
+    },
+    {
+      "label": "eCom",
+      "path": "/ecom",
+      "filename": "ecom.control.json"
+    },
+    {
+      "label": "Funding",
+      "path": "/funding",
+      "filename": "funding.control.json"
+    },
+    {
+      "label": "Contractors",
+      "path": "/contractors",
+      "filename": "contractors.control.json"
+    },
+    {
+      "label": "Truckers",
+      "path": "/truckers",
+      "filename": "truckers.control.json"
+    },
+    {
+      "label": "Roofers",
+      "path": "/roofers",
+      "filename": "roofers.control.json"
+    },
+    {
+      "label": "Med Spa",
+      "path": "/med-spa",
+      "filename": "med-spa.control.json"
+    },
+    {
+      "label": "Dentists",
+      "path": "/dentists",
+      "filename": "dentists.control.json"
+    },
+    {
+      "label": "Law Firms",
+      "path": "/law-firms",
+      "filename": "law-firms.control.json"
+    },
+    {
+      "label": "Tools",
+      "path": "/tools",
+      "filename": "tools.control.json"
+    },
+    {
+      "label": "Banking",
+      "path": "/banking",
+      "filename": "banking.control.json"
+    },
+    {
+      "label": "Credit",
+      "path": "/credit",
+      "filename": "credit.control.json"
+    },
+    {
+      "label": "Plumbers",
+      "path": "/plumbers",
+      "filename": "plumbers.control.json"
+    },
+    {
+      "label": "HVAC",
+      "path": "/hvac",
+      "filename": "hvac.control.json"
+    },
+    {
+      "label": "Landscapers",
+      "path": "/landscapers",
+      "filename": "landscapers.control.json"
+    },
+    {
+      "label": "Cleaning Services",
+      "path": "/cleaning-services",
+      "filename": "cleaning-services.control.json"
+    },
+    {
+      "label": "Auto Repair",
+      "path": "/auto-repair",
+      "filename": "auto-repair.control.json"
+    },
+    {
+      "label": "Restaurants",
+      "path": "/restaurants",
+      "filename": "restaurants.control.json"
+    },
+    {
+      "label": "Solar Installers",
+      "path": "/solar-installers",
+      "filename": "solar-installers.control.json"
+    },
+    {
+      "label": "Pest Control",
+      "path": "/pest-control",
+      "filename": "pest-control.control.json"
+    }
+  ],
+  "guarantee": "Every file contains the contentSources object with notion, repos, sites, and templates arrays."
+}

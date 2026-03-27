@@ -1,0 +1,77 @@
+{
+  "id": "banking",
+  "slug": "banking",
+  "label": "Banking",
+  "brandId": "moonshine-capital",
+  "brandName": "Moonshine Capital",
+  "route": {
+    "host": "banking.distilledfunding.com",
+    "path": "/"
+  },
+  "aliasPaths": [
+    "/banking"
+  ],
+  "sourceRouteId": "route:banking-home",
+  "theme": {
+    "primaryColor": "#0f172a",
+    "accentColor": "#38bdf8",
+    "highlightColor": "#22c55e",
+    "background": "light"
+  },
+  "contentSources": {
+    "notion": [],
+    "repos": [
+      "repo:bizfin-os-smart-banking",
+      "repo:BizFin-OS",
+      "repo:pay-monthly-widget"
+    ],
+    "sites": [
+      "site:bizfin-bank",
+      "site:bizfin-os"
+    ],
+    "templates": [
+      "template:smb-financial-os",
+      "template:instant-payout-network",
+      "template:open-banking-connector"
+    ]
+  },
+  "pageType": "banking-hub",
+  "layout": "banking-hub",
+  "seo": {
+    "title": "Business Banking & Fintech Stack | Moonshine Capital",
+    "description": "Modern business banking, fintech comparisons, instant payout systems, and operator-friendly account strategy."
+  },
+  "hero": {
+    "headline": "Choose a Banking Stack That Doesn\u2019t Fight Your Business Model.",
+    "subheadline": "Modern business banking, instant payout options, fintech comparisons, and operator-friendly account strategy.",
+    "primaryCtaLabel": "Compare Banking Options",
+    "primaryCtaUrl": "/compare/banking",
+    "secondaryCtaLabel": "See Banking Tools",
+    "secondaryCtaUrl": "/tools?category=banking"
+  },
+  "bankingCategories": [
+    {
+      "id": "business-banking",
+      "label": "Business Banking"
+    },
+    {
+      "id": "instant-payouts",
+      "label": "Instant Payouts"
+    },
+    {
+      "id": "embedded-banking",
+      "label": "Embedded Banking"
+    }
+  ],
+  "collections": [
+    "banking-core"
+  ],
+  "assetOrder": [
+    "site:bizfin-bank",
+    "site:bizfin-os",
+    "widget:pay-monthly-widget",
+    "template:smb-financial-os",
+    "template:instant-payout-network",
+    "template:open-banking-connector"
+  ]
+}

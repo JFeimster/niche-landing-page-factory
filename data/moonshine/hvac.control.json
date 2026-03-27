@@ -1,0 +1,105 @@
+{
+  "id": "hvac",
+  "slug": "hvac",
+  "label": "HVAC",
+  "brandId": "moonshine-capital",
+  "brandName": "Moonshine Capital",
+  "route": {
+    "host": "distilledfunding.com",
+    "path": "/hvac"
+  },
+  "aliasPaths": [],
+  "sourceRouteId": "route:hvac",
+  "theme": {
+    "primaryColor": "#111827",
+    "accentColor": "#22d3ee",
+    "background": "dark"
+  },
+  "contentSources": {
+    "notion": ["resource:hvac-funding-hub"],
+    "repos": ["repo:hvac-funding-funnel"],
+    "sites": ["site:hvac-funding-funnel"],
+    "templates": ["template:seasonal-demand-cashflow-plan"]
+  },
+  "pageType": "vertical-funnel",
+  "layout": "comparison-plus-cta",
+  "seo": {
+    "title": "HVAC Funding for Equipment, Crews, and Seasonal Spikes",
+    "description": "Fast funding options for HVAC contractors to cover equipment, payroll, and seasonal demand swings."
+  },
+  "hero": {
+    "headline": "HVAC Funding for Equipment, Crews, and Seasonal Spikes",
+    "subheadline": "When peak season hits, equipment and labor costs hit first. This page maps HVAC cashflow to fast funding lanes.",
+    "primaryCtaLabel": "Check HVAC Options",
+    "primaryCtaUrl": "/book",
+    "secondaryCtaLabel": "See Funding Hub",
+    "secondaryCtaUrl": "/funding"
+  },
+  "problem": [
+    "Equipment purchases hit before deposits clear.",
+    "Seasonal demand creates sudden payroll pressure.",
+    "Traditional lenders move too slowly for peak season."
+  ],
+  "solution": "Give HVAC operators a page that connects seasonal demand to funding lanes that move as fast as service calls.",
+  "benefits": [
+    "Cover equipment fast",
+    "Keep crews scheduled",
+    "Absorb seasonal spikes"
+  ],
+  "proof": [
+    {
+      "title": "Season-aware positioning",
+      "description": "The page reflects how HVAC demand spikes in heat waves and cold snaps."
+    },
+    {
+      "title": "Clear CTA logic",
+      "description": "The buyer can choose speed or stability without confusion."
+    },
+    {
+      "title": "Operator language",
+      "description": "Copy speaks to service calls, schedules, and equipment needs."
+    }
+  ],
+  "howItWorks": [
+    "Share your recent deposits and seasonal schedule.",
+    "Compare rapid funding vs. longer-term lanes.",
+    "Book the best fit for peak season."
+  ],
+  "useCases": [
+    {
+      "title": "Peak season backlog",
+      "description": "Use it when demand outpaces available capital.",
+      "fit": ["seasonal", "surge"]
+    },
+    {
+      "title": "Equipment replacement",
+      "description": "Use it to replace units without delaying installs.",
+      "fit": ["equipment", "installations"]
+    },
+    {
+      "title": "Crew expansion",
+      "description": "Use it to add techs before the next heat wave hits.",
+      "fit": ["growth", "payroll"]
+    }
+  ],
+  "objections": [
+    {
+      "q": "Is this only for large HVAC companies?",
+      "a": "No. It works for independent contractors and growing teams."
+    },
+    {
+      "q": "What if seasonality makes revenue uneven?",
+      "a": "That is normal. The point is to match lanes to your deposit rhythm."
+    },
+    {
+      "q": "Can it fund equipment quickly?",
+      "a": "Yes. The page highlights faster lanes first."
+    }
+  ],
+  "finalCta": {
+    "label": "Book an HVAC Review",
+    "href": "/book",
+    "description": "Use this page to turn seasonal demand into stable cashflow."
+  },
+  "collections": ["funding-core"]
+}

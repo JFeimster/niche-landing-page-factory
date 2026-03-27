@@ -1,0 +1,105 @@
+{
+  "id": "contractors",
+  "slug": "contractors",
+  "label": "Contractors",
+  "brandId": "moonshine-capital",
+  "brandName": "Moonshine Capital",
+  "route": {
+    "host": "distilledfunding.com",
+    "path": "/contractors"
+  },
+  "aliasPaths": [],
+  "sourceRouteId": "route:contractors",
+  "theme": {
+    "primaryColor": "#111827",
+    "accentColor": "#06b6d4",
+    "background": "dark"
+  },
+  "contentSources": {
+    "notion": ["resource:contractor-funding-hub"],
+    "repos": ["repo:contractor-funding-funnel"],
+    "sites": ["site:contractor-funding-funnel"],
+    "templates": ["template:contractor-cashflow-planner"]
+  },
+  "pageType": "vertical-funnel",
+  "layout": "comparison-plus-cta",
+  "seo": {
+    "title": "Contractor Funding for Materials, Payroll, and Growth",
+    "description": "Fast capital options for contractors covering materials, payroll gaps, and job growth."
+  },
+  "hero": {
+    "headline": "Contractor Funding for Materials, Payroll, and Growth",
+    "subheadline": "When the job starts before the money lands, you need funding that understands supplier invoices, payroll timing, and project momentum.",
+    "primaryCtaLabel": "Check Contractor Options",
+    "primaryCtaUrl": "/book",
+    "secondaryCtaLabel": "See Funding Hub",
+    "secondaryCtaUrl": "/funding"
+  },
+  "problem": [
+    "Materials get expensive before the first draw clears.",
+    "Payroll cannot wait on client payment cycles.",
+    "Generic lenders do not understand project-based cashflow."
+  ],
+  "solution": "Match contractors with funding lanes built around deposits, invoices, and repeat project activity instead of slow bank paperwork.",
+  "benefits": [
+    "Cover upfront materials",
+    "Bridge payroll gaps",
+    "Move faster on new bids"
+  ],
+  "proof": [
+    {
+      "title": "Project-based cashflow logic",
+      "description": "The page speaks to the way contractors actually collect money and manage jobs."
+    },
+    {
+      "title": "Clear funding lanes",
+      "description": "Fast options, growth options, and prep paths are separated so the buyer can self-select."
+    },
+    {
+      "title": "Lower friction CTA",
+      "description": "The page points to a short next step instead of a vague generic application."
+    }
+  ],
+  "howItWorks": [
+    "Start with your job size, bank activity, and timeline.",
+    "Compare the fastest available funding lane against the lowest-friction lane.",
+    "Book the next step if the numbers and timing make sense."
+  ],
+  "useCases": [
+    {
+      "title": "Materials purchase",
+      "description": "Use the page when you need to front-load supplies for a larger project.",
+      "fit": ["materials", "large jobs"]
+    },
+    {
+      "title": "Payroll bridge",
+      "description": "Use it when crews need to be paid before the client releases funds.",
+      "fit": ["payroll", "timing gap"]
+    },
+    {
+      "title": "Growth campaign",
+      "description": "Use it for ads, outbound, or SEO when you want more contractor leads.",
+      "fit": ["lead gen", "growth"]
+    }
+  ],
+  "objections": [
+    {
+      "q": "Do I need perfect credit?",
+      "a": "Not always. Many contractor-friendly options care more about deposits and project activity."
+    },
+    {
+      "q": "What if my jobs are seasonal?",
+      "a": "That is common. The point is to match the funding lane to the rhythm of the business."
+    },
+    {
+      "q": "Can this help with emergency jobs?",
+      "a": "Yes. The page is built to surface faster options when timing matters more than rate shopping."
+    }
+  ],
+  "finalCta": {
+    "label": "Book a Contractor Review",
+    "href": "/book",
+    "description": "Use this page to turn project cashflow into a faster capital conversation."
+  },
+  "collections": ["funding-core"]
+}

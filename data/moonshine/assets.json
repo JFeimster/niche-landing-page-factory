@@ -1,0 +1,980 @@
+{
+  "version": "1.0.0",
+  "generatedFor": "Moonshine Capital",
+  "defaultBrandId": "moonshine-capital",
+  "assetTypes": [
+    "repo",
+    "site",
+    "template",
+    "resource",
+    "widget",
+    "tool",
+    "partner",
+    "assistant"
+  ],
+  "collections": {
+    "dac-team-core": [
+      "site:partners-home",
+      "repo:moonshine-broker",
+      "repo:dac-affiliate-enablement",
+      "repo:funding-partners-os",
+      "repo:partner-growth-hub",
+      "repo:partner-onboarding",
+      "site:funding-partners-os",
+      "site:dac-affiliate-enablement",
+      "site:partner-growth-hub",
+      "site:partner-onboarding",
+      "site:moonshine-broker",
+      "template:partner-recruitment-landing-page",
+      "template:agent-onboarding-experience-designer",
+      "template:viral-referral-reward-engine",
+      "resource:moonshine-community"
+    ],
+    "ecom-core": [
+      "repo:seller-funding",
+      "repo:amazon-payout-unlocker",
+      "repo:market-sniper-hub",
+      "site:seller-funding",
+      "site:amazon-payout-unlocker",
+      "template:stockout-death-spiral-estimator",
+      "template:amazon-phantom-cash-audit",
+      "template:tiktok-shop-viral-curse-manager",
+      "partner:8fig",
+      "resource:funding-hub"
+    ],
+    "funding-core": [
+      "repo:moonshine-funding-funnel",
+      "repo:moonshine-funding-static",
+      "repo:operator-funding-site",
+      "repo:funding-ceo",
+      "repo:ai-funding-pathfinder",
+      "repo:ai-funding-coach",
+      "site:moonshine-funding-funnel",
+      "site:moonshine-funding-landing",
+      "site:operator-funding-site",
+      "site:funding-ceo",
+      "site:ai-funding-pathfinder",
+      "site:ai-funding-coach",
+      "resource:funding-hub",
+      "assistant:funding-pathfinder-gpt"
+    ],
+    "tools-core": [
+      "repo:funding-tools-os",
+      "repo:funding-tools-static",
+      "repo:distilled-tools-pro",
+      "repo:embed-widgets",
+      "site:funding-tools-os",
+      "site:funding-tools-static",
+      "site:distilled-tools-pro",
+      "template:funding-tools-dashboard",
+      "template:funding-product-comparison-tool",
+      "template:compliance-legal-module-generator",
+      "widget:funding-calculator-widget",
+      "widget:qualifying-quiz-funnel",
+      "resource:tools-hub"
+    ],
+    "banking-core": [
+      "repo:bizfin-os-smart-banking",
+      "repo:BizFin-OS",
+      "repo:pay-monthly-widget",
+      "site:bizfin-bank",
+      "site:bizfin-os",
+      "template:smb-financial-os",
+      "template:instant-payout-network",
+      "template:open-banking-connector",
+      "widget:pay-monthly-widget",
+      "resource:banking-guides"
+    ],
+    "credit-core": [
+      "repo:BizCredit",
+      "repo:BizCreditOS",
+      "site:bizcredit-os",
+      "template:credit-score-simulator",
+      "template:business-credit-builder-roadmap",
+      "template:startup-credit-stacker-console",
+      "resource:credit-guides",
+      "partner:credit-suite"
+    ],
+    "ai-core": [
+      "repo:FinOps-AI-Agents",
+      "repo:Agent-Grid",
+      "repo:EliteBroker-AI",
+      "site:finops-ai",
+      "site:agent-grid",
+      "site:elite-broker-ai",
+      "assistant:funding-pathfinder-gpt",
+      "assistant:ai-funding-coach",
+      "template:white-label-partner-portal",
+      "template:venture-studio-dashboard"
+    ]
+  },
+  "assets": [
+    {
+      "id": "resource:funding-hub",
+      "type": "resource",
+      "category": "funding",
+      "visibility": "public",
+      "title": "Funding Hub (Notion)",
+      "url": "https://myfunding.notion.site/",
+      "provider": "notion",
+      "description": "Primary knowledge base and resource hub for funding content."
+    },
+    {
+      "id": "resource:tools-hub",
+      "type": "resource",
+      "category": "tools",
+      "visibility": "public",
+      "title": "Tools Hub (Notion)",
+      "url": "https://myfunding.notion.site/tools/",
+      "provider": "notion",
+      "description": "Resource directory for calculators, templates, and software."
+    },
+    {
+      "id": "resource:moonshine-community",
+      "type": "resource",
+      "category": "partners",
+      "visibility": "public",
+      "title": "Moonshine Moneymakers Community",
+      "url": "https://www.distilledfunding.com/group/moonshine-moneymakers/",
+      "provider": "web",
+      "description": "Community hub for partners, agents, and onboarding support."
+    },
+    {
+      "id": "resource:banking-guides",
+      "type": "resource",
+      "category": "banking",
+      "visibility": "public",
+      "title": "Banking Guides",
+      "url": "https://www.distilledfunding.com/",
+      "provider": "web",
+      "description": "Placeholder bucket for banking comparison pages, setup checklists, and guides."
+    },
+    {
+      "id": "resource:credit-guides",
+      "type": "resource",
+      "category": "credit",
+      "visibility": "public",
+      "title": "Credit Guides",
+      "url": "https://www.distilledfunding.com/",
+      "provider": "web",
+      "description": "Placeholder bucket for credit building checklists, explainers, and roadmaps."
+    },
+    {
+      "id": "repo:moonshine-broker",
+      "type": "repo",
+      "category": "partners",
+      "visibility": "public",
+      "title": "moonshine-broker",
+      "provider": "github",
+      "url": "https://github.com/JFeimster/moonshine-broker",
+      "language": "TypeScript",
+      "description": "Next.js + Tailwind landing page for recruiting funding partners/loan brokers with starter kit opt-in, FAQ, and booking flow."
+    },
+    {
+      "id": "repo:dac-affiliate-enablement",
+      "type": "repo",
+      "category": "partners",
+      "visibility": "private",
+      "title": "dac-affiliate-enablement",
+      "provider": "github",
+      "url": "https://github.com/JFeimster/dac-affiliate-enablement",
+      "language": "Unknown",
+      "description": "DAC-specific enablement project for partner recruitment and activation."
+    },
+    {
+      "id": "repo:funding-partners-os",
+      "type": "repo",
+      "category": "partners",
+      "visibility": "private",
+      "title": "funding-partners-os",
+      "provider": "github",
+      "url": "https://github.com/JFeimster/funding-partners-os",
+      "language": "Unknown",
+      "description": "Operating system for high-ticket funding agents with tools, scripts, and marketplace flows."
+    },
+    {
+      "id": "repo:partner-growth-hub",
+      "type": "repo",
+      "category": "partners",
+      "visibility": "private",
+      "title": "partner-growth-hub",
+      "provider": "github",
+      "url": "https://github.com/JFeimster/partner-growth-hub",
+      "language": "TypeScript",
+      "description": "Growth hub for partner acquisition, activation, and performance support."
+    },
+    {
+      "id": "repo:partner-onboarding",
+      "type": "repo",
+      "category": "partners",
+      "visibility": "private",
+      "title": "partner-onboarding",
+      "provider": "github",
+      "url": "https://github.com/JFeimster/partner-onboarding",
+      "language": "Unknown",
+      "description": "Interactive onboarding and management portal for Moonshine Capital partners."
+    },
+    {
+      "id": "repo:PartnerLaunch",
+      "type": "repo",
+      "category": "partners",
+      "visibility": "private",
+      "title": "PartnerLaunch",
+      "provider": "github",
+      "url": "https://github.com/JFeimster/PartnerLaunch",
+      "language": "Unknown",
+      "description": "Toolkit for agencies to convert traffic into high-intent partner revenue."
+    },
+    {
+      "id": "repo:seller-funding",
+      "type": "repo",
+      "category": "ecom",
+      "visibility": "private",
+      "title": "Seller-Funding",
+      "provider": "github",
+      "url": "https://github.com/JFeimster/Seller-Funding",
+      "language": "TypeScript",
+      "description": "See every funding option your store qualifies for instantly."
+    },
+    {
+      "id": "repo:amazon-payout-unlocker",
+      "type": "repo",
+      "category": "ecom",
+      "visibility": "public",
+      "title": "amazon-payout-unlocker",
+      "provider": "github",
+      "url": "https://github.com/JFeimster/amazon-payout-unlocker",
+      "language": "HTML",
+      "description": "Landing page and trapped-capital calculator for Amazon resellers facing DD+7 reserves."
+    },
+    {
+      "id": "repo:market-sniper-hub",
+      "type": "repo",
+      "category": "ecom",
+      "visibility": "public",
+      "title": "market-sniper-hub",
+      "provider": "github",
+      "url": "https://github.com/JFeimster/market-sniper-hub",
+      "language": "TypeScript",
+      "description": "Marketplace seller hub for growth, ops, and opportunity capture."
+    },
+    {
+      "id": "repo:moonshine-funding-funnel",
+      "type": "repo",
+      "category": "funding",
+      "visibility": "private",
+      "title": "moonshine-funding-funnel",
+      "provider": "github",
+      "url": "https://github.com/JFeimster/moonshine-funding-funnel",
+      "language": "Unknown",
+      "description": "Multi-vertical partner acquisition engine for Moonshine Capital powered by JSON configs and Next.js."
+    },
+    {
+      "id": "repo:moonshine-funding-static",
+      "type": "repo",
+      "category": "funding",
+      "visibility": "private",
+      "title": "moonshine-funding-static",
+      "provider": "github",
+      "url": "https://github.com/JFeimster/moonshine-funding-static",
+      "language": "Unknown",
+      "description": "Static landing page for Moonshine Capital\u2019s B2B funding partner program."
+    },
+    {
+      "id": "repo:operator-funding-site",
+      "type": "repo",
+      "category": "funding",
+      "visibility": "private",
+      "title": "operator-funding-site",
+      "provider": "github",
+      "url": "https://github.com/JFeimster/operator-funding-site",
+      "language": "Unknown",
+      "description": "High-conversion static website for US small business funding."
+    },
+    {
+      "id": "repo:funding-ceo",
+      "type": "repo",
+      "category": "funding",
+      "visibility": "private",
+      "title": "funding-ceo",
+      "provider": "github",
+      "url": "https://github.com/JFeimster/funding-ceo",
+      "language": "Unknown",
+      "description": "Funding-focused site/project in active Vercel inventory."
+    },
+    {
+      "id": "repo:ai-funding-pathfinder",
+      "type": "repo",
+      "category": "funding",
+      "visibility": "private",
+      "title": "ai-funding-pathfinder",
+      "provider": "github",
+      "url": "https://github.com/JFeimster/ai-funding-pathfinder",
+      "language": "Unknown",
+      "description": "AI-powered financial discovery engine for small businesses."
+    },
+    {
+      "id": "repo:ai-funding-coach",
+      "type": "repo",
+      "category": "funding",
+      "visibility": "private",
+      "title": "ai-funding-coach",
+      "provider": "github",
+      "url": "https://github.com/JFeimster/ai-funding-coach",
+      "language": "Unknown",
+      "description": "AI-powered funding coach landing/project."
+    },
+    {
+      "id": "repo:funding-tools-os",
+      "type": "repo",
+      "category": "tools",
+      "visibility": "private",
+      "title": "funding-tools-os",
+      "provider": "github",
+      "url": "https://github.com/JFeimster/funding-tools-os",
+      "language": "Unknown",
+      "description": "Scalable tools platform for funding agencies with dynamic tool pages and SEO-friendly routing."
+    },
+    {
+      "id": "repo:funding-tools-static",
+      "type": "repo",
+      "category": "tools",
+      "visibility": "private",
+      "title": "funding-tools-static",
+      "provider": "github",
+      "url": "https://github.com/JFeimster/funding-tools-static",
+      "language": "Unknown",
+      "description": "Ultra-fast static tools directory for funding platforms."
+    },
+    {
+      "id": "repo:distilled-tools-pro",
+      "type": "repo",
+      "category": "tools",
+      "visibility": "private",
+      "title": "Distilled-Tools-Pro",
+      "provider": "github",
+      "url": "https://github.com/JFeimster/Distilled-Tools-Pro",
+      "language": "Unknown",
+      "description": "Premium tools project for lead-gen and finance utility experiences."
+    },
+    {
+      "id": "repo:embed-widgets",
+      "type": "repo",
+      "category": "tools",
+      "visibility": "private",
+      "title": "Embed-Widgets",
+      "provider": "github",
+      "url": "https://github.com/JFeimster/Embed-Widgets",
+      "language": "Unknown",
+      "description": "Partner widget suite for embedding calculators, quizzes, and funnels."
+    },
+    {
+      "id": "repo:bizfin-os-smart-banking",
+      "type": "repo",
+      "category": "banking",
+      "visibility": "private",
+      "title": "bizfin-os-smart-banking-",
+      "provider": "github",
+      "url": "https://github.com/JFeimster/bizfin-os-smart-banking-",
+      "language": "Unknown",
+      "description": "B2B financial operating system landing page with cash-flow monitoring and risk detection."
+    },
+    {
+      "id": "repo:BizFin-OS",
+      "type": "repo",
+      "category": "banking",
+      "visibility": "private",
+      "title": "BizFin-OS",
+      "provider": "github",
+      "url": "https://github.com/JFeimster/BizFin-OS",
+      "language": "Unknown",
+      "description": "Financial operating system for founders with treasury, credit building, and funding desk concepts."
+    },
+    {
+      "id": "repo:pay-monthly-widget",
+      "type": "repo",
+      "category": "banking",
+      "visibility": "private",
+      "title": "pay-monthly-widget",
+      "provider": "github",
+      "url": "https://github.com/JFeimster/pay-monthly-widget",
+      "language": "Unknown",
+      "description": "Embeddable pay-monthly financing widget with n8n lead routing."
+    },
+    {
+      "id": "repo:BizCredit",
+      "type": "repo",
+      "category": "credit",
+      "visibility": "private",
+      "title": "BizCredit",
+      "provider": "github",
+      "url": "https://github.com/JFeimster/BizCredit",
+      "language": "Unknown",
+      "description": "Business credit building automation / operating system."
+    },
+    {
+      "id": "repo:BizCreditOS",
+      "type": "repo",
+      "category": "credit",
+      "visibility": "private",
+      "title": "BizCreditOS",
+      "provider": "github",
+      "url": "https://github.com/JFeimster/BizCreditOS",
+      "language": "Unknown",
+      "description": "Business credit building automation asset."
+    },
+    {
+      "id": "repo:FinOps-AI-Agents",
+      "type": "repo",
+      "category": "ai",
+      "visibility": "private",
+      "title": "FinOps-AI-Agents",
+      "provider": "github",
+      "url": "https://github.com/JFeimster/FinOps-AI-Agents",
+      "language": "Unknown",
+      "description": "AI agents for finance operations."
+    },
+    {
+      "id": "repo:Agent-Grid",
+      "type": "repo",
+      "category": "ai",
+      "visibility": "private",
+      "title": "Agent-Grid",
+      "provider": "github",
+      "url": "https://github.com/JFeimster/Agent-Grid",
+      "language": "Unknown",
+      "description": "Agent grid interface/site for AI systems."
+    },
+    {
+      "id": "repo:EliteBroker-AI",
+      "type": "repo",
+      "category": "ai",
+      "visibility": "private",
+      "title": "EliteBroker-AI",
+      "provider": "github",
+      "url": "https://github.com/JFeimster/EliteBroker-AI",
+      "language": "Unknown",
+      "description": "Strategic operating system for commercial finance agents."
+    },
+    {
+      "id": "site:partners-home",
+      "type": "site",
+      "category": "partners",
+      "visibility": "public",
+      "title": "partners.distilledfunding.com",
+      "provider": "domain",
+      "url": "https://partners.distilledfunding.com/",
+      "description": "Canonical partner recruitment site / target host."
+    },
+    {
+      "id": "site:funding-partners-os",
+      "type": "site",
+      "category": "partners",
+      "visibility": "public",
+      "title": "funding-partners-os",
+      "provider": "vercel",
+      "url": "https://funding-partners-os.vercel.app/",
+      "repoRef": "repo:funding-partners-os"
+    },
+    {
+      "id": "site:dac-affiliate-enablement",
+      "type": "site",
+      "category": "partners",
+      "visibility": "public",
+      "title": "dac-affiliate-enablement",
+      "provider": "vercel",
+      "url": "https://dac-affiliate-enablement.vercel.app/",
+      "repoRef": "repo:dac-affiliate-enablement"
+    },
+    {
+      "id": "site:partner-growth-hub",
+      "type": "site",
+      "category": "partners",
+      "visibility": "public",
+      "title": "partner-growth-hub",
+      "provider": "vercel",
+      "url": "https://partner-growth-hub.vercel.app/",
+      "repoRef": "repo:partner-growth-hub"
+    },
+    {
+      "id": "site:partner-onboarding",
+      "type": "site",
+      "category": "partners",
+      "visibility": "public",
+      "title": "partner-onboarding",
+      "provider": "vercel",
+      "url": "https://partner-onboarding-liart.vercel.app/",
+      "repoRef": "repo:partner-onboarding"
+    },
+    {
+      "id": "site:moonshine-broker",
+      "type": "site",
+      "category": "partners",
+      "visibility": "public",
+      "title": "moonshine-broker",
+      "provider": "vercel",
+      "url": "https://moonshine-broker.vercel.app/",
+      "repoRef": "repo:moonshine-broker"
+    },
+    {
+      "id": "site:partner-launch",
+      "type": "site",
+      "category": "partners",
+      "visibility": "public",
+      "title": "partner-launch",
+      "provider": "vercel",
+      "url": "https://partner-launch.vercel.app/",
+      "repoRef": "repo:PartnerLaunch"
+    },
+    {
+      "id": "site:agent-portal",
+      "type": "site",
+      "category": "partners",
+      "visibility": "public",
+      "title": "agent-portal",
+      "provider": "vercel",
+      "url": "https://agent-portal-swart.vercel.app/",
+      "description": "Partner/client portal candidate."
+    },
+    {
+      "id": "site:seller-funding",
+      "type": "site",
+      "category": "ecom",
+      "visibility": "public",
+      "title": "seller-funding",
+      "provider": "vercel",
+      "url": "https://seller-funding.vercel.app/",
+      "repoRef": "repo:seller-funding"
+    },
+    {
+      "id": "site:amazon-payout-unlocker",
+      "type": "site",
+      "category": "ecom",
+      "visibility": "public",
+      "title": "amazon-payout-unlocker",
+      "provider": "vercel",
+      "url": "https://amazon-payout-unlocker.vercel.app/",
+      "repoRef": "repo:amazon-payout-unlocker"
+    },
+    {
+      "id": "site:moonshine-funding-landing",
+      "type": "site",
+      "category": "funding",
+      "visibility": "public",
+      "title": "moonshine-funding-landing",
+      "provider": "vercel",
+      "url": "https://moonshine-funding-landing.vercel.app/",
+      "repoRef": "repo:moonshine-funding-static"
+    },
+    {
+      "id": "site:moonshine-funding-funnel",
+      "type": "site",
+      "category": "funding",
+      "visibility": "public",
+      "title": "moonshine-funding-funnel",
+      "provider": "vercel",
+      "url": "https://moonshine-funding-funnel.vercel.app/",
+      "repoRef": "repo:moonshine-funding-funnel"
+    },
+    {
+      "id": "site:operator-funding-site",
+      "type": "site",
+      "category": "funding",
+      "visibility": "public",
+      "title": "operator-funding-site",
+      "provider": "vercel",
+      "url": "https://operator-funding-site.vercel.app/",
+      "repoRef": "repo:operator-funding-site"
+    },
+    {
+      "id": "site:funding-ceo",
+      "type": "site",
+      "category": "funding",
+      "visibility": "public",
+      "title": "funding-ceo",
+      "provider": "vercel",
+      "url": "https://funding-ceo.vercel.app/",
+      "repoRef": "repo:funding-ceo"
+    },
+    {
+      "id": "site:ai-funding-pathfinder",
+      "type": "site",
+      "category": "funding",
+      "visibility": "public",
+      "title": "ai-funding-pathfinder",
+      "provider": "vercel",
+      "url": "https://ai-funding-pathfinder.vercel.app/",
+      "repoRef": "repo:ai-funding-pathfinder"
+    },
+    {
+      "id": "site:ai-funding-coach",
+      "type": "site",
+      "category": "funding",
+      "visibility": "public",
+      "title": "ai-funding-coach",
+      "provider": "vercel",
+      "url": "https://ai-funding-coach.vercel.app/",
+      "repoRef": "repo:ai-funding-coach"
+    },
+    {
+      "id": "site:distilledfunding",
+      "type": "site",
+      "category": "funding",
+      "visibility": "public",
+      "title": "distilledfunding",
+      "provider": "vercel",
+      "url": "https://distilledfunding.vercel.app/",
+      "description": "Brand/site root in Vercel inventory."
+    },
+    {
+      "id": "site:tools-home",
+      "type": "site",
+      "category": "tools",
+      "visibility": "public",
+      "title": "tools.distilledfunding.com",
+      "provider": "domain",
+      "url": "https://tools.distilledfunding.com/",
+      "description": "Canonical tools and calculators host."
+    },
+    {
+      "id": "site:funding-tools-os",
+      "type": "site",
+      "category": "tools",
+      "visibility": "public",
+      "title": "funding-tools-os",
+      "provider": "vercel",
+      "url": "https://funding-tools-os.vercel.app/",
+      "repoRef": "repo:funding-tools-os"
+    },
+    {
+      "id": "site:funding-tools-static",
+      "type": "site",
+      "category": "tools",
+      "visibility": "public",
+      "title": "funding-tools-static",
+      "provider": "vercel",
+      "url": "https://funding-tools-static.vercel.app/",
+      "repoRef": "repo:funding-tools-static"
+    },
+    {
+      "id": "site:distilled-tools-pro",
+      "type": "site",
+      "category": "tools",
+      "visibility": "public",
+      "title": "distilled-tools-pro",
+      "provider": "vercel",
+      "url": "https://distilled-tools-pro.vercel.app/",
+      "repoRef": "repo:distilled-tools-pro"
+    },
+    {
+      "id": "site:bizfin-bank",
+      "type": "site",
+      "category": "banking",
+      "visibility": "public",
+      "title": "bizfin-bank",
+      "provider": "vercel",
+      "url": "https://bizfin-bank.vercel.app/",
+      "repoRef": "repo:bizfin-os-smart-banking"
+    },
+    {
+      "id": "site:bizfin-os",
+      "type": "site",
+      "category": "banking",
+      "visibility": "public",
+      "title": "bizfin-os",
+      "provider": "vercel",
+      "url": "https://bizfin-os.vercel.app/",
+      "repoRef": "repo:BizFin-OS"
+    },
+    {
+      "id": "site:bizcredit-os",
+      "type": "site",
+      "category": "credit",
+      "visibility": "public",
+      "title": "bizcredit-os",
+      "provider": "vercel",
+      "url": "https://bizcredit-os.vercel.app/",
+      "repoRef": "repo:BizCredit"
+    },
+    {
+      "id": "site:finops-ai",
+      "type": "site",
+      "category": "ai",
+      "visibility": "public",
+      "title": "finops-ai",
+      "provider": "vercel",
+      "url": "https://finops-ai-sooty.vercel.app/",
+      "repoRef": "repo:FinOps-AI-Agents"
+    },
+    {
+      "id": "site:agent-grid",
+      "type": "site",
+      "category": "ai",
+      "visibility": "public",
+      "title": "agent-grid",
+      "provider": "vercel",
+      "url": "https://agent-grid.vercel.app/",
+      "repoRef": "repo:Agent-Grid"
+    },
+    {
+      "id": "site:elite-broker-ai",
+      "type": "site",
+      "category": "ai",
+      "visibility": "public",
+      "title": "elite-broker-ai",
+      "provider": "vercel",
+      "url": "https://elite-broker-ai.vercel.app/",
+      "repoRef": "repo:EliteBroker-AI"
+    },
+    {
+      "id": "template:partner-recruitment-landing-page",
+      "type": "template",
+      "category": "partners",
+      "visibility": "internal",
+      "title": "Partner Recruitment Landing Page",
+      "provider": "flash-ui",
+      "description": "High-conversion recruitment site for Moonshine Capital\u2019s partner network."
+    },
+    {
+      "id": "template:agent-onboarding-experience-designer",
+      "type": "template",
+      "category": "partners",
+      "visibility": "internal",
+      "title": "Agent Onboarding Experience Designer",
+      "provider": "flash-ui",
+      "description": "Gamified welcome journey for new agents."
+    },
+    {
+      "id": "template:viral-referral-reward-engine",
+      "type": "template",
+      "category": "partners",
+      "visibility": "internal",
+      "title": "Viral Referral Reward Engine",
+      "provider": "flash-ui",
+      "description": "Multi-tier incentive system for agent recruitment."
+    },
+    {
+      "id": "template:white-label-partner-portal",
+      "type": "template",
+      "category": "ai",
+      "visibility": "internal",
+      "title": "White-Label Partner Portal",
+      "provider": "flash-ui",
+      "description": "White-label portal with custom branding, marketing generators, analytics, and integrations."
+    },
+    {
+      "id": "template:stockout-death-spiral-estimator",
+      "type": "template",
+      "category": "ecom",
+      "visibility": "internal",
+      "title": "Stockout Death Spiral Estimator",
+      "provider": "flash-ui",
+      "description": "Loss calculator for Amazon sellers / inventory financing."
+    },
+    {
+      "id": "template:amazon-phantom-cash-audit",
+      "type": "template",
+      "category": "ecom",
+      "visibility": "internal",
+      "title": "Amazon Phantom Cash Audit",
+      "provider": "flash-ui",
+      "description": "Visualizes trapped DD+7 funds and payout delay pain."
+    },
+    {
+      "id": "template:tiktok-shop-viral-curse-manager",
+      "type": "template",
+      "category": "ecom",
+      "visibility": "internal",
+      "title": "TikTok Shop Viral Curse Manager",
+      "provider": "flash-ui",
+      "description": "Inventory vs velocity tracker for social-commerce spikes."
+    },
+    {
+      "id": "template:funding-tools-dashboard",
+      "type": "template",
+      "category": "tools",
+      "visibility": "internal",
+      "title": "Funding Tools Dashboard",
+      "provider": "flash-ui",
+      "description": "Resource hub for interactive financial tools with gated full results."
+    },
+    {
+      "id": "template:funding-product-comparison-tool",
+      "type": "template",
+      "category": "tools",
+      "visibility": "internal",
+      "title": "Funding Product Comparison Tool",
+      "provider": "flash-ui",
+      "description": "Compare products side by side with best-fit recommendations."
+    },
+    {
+      "id": "template:compliance-legal-module-generator",
+      "type": "template",
+      "category": "tools",
+      "visibility": "internal",
+      "title": "Compliance & Legal Module Generator",
+      "provider": "flash-ui",
+      "description": "Auto-generated disclaimers, policies, and state-specific compliance modules."
+    },
+    {
+      "id": "template:smb-financial-os",
+      "type": "template",
+      "category": "banking",
+      "visibility": "internal",
+      "title": "SMB Financial OS",
+      "provider": "flash-ui",
+      "description": "Financial operating system layout for cash flow, treasury, and ops."
+    },
+    {
+      "id": "template:instant-payout-network",
+      "type": "template",
+      "category": "banking",
+      "visibility": "internal",
+      "title": "Instant Payout Network",
+      "provider": "flash-ui",
+      "description": "Fast-disbursement and payout timing product UX."
+    },
+    {
+      "id": "template:open-banking-connector",
+      "type": "template",
+      "category": "banking",
+      "visibility": "internal",
+      "title": "Open Banking Connector",
+      "provider": "flash-ui",
+      "description": "Connector and banking integration layout."
+    },
+    {
+      "id": "template:credit-score-simulator",
+      "type": "template",
+      "category": "credit",
+      "visibility": "internal",
+      "title": "Credit Score Simulator",
+      "provider": "flash-ui",
+      "description": "Projects score changes and improvement paths."
+    },
+    {
+      "id": "template:business-credit-builder-roadmap",
+      "type": "template",
+      "category": "credit",
+      "visibility": "internal",
+      "title": "Business Credit Builder Roadmap",
+      "provider": "flash-ui",
+      "description": "Roadmap for sequencing business credit milestones."
+    },
+    {
+      "id": "template:startup-credit-stacker-console",
+      "type": "template",
+      "category": "credit",
+      "visibility": "internal",
+      "title": "Startup Credit Stacker Console",
+      "provider": "flash-ui",
+      "description": "Credit stacking workflow and calculator-driven UX."
+    },
+    {
+      "id": "template:venture-studio-dashboard",
+      "type": "template",
+      "category": "ai",
+      "visibility": "internal",
+      "title": "Venture Studio Dashboard",
+      "provider": "flash-ui",
+      "description": "Cross-venture control center for portfolio ops and resource allocation."
+    },
+    {
+      "id": "widget:funding-calculator-widget",
+      "type": "widget",
+      "category": "tools",
+      "visibility": "public",
+      "title": "Funding Calculator Widget",
+      "provider": "moonshine",
+      "url": "/embeds/funding-calculator",
+      "description": "Embeddable calculator that captures leads and estimates funding paths."
+    },
+    {
+      "id": "widget:qualifying-quiz-funnel",
+      "type": "widget",
+      "category": "tools",
+      "visibility": "public",
+      "title": "Qualifying Quiz Funnel",
+      "provider": "moonshine",
+      "url": "/embeds/qualifying-quiz",
+      "description": "Interactive quiz that segments leads by funding need."
+    },
+    {
+      "id": "widget:pay-monthly-widget",
+      "type": "widget",
+      "category": "banking",
+      "visibility": "public",
+      "title": "Pay Monthly Widget",
+      "provider": "moonshine",
+      "url": "/embeds/pay-monthly",
+      "description": "Embeddable monthly payment / financing widget."
+    },
+    {
+      "id": "tool:funding-eligibility-calculator",
+      "type": "tool",
+      "category": "tools",
+      "visibility": "public",
+      "title": "Funding Eligibility Calculator",
+      "provider": "moonshine",
+      "url": "/tools/funding-eligibility-calculator"
+    },
+    {
+      "id": "tool:payment-calculator",
+      "type": "tool",
+      "category": "tools",
+      "visibility": "public",
+      "title": "Payment Calculator",
+      "provider": "moonshine",
+      "url": "/tools/payment-calculator"
+    },
+    {
+      "id": "tool:credit-score-simulator",
+      "type": "tool",
+      "category": "credit",
+      "visibility": "public",
+      "title": "Credit Score Simulator",
+      "provider": "moonshine",
+      "url": "/tools/credit-score-simulator"
+    },
+    {
+      "id": "partner:8fig",
+      "type": "partner",
+      "category": "ecom",
+      "visibility": "public",
+      "title": "8fig",
+      "provider": "affiliate",
+      "url": "https://grow.8fig.co/lh7ictz6db3r",
+      "description": "Growth capital partner for eCommerce sellers."
+    },
+    {
+      "id": "partner:credit-suite",
+      "type": "partner",
+      "category": "credit",
+      "visibility": "public",
+      "title": "Credit Suite",
+      "provider": "affiliate",
+      "url": "https://bit.ly/creditsuiteaffiliate",
+      "description": "Business credit education and enablement partner."
+    },
+    {
+      "id": "assistant:funding-pathfinder-gpt",
+      "type": "assistant",
+      "category": "funding",
+      "visibility": "public",
+      "title": "Funding Pathfinder GPT",
+      "provider": "chatgpt",
+      "url": "https://chatgpt.com/g/g-6876b717ca808191aea5343f89c670e3-funding-pathfinder-gpt",
+      "description": "AI advisor that recommends funding paths before application."
+    },
+    {
+      "id": "assistant:ai-funding-coach",
+      "type": "assistant",
+      "category": "ai",
+      "visibility": "public",
+      "title": "AI Funding Coach",
+      "provider": "moonshine",
+      "url": "https://ai-funding-coach.vercel.app/",
+      "description": "AI-led funding coach experience."
+    }
+  ]
+}

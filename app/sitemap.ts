@@ -1,11 +1,9 @@
 import type { MetadataRoute } from "next";
-import { loadData } from "@/lib/verticals";
+import { getBlogPosts, getPublishedPages, getSiteConfig } from "@/lib/moonshine";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const data = loadData();
-  const base = data.site.domain.startsWith("http")
-    ? data.site.domain
-    : `https://${data.site.domain}`;
+  const site = getSiteConfig();
+  const base = `https://${site.domain}`;
 
   const now = new Date();
 
@@ -17,12 +15,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 1,
     },
     {
-      url: `${base}/tools`,
-      lastModified: now,
-      changeFrequency: "monthly",
-      priority: 0.6,
-    },
-    {
       url: `${base}/book`,
       lastModified: now,
       changeFrequency: "monthly",
@@ -30,14 +22,21 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
   ];
 
-  const verticalUrls: MetadataRoute.Sitemap = data.verticals
-    .filter((v) => v.status === "published" && !v.seo?.noindex)
-    .map((v) => ({
-      url: `${base}/${v.slug}`,
+  const verticalUrls: MetadataRoute.Sitemap = getPublishedPages()
+    .filter((page) => !page.seo.noindex)
+    .map((page) => ({
+      url: `${base}${page.path}`,
       lastModified: now,
       changeFrequency: "monthly",
       priority: 0.8,
     }));
 
-  return [...staticUrls, ...verticalUrls];
+  const blogUrls: MetadataRoute.Sitemap = getBlogPosts().map((post) => ({
+    url: `${base}/blog/${post.slug}`,
+    lastModified: new Date(post.publishedAt),
+    changeFrequency: "monthly",
+    priority: 0.6,
+  }));
+
+  return [...staticUrls, ...verticalUrls, ...blogUrls];
 }

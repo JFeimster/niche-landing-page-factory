@@ -1,0 +1,80 @@
+{
+  "id": "real-estate",
+  "slug": "real-estate",
+  "label": "Real Estate",
+  "brandId": "moonshine-capital",
+  "brandName": "Moonshine Capital",
+  "route": {
+    "host": "distilledfunding.com",
+    "path": "/real-estate"
+  },
+  "aliasPaths": [
+    "/funding/real-estate"
+  ],
+  "sourceRouteId": "route:funding-real-estate",
+  "theme": {
+    "primaryColor": "#111827",
+    "accentColor": "#14b8a6",
+    "highlightColor": "#f59e0b",
+    "background": "dark"
+  },
+  "contentSources": {
+    "notion": [
+      "resource:funding-hub"
+    ],
+    "repos": [
+      "repo:moonshine-funding-funnel",
+      "repo:moonshine-funding-static",
+      "repo:operator-funding-site",
+      "repo:funding-ceo",
+      "repo:ai-funding-pathfinder",
+      "repo:ai-funding-coach"
+    ],
+    "sites": [
+      "site:moonshine-funding-funnel",
+      "site:moonshine-funding-landing",
+      "site:operator-funding-site",
+      "site:funding-ceo",
+      "site:ai-funding-pathfinder",
+      "site:ai-funding-coach"
+    ],
+    "templates": []
+  },
+  "pageType": "category-detail",
+  "layout": "comparison-plus-cta",
+  "seo": {
+    "title": "Real Estate Funding | Fix & Flip, DSCR, Bridge | Moonshine Capital",
+    "description": "Real estate capital paths for investors and operators: fix-and-flip, bridge, DSCR, rental portfolio, and deal-by-deal funding strategy."
+  },
+  "hero": {
+    "headline": "Real Estate Funding Without Begging Slow Banks to Wake Up.",
+    "subheadline": "Explore capital paths for acquisition, rehab, bridge, DSCR, and rental portfolio growth.",
+    "primaryCtaLabel": "Explore Real Estate Funding Paths",
+    "primaryCtaUrl": "/funding/real-estate",
+    "secondaryCtaLabel": "Start Funding Pathfinder",
+    "secondaryCtaUrl": "https://chatgpt.com/g/g-6876b717ca808191aea5343f89c670e3-funding-pathfinder-gpt"
+  },
+  "sections": [
+    "hero",
+    "deal-types",
+    "comparison-grid",
+    "calculator-strip",
+    "guides",
+    "faq",
+    "lead-capture"
+  ],
+  "dealTypes": [
+    "Fix and Flip",
+    "Bridge Loans",
+    "DSCR Loans",
+    "Rental Portfolio Growth",
+    "Short-Term Gap Funding"
+  ],
+  "collections": [
+    "funding-core"
+  ],
+  "assetOrder": [
+    "resource:funding-hub",
+    "site:operator-funding-site"
+  ]
+}

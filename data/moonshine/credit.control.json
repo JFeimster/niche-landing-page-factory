@@ -1,0 +1,71 @@
+{
+  "id": "credit",
+  "slug": "credit",
+  "label": "Credit",
+  "brandId": "moonshine-capital",
+  "brandName": "Moonshine Capital",
+  "route": {
+    "host": "credit.distilledfunding.com",
+    "path": "/"
+  },
+  "aliasPaths": [
+    "/credit"
+  ],
+  "sourceRouteId": "route:credit-home",
+  "theme": {
+    "primaryColor": "#111827",
+    "accentColor": "#8b5cf6",
+    "highlightColor": "#facc15",
+    "background": "dark"
+  },
+  "contentSources": {
+    "notion": [],
+    "repos": [
+      "repo:BizCredit",
+      "repo:BizCreditOS"
+    ],
+    "sites": [
+      "site:bizcredit-os"
+    ],
+    "templates": [
+      "template:credit-score-simulator",
+      "template:business-credit-builder-roadmap",
+      "template:startup-credit-stacker-console"
+    ]
+  },
+  "pageType": "credit-hub",
+  "layout": "credit-hub",
+  "seo": {
+    "title": "Business Credit & Personal Credit Strategy | Moonshine Capital",
+    "description": "Business credit building, personal credit prep, credit roadmaps, score simulation, and funding-readiness systems."
+  },
+  "hero": {
+    "headline": "Build Credit Like a System, Not a Prayer Circle.",
+    "subheadline": "Business credit, personal credit prep, incubator paths, score simulation, and roadmaps built for actual funding readiness.",
+    "primaryCtaLabel": "See My Credit Roadmap",
+    "primaryCtaUrl": "/tools/business-credit-builder-roadmap",
+    "secondaryCtaLabel": "Check Credit Readiness",
+    "secondaryCtaUrl": "/tools/credit-score-simulator"
+  },
+  "creditCategories": [
+    {
+      "id": "business-credit",
+      "label": "Business Credit"
+    },
+    {
+      "id": "personal-credit",
+      "label": "Personal Credit"
+    }
+  ],
+  "collections": [
+    "credit-core"
+  ],
+  "assetOrder": [
+    "site:bizcredit-os",
+    "partner:credit-suite",
+    "template:credit-score-simulator",
+    "template:business-credit-builder-roadmap",
+    "template:startup-credit-stacker-console",
+    "tool:credit-score-simulator"
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "id": "tools",
+  "slug": "tools",
+  "label": "Tools",
+  "brandId": "moonshine-capital",
+  "brandName": "Moonshine Capital",
+  "route": {
+    "host": "tools.distilledfunding.com",
+    "path": "/"
+  },
+  "aliasPaths": [
+    "/tools"
+  ],
+  "sourceRouteId": "route:tools-home",
+  "theme": {
+    "primaryColor": "#ffffff",
+    "accentColor": "#3b82f6",
+    "highlightColor": "#10b981",
+    "background": "light"
+  },
+  "contentSources": {
+    "notion": [
+      "resource:tools-hub"
+    ],
+    "repos": [
+      "repo:funding-tools-os",
+      "repo:funding-tools-static",
+      "repo:distilled-tools-pro",
+      "repo:embed-widgets"
+    ],
+    "sites": [
+      "site:funding-tools-os",
+      "site:funding-tools-static",
+      "site:distilled-tools-pro"
+    ],
+    "templates": [
+      "template:funding-tools-dashboard",
+      "template:funding-product-comparison-tool",
+      "template:compliance-legal-module-generator"
+    ]
+  },
+  "pageType": "tools-dashboard",
+  "layout": "tools-dashboard",
+  "seo": {
+    "title": "Funding Tools & Calculators | Moonshine Capital",
+    "description": "Calculators, comparison tools, quizzes, templates, and widgets for smarter financing decisions."
+  },
+  "hero": {
+    "headline": "Free Business Funding Tools & Calculators",
+    "subheadline": "Make smarter financing decisions with calculators, comparison tools, quizzes, templates, and embedded widgets.",
+    "primaryCtaLabel": "Explore All Tools",
+    "primaryCtaUrl": "#tool-grid",
+    "secondaryCtaLabel": "Take the Funding Quiz",
+    "secondaryCtaUrl": "/tools/quiz"
+  },
+  "categories": [
+    "Calculators",
+    "Comparison Tools",
+    "Credit & Qualification",
+    "Planning & Analysis",
+    "Forms & Templates"
+  ],
+  "leadCapture": {
+    "mode": "progressive-gate",
+    "free": "basic-results",
+    "paid": "consultation-upsell"
+  },
+  "collections": [
+    "tools-core"
+  ],
+  "assetOrder": [
+    "site:funding-tools-os",
+    "site:funding-tools-static",
+    "site:distilled-tools-pro",
+    "tool:funding-eligibility-calculator",
+    "tool:payment-calculator",
+    "widget:funding-calculator-widget",
+    "widget:qualifying-quiz-funnel",
+    "template:funding-product-comparison-tool"
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "id": "plumbers",
+  "slug": "plumbers",
+  "label": "Plumbers",
+  "brandId": "moonshine-capital",
+  "brandName": "Moonshine Capital",
+  "route": {
+    "host": "distilledfunding.com",
+    "path": "/plumbers"
+  },
+  "aliasPaths": [],
+  "sourceRouteId": "route:plumbers",
+  "theme": {
+    "primaryColor": "#111827",
+    "accentColor": "#38bdf8",
+    "background": "dark"
+  },
+  "contentSources": {
+    "notion": ["resource:plumber-funding-hub"],
+    "repos": ["repo:plumber-funding-funnel"],
+    "sites": ["site:plumber-funding-funnel"],
+    "templates": ["template:emergency-job-cashflow-plan"]
+  },
+  "pageType": "vertical-funnel",
+  "layout": "comparison-plus-cta",
+  "seo": {
+    "title": "Plumber Funding for Emergency Jobs, Materials, and Growth",
+    "description": "Fast funding options for plumbers who need to cover materials, payroll, and emergency job demand."
+  },
+  "hero": {
+    "headline": "Plumber Funding for Emergency Jobs, Materials, and Growth",
+    "subheadline": "Emergency calls do not wait for net-30 checks. This page maps plumber cashflow to fast funding lanes that keep trucks moving.",
+    "primaryCtaLabel": "Check Plumber Options",
+    "primaryCtaUrl": "/book",
+    "secondaryCtaLabel": "See Funding Hub",
+    "secondaryCtaUrl": "/funding"
+  },
+  "problem": [
+    "Emergency jobs require parts before invoices clear.",
+    "Crew payroll cannot wait on insurance timelines.",
+    "Busy weeks can break cashflow without a capital buffer."
+  ],
+  "solution": "Match plumbers with deposit-based funding lanes that cover parts, payroll, and surge demand without slow bank paperwork.",
+  "benefits": [
+    "Front materials fast",
+    "Keep trucks staffed",
+    "Smooth out emergency spikes"
+  ],
+  "proof": [
+    {
+      "title": "Emergency-ready positioning",
+      "description": "The page is built for quick-response work and urgent repairs."
+    },
+    {
+      "title": "Clear lane comparison",
+      "description": "Fast options and longer-term options are separated for easy self-selection."
+    },
+    {
+      "title": "Short next step",
+      "description": "A direct CTA keeps the path to funding simple."
+    }
+  ],
+  "howItWorks": [
+    "Share your recent deposits, job size, and timing.",
+    "Compare the fastest option against the most sustainable option.",
+    "Book the lane that keeps jobs moving."
+  ],
+  "useCases": [
+    {
+      "title": "Emergency repair surge",
+      "description": "Use this page when call volume spikes and cash needs to land fast.",
+      "fit": ["urgent", "emergency"]
+    },
+    {
+      "title": "Parts-heavy jobs",
+      "description": "Use it to fund large parts orders before payments clear.",
+      "fit": ["materials", "inventory"]
+    },
+    {
+      "title": "Crew expansion",
+      "description": "Use it to add trucks or techs without stalling payroll.",
+      "fit": ["growth", "payroll"]
+    }
+  ],
+  "objections": [
+    {
+      "q": "Do I need perfect credit?",
+      "a": "Not always. Many options look at deposits and job activity first."
+    },
+    {
+      "q": "Is this only for big plumbing companies?",
+      "a": "No. It works for solo operators and small teams as well."
+    },
+    {
+      "q": "Can this help with same-week jobs?",
+      "a": "Yes. The page highlights the fastest viable lanes first."
+    }
+  ],
+  "finalCta": {
+    "label": "Book a Plumber Review",
+    "href": "/book",
+    "description": "Use this page to turn urgent jobs into stable cashflow."
+  },
+  "collections": ["funding-core"]
+}

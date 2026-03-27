@@ -1,0 +1,105 @@
+{
+  "id": "solar-installers",
+  "slug": "solar-installers",
+  "label": "Solar Installers",
+  "brandId": "moonshine-capital",
+  "brandName": "Moonshine Capital",
+  "route": {
+    "host": "distilledfunding.com",
+    "path": "/solar-installers"
+  },
+  "aliasPaths": [],
+  "sourceRouteId": "route:solar-installers",
+  "theme": {
+    "primaryColor": "#111827",
+    "accentColor": "#fde047",
+    "background": "dark"
+  },
+  "contentSources": {
+    "notion": ["resource:solar-funding-hub"],
+    "repos": ["repo:solar-funding-funnel"],
+    "sites": ["site:solar-funding-funnel"],
+    "templates": ["template:install-cycle-cashflow-plan"]
+  },
+  "pageType": "vertical-funnel",
+  "layout": "comparison-plus-cta",
+  "seo": {
+    "title": "Solar Installer Funding for Equipment, Crews, and Project Lag",
+    "description": "Fast funding options for solar installers to cover equipment, crews, and long sales cycles."
+  },
+  "hero": {
+    "headline": "Solar Installer Funding for Equipment, Crews, and Project Lag",
+    "subheadline": "Solar projects are big-ticket with long cycles. This page keeps cashflow moving between sale, install, and payout.",
+    "primaryCtaLabel": "Check Solar Options",
+    "primaryCtaUrl": "/book",
+    "secondaryCtaLabel": "See Funding Hub",
+    "secondaryCtaUrl": "/funding"
+  },
+  "problem": [
+    "Equipment costs hit before project payouts land.",
+    "Sales cycles can be long, causing cash gaps.",
+    "Crew payroll continues while projects are in flight."
+  ],
+  "solution": "Match solar installers with funding lanes that bridge long project timelines and high equipment costs.",
+  "benefits": [
+    "Cover equipment fast",
+    "Bridge project lag",
+    "Keep crews active"
+  ],
+  "proof": [
+    {
+      "title": "Project-lag awareness",
+      "description": "The page is built for long sales and installation cycles."
+    },
+    {
+      "title": "Equipment-first framing",
+      "description": "It starts with the up-front cost pressure installers face."
+    },
+    {
+      "title": "Direct CTA",
+      "description": "A clear next step keeps momentum."
+    }
+  ],
+  "howItWorks": [
+    "Share your install cycle timing and deposit history.",
+    "Compare speed vs. sustainability lanes.",
+    "Book the lane that keeps installs moving."
+  ],
+  "useCases": [
+    {
+      "title": "Equipment purchase",
+      "description": "Use it to fund panels, inverters, and hardware.",
+      "fit": ["equipment", "inventory"]
+    },
+    {
+      "title": "Project backlog",
+      "description": "Use it when payouts lag but installs continue.",
+      "fit": ["project lag", "cashflow"]
+    },
+    {
+      "title": "Crew expansion",
+      "description": "Use it to add install teams during demand spikes.",
+      "fit": ["growth", "payroll"]
+    }
+  ],
+  "objections": [
+    {
+      "q": "Do I need long business history?",
+      "a": "Not always. Many options consider recent deposits and contracts."
+    },
+    {
+      "q": "Is this only for big installers?",
+      "a": "No. It works for regional teams and smaller crews."
+    },
+    {
+      "q": "Can funding cover equipment quickly?",
+      "a": "Yes. Faster lanes are highlighted first."
+    }
+  ],
+  "finalCta": {
+    "label": "Book a Solar Review",
+    "href": "/book",
+    "description": "Use this page to keep installs moving between sale and payout."
+  },
+  "collections": ["funding-core"]
+}

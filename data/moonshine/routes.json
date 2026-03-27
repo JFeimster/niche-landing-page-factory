@@ -1,0 +1,594 @@
+{
+  "version": "1.0.0",
+  "defaultBrandId": "moonshine-capital",
+  "brands": [
+    {
+      "id": "moonshine-capital",
+      "name": "Moonshine Capital",
+      "primaryDomain": "distilledfunding.com",
+      "defaultSubdomainStrategy": "category-subdomain",
+      "theme": {
+        "primaryColor": "#00F0FF",
+        "accentColor": "#FACC15",
+        "background": "dark"
+      },
+      "cloneVariables": [
+        "brandName",
+        "logoUrl",
+        "primaryColor",
+        "accentColor",
+        "heroCopy",
+        "primaryCtas",
+        "affiliateLinks",
+        "notionUrls",
+        "customDomain"
+      ]
+    }
+  ],
+  "hosts": [
+    {
+      "host": "distilledfunding.com",
+      "brandId": "moonshine-capital",
+      "fallbackRouteId": "route:home",
+      "aliases": [
+        "www.distilledfunding.com"
+      ]
+    },
+    {
+      "host": "partners.distilledfunding.com",
+      "brandId": "moonshine-capital",
+      "fallbackRouteId": "route:partners-home"
+    },
+    {
+      "host": "tools.distilledfunding.com",
+      "brandId": "moonshine-capital",
+      "fallbackRouteId": "route:tools-home"
+    },
+    {
+      "host": "app.distilledfunding.com",
+      "brandId": "moonshine-capital",
+      "fallbackRouteId": "route:partner-portal"
+    },
+    {
+      "host": "blog.distilledfunding.com",
+      "brandId": "moonshine-capital",
+      "fallbackRouteId": "route:blog-home"
+    },
+    {
+      "host": "banking.distilledfunding.com",
+      "brandId": "moonshine-capital",
+      "fallbackRouteId": "route:banking-home"
+    },
+    {
+      "host": "credit.distilledfunding.com",
+      "brandId": "moonshine-capital",
+      "fallbackRouteId": "route:credit-home"
+    },
+    {
+      "host": "ecom.distilledfunding.com",
+      "brandId": "moonshine-capital",
+      "fallbackRouteId": "route:ecom-home"
+    }
+  ],
+  "routes": [
+    {
+      "id": "route:home",
+      "host": "distilledfunding.com",
+      "path": "/",
+      "pageType": "brand-hub",
+      "title": "Moonshine Capital",
+      "layout": "hub",
+      "nav": [
+        "route:funding-home",
+        "route:partners-home",
+        "route:credit-home",
+        "route:banking-home",
+        "route:tools-home",
+        "route:ai-home"
+      ],
+      "collections": [
+        "funding-core",
+        "dac-team-core",
+        "credit-core",
+        "banking-core",
+        "tools-core",
+        "ai-core"
+      ],
+      "featuredAssets": [
+        "site:moonshine-funding-funnel",
+        "site:moonshine-broker",
+        "site:funding-tools-os",
+        "site:bizcredit-os",
+        "site:bizfin-bank",
+        "site:finops-ai"
+      ]
+    },
+    {
+      "id": "route:partners-home",
+      "host": "partners.distilledfunding.com",
+      "path": "/",
+      "pageType": "partner-recruitment",
+      "title": "Partners | Moonshine Capital",
+      "layout": "partner-recruitment",
+      "collections": [
+        "dac-team-core"
+      ],
+      "heroAsset": "template:partner-recruitment-landing-page",
+      "primaryCta": {
+        "label": "Apply to Become a Funding Partner",
+        "type": "form",
+        "funnelId": "dac-team"
+      },
+      "secondaryCta": {
+        "label": "Watch the Overview",
+        "type": "link",
+        "url": "https://bit.ly/47TX5SO"
+      },
+      "assetOrder": [
+        "site:moonshine-broker",
+        "site:funding-partners-os",
+        "site:dac-affiliate-enablement",
+        "site:partner-growth-hub",
+        "site:partner-onboarding",
+        "resource:moonshine-community"
+      ],
+      "cloneTemplate": true,
+      "cloneVariables": [
+        "brandName",
+        "heroCopy",
+        "proof",
+        "offerStack",
+        "links",
+        "theme",
+        "domain"
+      ]
+    },
+    {
+      "id": "route:partners-dac-team",
+      "host": "partners.distilledfunding.com",
+      "path": "/dac-team",
+      "pageType": "vertical-funnel",
+      "title": "DAC Team",
+      "layout": "recruitment-funnel",
+      "collections": [
+        "dac-team-core"
+      ],
+      "assetOrder": [
+        "site:dac-affiliate-enablement",
+        "site:moonshine-broker",
+        "site:partner-growth-hub",
+        "site:partner-onboarding",
+        "template:viral-referral-reward-engine"
+      ]
+    },
+    {
+      "id": "route:funding-home",
+      "host": "distilledfunding.com",
+      "path": "/funding",
+      "pageType": "resource-hub",
+      "title": "Funding Hub",
+      "layout": "resource-hub",
+      "collections": [
+        "funding-core"
+      ],
+      "heroAsset": "assistant:funding-pathfinder-gpt",
+      "assetOrder": [
+        "resource:funding-hub",
+        "site:moonshine-funding-funnel",
+        "site:moonshine-funding-landing",
+        "site:operator-funding-site",
+        "site:funding-ceo",
+        "site:ai-funding-pathfinder",
+        "site:ai-funding-coach"
+      ]
+    },
+    {
+      "id": "route:contractors",
+      "host": "distilledfunding.com",
+      "path": "/contractors",
+      "pageType": "vertical-funnel",
+      "title": "Contractor Funding",
+      "layout": "comparison-plus-cta",
+      "collections": [
+        "funding-core"
+      ]
+    },
+    {
+      "id": "route:truckers",
+      "host": "distilledfunding.com",
+      "path": "/truckers",
+      "pageType": "vertical-funnel",
+      "title": "Trucker Funding",
+      "layout": "comparison-plus-cta",
+      "collections": [
+        "funding-core"
+      ]
+    },
+    {
+      "id": "route:roofers",
+      "host": "distilledfunding.com",
+      "path": "/roofers",
+      "pageType": "vertical-funnel",
+      "title": "Roofer Funding",
+      "layout": "comparison-plus-cta",
+      "collections": [
+        "funding-core"
+      ]
+    },
+    {
+      "id": "route:med-spa",
+      "host": "distilledfunding.com",
+      "path": "/med-spa",
+      "pageType": "vertical-funnel",
+      "title": "Med Spa Funding",
+      "layout": "comparison-plus-cta",
+      "collections": [
+        "funding-core"
+      ]
+    },
+    {
+      "id": "route:dentists",
+      "host": "distilledfunding.com",
+      "path": "/dentists",
+      "pageType": "vertical-funnel",
+      "title": "Dentist Funding",
+      "layout": "comparison-plus-cta",
+      "collections": [
+        "funding-core"
+      ]
+    },
+    {
+      "id": "route:law-firms",
+      "host": "distilledfunding.com",
+      "path": "/law-firms",
+      "pageType": "vertical-funnel",
+      "title": "Law Firm Funding",
+      "layout": "comparison-plus-cta",
+      "collections": [
+        "funding-core"
+      ]
+    },
+    {
+      "id": "route:plumbers",
+      "host": "distilledfunding.com",
+      "path": "/plumbers",
+      "pageType": "vertical-funnel",
+      "title": "Plumber Funding",
+      "layout": "comparison-plus-cta",
+      "collections": [
+        "funding-core"
+      ]
+    },
+    {
+      "id": "route:hvac",
+      "host": "distilledfunding.com",
+      "path": "/hvac",
+      "pageType": "vertical-funnel",
+      "title": "HVAC Funding",
+      "layout": "comparison-plus-cta",
+      "collections": [
+        "funding-core"
+      ]
+    },
+    {
+      "id": "route:landscapers",
+      "host": "distilledfunding.com",
+      "path": "/landscapers",
+      "pageType": "vertical-funnel",
+      "title": "Landscaper Funding",
+      "layout": "comparison-plus-cta",
+      "collections": [
+        "funding-core"
+      ]
+    },
+    {
+      "id": "route:cleaning-services",
+      "host": "distilledfunding.com",
+      "path": "/cleaning-services",
+      "pageType": "vertical-funnel",
+      "title": "Cleaning Service Funding",
+      "layout": "comparison-plus-cta",
+      "collections": [
+        "funding-core"
+      ]
+    },
+    {
+      "id": "route:auto-repair",
+      "host": "distilledfunding.com",
+      "path": "/auto-repair",
+      "pageType": "vertical-funnel",
+      "title": "Auto Repair Funding",
+      "layout": "comparison-plus-cta",
+      "collections": [
+        "funding-core"
+      ]
+    },
+    {
+      "id": "route:restaurants",
+      "host": "distilledfunding.com",
+      "path": "/restaurants",
+      "pageType": "vertical-funnel",
+      "title": "Restaurant Funding",
+      "layout": "comparison-plus-cta",
+      "collections": [
+        "funding-core"
+      ]
+    },
+    {
+      "id": "route:solar-installers",
+      "host": "distilledfunding.com",
+      "path": "/solar-installers",
+      "pageType": "vertical-funnel",
+      "title": "Solar Installer Funding",
+      "layout": "comparison-plus-cta",
+      "collections": [
+        "funding-core"
+      ]
+    },
+    {
+      "id": "route:pest-control",
+      "host": "distilledfunding.com",
+      "path": "/pest-control",
+      "pageType": "vertical-funnel",
+      "title": "Pest Control Funding",
+      "layout": "comparison-plus-cta",
+      "collections": [
+        "funding-core"
+      ]
+    },
+    {
+      "id": "route:funding-business",
+      "host": "distilledfunding.com",
+      "path": "/funding/business",
+      "pageType": "category-detail",
+      "title": "Business Funding",
+      "layout": "comparison-plus-cta",
+      "collections": [
+        "funding-core"
+      ],
+      "assetOrder": [
+        "site:moonshine-funding-funnel",
+        "site:operator-funding-site",
+        "tool:funding-eligibility-calculator",
+        "assistant:funding-pathfinder-gpt"
+      ]
+    },
+    {
+      "id": "route:funding-real-estate",
+      "host": "distilledfunding.com",
+      "path": "/funding/real-estate",
+      "pageType": "category-detail",
+      "title": "Real Estate Funding",
+      "layout": "comparison-plus-cta",
+      "collections": [
+        "funding-core"
+      ],
+      "assetOrder": [
+        "resource:funding-hub",
+        "site:operator-funding-site"
+      ]
+    },
+    {
+      "id": "route:funding-personal",
+      "host": "distilledfunding.com",
+      "path": "/funding/personal",
+      "pageType": "category-detail",
+      "title": "Personal Funding",
+      "layout": "comparison-plus-cta",
+      "collections": [
+        "funding-core"
+      ],
+      "assetOrder": [
+        "resource:funding-hub",
+        "assistant:funding-pathfinder-gpt"
+      ]
+    },
+    {
+      "id": "route:ecom-home",
+      "host": "ecom.distilledfunding.com",
+      "path": "/",
+      "pageType": "vertical-hub",
+      "title": "eCommerce Funding",
+      "layout": "vertical-hub",
+      "collections": [
+        "ecom-core"
+      ],
+      "assetOrder": [
+        "site:seller-funding",
+        "site:amazon-payout-unlocker",
+        "partner:8fig",
+        "template:stockout-death-spiral-estimator",
+        "template:amazon-phantom-cash-audit",
+        "template:tiktok-shop-viral-curse-manager"
+      ],
+      "primaryCta": {
+        "label": "Find My Best Seller Funding Path",
+        "type": "quiz",
+        "url": "/quiz/ecom"
+      }
+    },
+    {
+      "id": "route:credit-home",
+      "host": "credit.distilledfunding.com",
+      "path": "/",
+      "pageType": "credit-hub",
+      "title": "Credit Hub",
+      "layout": "credit-hub",
+      "collections": [
+        "credit-core"
+      ],
+      "assetOrder": [
+        "site:bizcredit-os",
+        "partner:credit-suite",
+        "template:credit-score-simulator",
+        "template:business-credit-builder-roadmap",
+        "template:startup-credit-stacker-console",
+        "tool:credit-score-simulator"
+      ]
+    },
+    {
+      "id": "route:banking-home",
+      "host": "banking.distilledfunding.com",
+      "path": "/",
+      "pageType": "banking-hub",
+      "title": "Banking Hub",
+      "layout": "banking-hub",
+      "collections": [
+        "banking-core"
+      ],
+      "assetOrder": [
+        "site:bizfin-bank",
+        "site:bizfin-os",
+        "widget:pay-monthly-widget",
+        "template:smb-financial-os",
+        "template:instant-payout-network",
+        "template:open-banking-connector"
+      ]
+    },
+    {
+      "id": "route:tools-home",
+      "host": "tools.distilledfunding.com",
+      "path": "/",
+      "pageType": "tools-dashboard",
+      "title": "Funding Tools & Calculators",
+      "layout": "tools-dashboard",
+      "collections": [
+        "tools-core"
+      ],
+      "assetOrder": [
+        "site:funding-tools-os",
+        "site:funding-tools-static",
+        "site:distilled-tools-pro",
+        "tool:funding-eligibility-calculator",
+        "tool:payment-calculator",
+        "widget:funding-calculator-widget",
+        "widget:qualifying-quiz-funnel",
+        "template:funding-product-comparison-tool"
+      ],
+      "leadCapture": {
+        "mode": "progressive-gate",
+        "free": "basic-results",
+        "paid": "consultation-upsell"
+      }
+    },
+    {
+      "id": "route:tools-category-calculators",
+      "host": "tools.distilledfunding.com",
+      "path": "/calculators",
+      "pageType": "tool-collection",
+      "title": "Calculators",
+      "layout": "tool-grid",
+      "collections": [
+        "tools-core"
+      ],
+      "assetOrder": [
+        "tool:funding-eligibility-calculator",
+        "tool:payment-calculator",
+        "tool:credit-score-simulator"
+      ]
+    },
+    {
+      "id": "route:tools-category-templates",
+      "host": "tools.distilledfunding.com",
+      "path": "/templates",
+      "pageType": "tool-collection",
+      "title": "Templates",
+      "layout": "template-grid",
+      "collections": [
+        "tools-core"
+      ],
+      "assetOrder": [
+        "template:funding-tools-dashboard",
+        "template:funding-product-comparison-tool",
+        "template:compliance-legal-module-generator"
+      ]
+    },
+    {
+      "id": "route:ai-home",
+      "host": "distilledfunding.com",
+      "path": "/ai",
+      "pageType": "ai-hub",
+      "title": "AI Agents & Assistants",
+      "layout": "ai-hub",
+      "collections": [
+        "ai-core"
+      ],
+      "assetOrder": [
+        "site:finops-ai",
+        "site:agent-grid",
+        "site:elite-broker-ai",
+        "assistant:funding-pathfinder-gpt",
+        "assistant:ai-funding-coach",
+        "template:white-label-partner-portal",
+        "template:venture-studio-dashboard"
+      ]
+    },
+    {
+      "id": "route:partner-portal",
+      "host": "app.distilledfunding.com",
+      "path": "/",
+      "pageType": "portal-app",
+      "title": "Partner Portal",
+      "layout": "authenticated-app",
+      "collections": [
+        "dac-team-core",
+        "tools-core"
+      ],
+      "assetOrder": [
+        "site:agent-portal",
+        "site:partner-onboarding",
+        "site:funding-partners-os",
+        "site:distilled-tools-pro"
+      ],
+      "auth": {
+        "required": true,
+        "roles": [
+          "partner",
+          "agency-builder",
+          "admin"
+        ]
+      },
+      "features": [
+        "lead-management",
+        "commission-tracking",
+        "application-submission",
+        "training-modules",
+        "marketing-resources",
+        "team-management",
+        "performance-analytics"
+      ]
+    },
+    {
+      "id": "route:blog-home",
+      "host": "blog.distilledfunding.com",
+      "path": "/",
+      "pageType": "content-hub",
+      "title": "Blog & Guides",
+      "layout": "mdx-blog",
+      "collections": [
+        "funding-core",
+        "credit-core",
+        "ecom-core"
+      ],
+      "assetOrder": [
+        "resource:funding-hub",
+        "resource:tools-hub",
+        "resource:credit-guides",
+        "resource:banking-guides"
+      ]
+    }
+  ],
+  "routingRules": {
+    "copyPasteable": true,
+    "brandCloneStrategy": "duplicate brand object, swap cloneVariables, keep route IDs + asset IDs unless asset differs",
+    "subdomainFirst": true,
+    "pathFallback": true,
+    "pathFallbackExamples": {
+      "partners.distilledfunding.com": "/partners",
+      "tools.distilledfunding.com": "/tools",
+      "banking.distilledfunding.com": "/banking",
+      "credit.distilledfunding.com": "/credit",
+      "ecom.distilledfunding.com": "/ecom"
+    }
+  }
+}

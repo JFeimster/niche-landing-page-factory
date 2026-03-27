@@ -1,9 +1,9 @@
 import type { MetadataRoute } from "next";
-import { loadData } from "@/lib/verticals";
+import { getSiteConfig } from "@/lib/moonshine";
 
 export default function robots(): MetadataRoute.Robots {
-  const { site } = loadData();
-  const base = site.domain.startsWith("http") ? site.domain : `https://${site.domain}`;
+  const site = getSiteConfig();
+  const base = `https://${site.domain}`;
 
   return {
     rules: {

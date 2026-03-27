@@ -1,0 +1,128 @@
+{
+  "id": "moonshine-home",
+  "slug": "moonshine",
+  "label": "Moonshine",
+  "brandId": "moonshine-capital",
+  "brandName": "Moonshine Capital",
+  "route": {
+    "host": "distilledfunding.com",
+    "path": "/moonshine"
+  },
+  "aliasPaths": [
+    "/"
+  ],
+  "sourceRouteId": "route:home",
+  "theme": {
+    "primaryColor": "#00F0FF",
+    "accentColor": "#FACC15",
+    "background": "dark"
+  },
+  "contentSources": {
+    "notion": [
+      "resource:funding-hub",
+      "resource:tools-hub"
+    ],
+    "repos": [
+      "repo:moonshine-funding-funnel",
+      "repo:moonshine-funding-static",
+      "repo:operator-funding-site",
+      "repo:funding-ceo",
+      "repo:ai-funding-pathfinder",
+      "repo:ai-funding-coach",
+      "repo:moonshine-broker",
+      "repo:dac-affiliate-enablement",
+      "repo:funding-partners-os",
+      "repo:partner-growth-hub",
+      "repo:partner-onboarding",
+      "repo:BizCredit",
+      "repo:BizCreditOS",
+      "repo:bizfin-os-smart-banking",
+      "repo:BizFin-OS",
+      "repo:pay-monthly-widget",
+      "repo:funding-tools-os",
+      "repo:funding-tools-static",
+      "repo:distilled-tools-pro",
+      "repo:embed-widgets",
+      "repo:FinOps-AI-Agents",
+      "repo:Agent-Grid",
+      "repo:EliteBroker-AI"
+    ],
+    "sites": [
+      "site:moonshine-funding-funnel",
+      "site:moonshine-funding-landing",
+      "site:operator-funding-site",
+      "site:funding-ceo",
+      "site:ai-funding-pathfinder",
+      "site:ai-funding-coach",
+      "site:partners-home",
+      "site:funding-partners-os",
+      "site:dac-affiliate-enablement",
+      "site:partner-growth-hub",
+      "site:partner-onboarding",
+      "site:moonshine-broker",
+      "site:bizcredit-os",
+      "site:bizfin-bank",
+      "site:bizfin-os",
+      "site:funding-tools-os",
+      "site:funding-tools-static",
+      "site:distilled-tools-pro",
+      "site:finops-ai",
+      "site:agent-grid",
+      "site:elite-broker-ai"
+    ],
+    "templates": [
+      "template:partner-recruitment-landing-page",
+      "template:agent-onboarding-experience-designer",
+      "template:viral-referral-reward-engine",
+      "template:credit-score-simulator",
+      "template:business-credit-builder-roadmap",
+      "template:startup-credit-stacker-console",
+      "template:smb-financial-os",
+      "template:instant-payout-network",
+      "template:open-banking-connector",
+      "template:funding-tools-dashboard",
+      "template:funding-product-comparison-tool",
+      "template:compliance-legal-module-generator",
+      "template:white-label-partner-portal",
+      "template:venture-studio-dashboard"
+    ]
+  },
+  "pageType": "brand-hub",
+  "layout": "hub",
+  "seo": {
+    "title": "Moonshine Capital | Funding, Credit, Banking, AI & Tools",
+    "description": "Moonshine Capital command center for funding, credit, banking, tools, AI assistants, and partner programs."
+  },
+  "hero": {
+    "headline": "Alternative Funding. Real Hustlers.",
+    "subheadline": "One command center for capital, credit, banking, tools, AI, and partner opportunities built for operators, not permission-seekers.",
+    "primaryCtaLabel": "Explore Funding",
+    "primaryCtaUrl": "/funding",
+    "secondaryCtaLabel": "Become a Partner",
+    "secondaryCtaUrl": "https://partners.distilledfunding.com/"
+  },
+  "navigationRouteIds": [
+    "route:funding-home",
+    "route:partners-home",
+    "route:credit-home",
+    "route:banking-home",
+    "route:tools-home",
+    "route:ai-home"
+  ],
+  "collections": [
+    "funding-core",
+    "dac-team-core",
+    "credit-core",
+    "banking-core",
+    "tools-core",
+    "ai-core"
+  ],
+  "featuredAssets": [
+    "site:moonshine-funding-funnel",
+    "site:moonshine-broker",
+    "site:funding-tools-os",
+    "site:bizcredit-os",
+    "site:bizfin-bank",
+    "site:finops-ai"
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "id": "dentists",
+  "slug": "dentists",
+  "label": "Dentists",
+  "brandId": "moonshine-capital",
+  "brandName": "Moonshine Capital",
+  "route": {
+    "host": "distilledfunding.com",
+    "path": "/dentists"
+  },
+  "aliasPaths": [],
+  "sourceRouteId": "route:dentists",
+  "theme": {
+    "primaryColor": "#111827",
+    "accentColor": "#38bdf8",
+    "background": "dark"
+  },
+  "contentSources": {
+    "notion": ["resource:dental-funding-hub"],
+    "repos": ["repo:dental-funding-funnel"],
+    "sites": ["site:dental-funding-funnel"],
+    "templates": ["template:practice-growth-cashflow-map"]
+  },
+  "pageType": "vertical-funnel",
+  "layout": "comparison-plus-cta",
+  "seo": {
+    "title": "Dentist Funding for Equipment, Buildouts, and Growth",
+    "description": "Funding options for dentists who need equipment, office buildouts, staffing, or expansion capital."
+  },
+  "hero": {
+    "headline": "Dentist Funding for Equipment, Buildouts, and Growth",
+    "subheadline": "Dental practices need capital for chairs, imaging, buildouts, and staffing without slowing down patient flow.",
+    "primaryCtaLabel": "Check Dentist Options",
+    "primaryCtaUrl": "/book",
+    "secondaryCtaLabel": "See Funding Hub",
+    "secondaryCtaUrl": "/funding"
+  },
+  "problem": [
+    "Equipment upgrades are expensive.",
+    "Buildouts take cash before the practice can fully ramp.",
+    "Hiring and retention create ongoing capital pressure."
+  ],
+  "solution": "Help dental buyers connect practice economics to the right funding lane so they can grow without feeling boxed into generic business debt.",
+  "benefits": [
+    "Upgrade equipment",
+    "Fund buildouts",
+    "Support hiring"
+  ],
+  "proof": [
+    {
+      "title": "Practice-specific framing",
+      "description": "The copy aligns with a dentist's capital planning, not a broad small-business template."
+    },
+    {
+      "title": "Clear action",
+      "description": "A short review step is easier for busy practices than a long application."
+    },
+    {
+      "title": "Growth without jargon",
+      "description": "The page keeps the promise straightforward and credible."
+    }
+  ],
+  "howItWorks": [
+    "Share the project: equipment, buildout, or working capital.",
+    "Compare speed, structure, and repayment fit.",
+    "Book the option that keeps the practice moving."
+  ],
+  "useCases": [
+    {
+      "title": "Equipment purchase",
+      "description": "Use it when imaging or chair upgrades need upfront spend.",
+      "fit": ["equipment", "capital"]
+    },
+    {
+      "title": "Office buildout",
+      "description": "Use it when expansion requires construction and setup costs.",
+      "fit": ["buildout", "expansion"]
+    },
+    {
+      "title": "Staffing runway",
+      "description": "Use it when adding hygienists or support staff before revenue catches up.",
+      "fit": ["payroll", "growth"]
+    }
+  ],
+  "objections": [
+    {
+      "q": "Will this fit a solo practice?",
+      "a": "Yes. It is useful for solo dentists, group practices, and growth-mode offices."
+    },
+    {
+      "q": "Can I use this for expansion only?",
+      "a": "Absolutely. It can support buildouts and other capital projects."
+    },
+    {
+      "q": "Is this just another generic loan page?",
+      "a": "No. It is framed around the realities of a dental practice."
+    }
+  ],
+  "finalCta": {
+    "label": "Book a Dental Review",
+    "href": "/book",
+    "description": "Use this page to connect practice growth with the right funding lane."
+  },
+  "collections": ["funding-core"]
+}

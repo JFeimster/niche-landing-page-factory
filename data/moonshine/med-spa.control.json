@@ -1,0 +1,105 @@
+{
+  "id": "med-spa",
+  "slug": "med-spa",
+  "label": "Med Spa",
+  "brandId": "moonshine-capital",
+  "brandName": "Moonshine Capital",
+  "route": {
+    "host": "distilledfunding.com",
+    "path": "/med-spa"
+  },
+  "aliasPaths": [],
+  "sourceRouteId": "route:med-spa",
+  "theme": {
+    "primaryColor": "#111827",
+    "accentColor": "#ec4899",
+    "background": "dark"
+  },
+  "contentSources": {
+    "notion": ["resource:med-spa-funding-hub"],
+    "repos": ["repo:med-spa-funding-funnel"],
+    "sites": ["site:med-spa-funding-funnel"],
+    "templates": ["template:appointment-driven-cashflow-map"]
+  },
+  "pageType": "vertical-funnel",
+  "layout": "comparison-plus-cta",
+  "seo": {
+    "title": "Med Spa Funding for Equipment, Payroll, and Growth",
+    "description": "Capital options for med spas that need equipment, payroll, inventory, or expansion funding."
+  },
+  "hero": {
+    "headline": "Med Spa Funding for Equipment, Payroll, and Growth",
+    "subheadline": "Med spas juggle inventory, staffing, and equipment costs while appointments ramp. This page helps owners compare the fastest path to capital.",
+    "primaryCtaLabel": "Check Med Spa Options",
+    "primaryCtaUrl": "/book",
+    "secondaryCtaLabel": "See Funding Hub",
+    "secondaryCtaUrl": "/funding"
+  },
+  "problem": [
+    "Equipment and inventory can eat cash before bookings fill the calendar.",
+    "Payroll needs to stay on schedule even when demand is uneven.",
+    "Generic lenders do not understand appointment-driven revenue."
+  ],
+  "solution": "Frame funding around bookings, deposits, and growth plans so med spa owners can move faster without overselling the deal.",
+  "benefits": [
+    "Buy equipment sooner",
+    "Smooth payroll",
+    "Fund expansion"
+  ],
+  "proof": [
+    {
+      "title": "Appointment-driven language",
+      "description": "The page speaks in a way that matches the rhythm of a med spa business."
+    },
+    {
+      "title": "Growth-oriented CTA",
+      "description": "The action points to a quick review instead of a long borrowing process."
+    },
+    {
+      "title": "Vertical-specific framing",
+      "description": "The page is tailored enough to feel relevant without becoming brittle."
+    }
+  ],
+  "howItWorks": [
+    "Share your booking pace, equipment need, and growth target.",
+    "Compare the best lane for speed against the best lane for structure.",
+    "Book the path that fits your revenue rhythm."
+  ],
+  "useCases": [
+    {
+      "title": "New equipment",
+      "description": "Use it when adding a device or treatment requires upfront capital.",
+      "fit": ["equipment", "growth"]
+    },
+    {
+      "title": "Payroll bridge",
+      "description": "Use it when staffing costs come due before future appointments cash in.",
+      "fit": ["payroll", "timing"]
+    },
+    {
+      "title": "Opening a second room",
+      "description": "Use it when the business is ready to scale services or locations.",
+      "fit": ["expansion", "operations"]
+    }
+  ],
+  "objections": [
+    {
+      "q": "Is this for established med spas only?",
+      "a": "No. It can work for new operators if the revenue story and banking activity support the request."
+    },
+    {
+      "q": "Do I need expensive collateral?",
+      "a": "Not always. The goal is to surface the right lane first."
+    },
+    {
+      "q": "Can this help with marketing spend?",
+      "a": "Yes. It can be positioned around growth, not just equipment."
+    }
+  ],
+  "finalCta": {
+    "label": "Book a Med Spa Review",
+    "href": "/book",
+    "description": "Use this page to match appointment-driven revenue with the right capital option."
+  },
+  "collections": ["funding-core"]
+}

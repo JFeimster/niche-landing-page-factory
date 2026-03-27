@@ -1,0 +1,148 @@
+{
+  "id": "funding",
+  "slug": "funding",
+  "label": "Funding",
+  "brandId": "moonshine-capital",
+  "brandName": "Moonshine Capital",
+  "route": {
+    "host": "distilledfunding.com",
+    "path": "/funding"
+  },
+  "aliasPaths": [],
+  "sourceRouteId": "route:funding-home",
+  "theme": {
+    "primaryColor": "#111827",
+    "accentColor": "#06b6d4",
+    "highlightColor": "#f59e0b",
+    "background": "dark"
+  },
+  "contentSources": {
+    "notion": [
+      "resource:funding-hub"
+    ],
+    "repos": [
+      "repo:moonshine-funding-funnel",
+      "repo:moonshine-funding-static",
+      "repo:operator-funding-site",
+      "repo:funding-ceo",
+      "repo:ai-funding-pathfinder",
+      "repo:ai-funding-coach"
+    ],
+    "sites": [
+      "site:moonshine-funding-funnel",
+      "site:moonshine-funding-landing",
+      "site:operator-funding-site",
+      "site:funding-ceo",
+      "site:ai-funding-pathfinder",
+      "site:ai-funding-coach"
+    ],
+    "templates": []
+  },
+  "pageType": "resource-hub",
+  "layout": "resource-hub",
+  "seo": {
+    "title": "Funding Solutions Hub | Moonshine Capital",
+    "description": "Business, real estate, and personal funding paths plus AI matching, calculators, and comparison tools."
+  },
+  "hero": {
+    "headline": "Find the Right Capital Before You Apply Blindly Like a Maniac.",
+    "subheadline": "Business funding, real estate capital, personal funding, and strategy tools organized into one clean command center.",
+    "primaryCtaLabel": "Start Funding Pathfinder",
+      "primaryCtaUrl": "https://chatgpt.com/g/g-6876b717ca808191aea5343f89c670e3-funding-pathfinder-gpt",
+      "secondaryCtaLabel": "Browse Funding Categories",
+      "secondaryCtaUrl": "#funding-categories"
+  },
+  "problem": [
+    "Most buyers do not know which capital lane fits their situation, so they apply blind and waste time.",
+    "Different verticals need different proof, different objections, and different language to feel credible.",
+    "Generic pages miss the moment when the user is comparing options and ready to act."
+  ],
+  "solution": "A vertical landing page should start with the exact pain, explain the right lane in plain language, and close with one action that matches the buyer's urgency.",
+  "benefits": [
+    "Clearer qualification",
+    "Faster trust",
+    "Higher conversion intent"
+  ],
+  "proof": [
+    {
+      "title": "One page, one buyer story",
+      "description": "The page is structured around the reader's situation, not a generic product overview."
+    },
+    {
+      "title": "Reusable template",
+      "description": "The same layout can support many verticals while keeping the copy tailored.",
+      "stat": "Scale without clones"
+    },
+    {
+      "title": "Better CTA match",
+      "description": "Primary and final calls to action can reflect the buyer's readiness level."
+    }
+  ],
+  "howItWorks": [
+    "Open with the problem the vertical already feels.",
+    "Explain the offer with one clear promise and three supporting benefits.",
+    "Use proof, use cases, and objections to remove friction before the CTA."
+  ],
+  "useCases": [
+    {
+      "title": "Pre-qualification page",
+      "description": "Ideal when the visitor needs to know whether they should apply, prepare, or look elsewhere.",
+      "fit": ["high intent", "fast decision"]
+    },
+    {
+      "title": "Industry-specific campaign",
+      "description": "Ideal for paid traffic or outbound where the audience expects language that sounds native to their niche.",
+      "fit": ["paid search", "cold outbound"]
+    },
+    {
+      "title": "Content hub landing page",
+      "description": "Ideal when the page needs to connect educational content to a specific conversion path.",
+      "fit": ["SEO", "topic clusters"]
+    }
+  ],
+  "objections": [
+    {
+      "q": "Won't these pages feel repetitive?",
+      "a": "Not if the pain points, proof, examples, and CTAs are actually changing with the vertical."
+    },
+    {
+      "q": "How many verticals should I launch first?",
+      "a": "Start with three to five. Enough to learn, not enough to drown in maintenance."
+    },
+    {
+      "q": "What makes a vertical page worthwhile?",
+      "a": "It should either improve conversion, improve ranking intent, or make outbound campaigns more believable."
+    }
+  ],
+  "finalCta": {
+    "label": "Generate the Next Vertical",
+    "href": "https://YOUR-PRIMARY-APPLY-LINK",
+    "description": "Use the same structure, but swap in the buyer's language, proof, and objections."
+  },
+  "fundingCategories": [
+    {
+      "id": "business",
+      "label": "Business Funding"
+    },
+    {
+      "id": "real-estate",
+      "label": "Real Estate Funding"
+    },
+    {
+      "id": "personal",
+      "label": "Personal Funding"
+    }
+  ],
+  "collections": [
+    "funding-core"
+  ],
+  "assetOrder": [
+    "resource:funding-hub",
+    "site:moonshine-funding-funnel",
+    "site:moonshine-funding-landing",
+    "site:operator-funding-site",
+    "site:funding-ceo",
+    "site:ai-funding-pathfinder",
+    "site:ai-funding-coach"
+  ]
+}

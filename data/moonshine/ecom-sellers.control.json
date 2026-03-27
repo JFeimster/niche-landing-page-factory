@@ -1,0 +1,86 @@
+{
+  "id": "ecom-sellers",
+  "slug": "ecom-sellers",
+  "label": "eCom Sellers",
+  "brandId": "moonshine-capital",
+  "brandName": "Moonshine Capital",
+  "route": {
+    "host": "distilledfunding.com",
+    "path": "/ecom-sellers"
+  },
+  "aliasPaths": [
+    "https://ecom.distilledfunding.com/"
+  ],
+  "sourceRouteId": "route:ecom-home",
+  "theme": {
+    "primaryColor": "#0f172a",
+    "accentColor": "#22c55e",
+    "highlightColor": "#ef4444",
+    "background": "dark"
+  },
+  "contentSources": {
+    "notion": [
+      "resource:funding-hub"
+    ],
+    "repos": [
+      "repo:seller-funding",
+      "repo:amazon-payout-unlocker",
+      "repo:market-sniper-hub"
+    ],
+    "sites": [
+      "site:seller-funding",
+      "site:amazon-payout-unlocker"
+    ],
+    "templates": [
+      "template:stockout-death-spiral-estimator",
+      "template:amazon-phantom-cash-audit",
+      "template:tiktok-shop-viral-curse-manager"
+    ]
+  },
+  "pageType": "vertical-funnel",
+  "layout": "seller-funding-funnel",
+  "seo": {
+    "title": "eCom Sellers Funding | Inventory, Ads, Cash Flow | Moonshine Capital",
+    "description": "Capital paths for Amazon, Shopify, Walmart, and TikTok Shop sellers. Compare options for inventory, ad spend, payouts, and growth."
+  },
+  "hero": {
+    "headline": "Capital for Sellers Who\u2019d Prefer Not to Die in a Stockout.",
+    "subheadline": "Inventory, launch, ad-spend, and cash-flow funding for Amazon, Shopify, Walmart, and TikTok Shop operators.",
+    "primaryCtaLabel": "Find My Best Seller Funding Path",
+    "primaryCtaType": "quiz",
+    "primaryCtaUrl": "/quiz/ecom",
+    "secondaryCtaLabel": "Compare Seller Funding Options",
+    "secondaryCtaUrl": "/compare/ecom"
+  },
+  "sections": [
+    "hero",
+    "problem-cards",
+    "product-grid",
+    "use-cases",
+    "calculator-strip",
+    "related-guides",
+    "faq",
+    "lead-capture"
+  ],
+  "collections": [
+    "ecom-core"
+  ],
+  "assetOrder": [
+    "site:seller-funding",
+    "site:amazon-payout-unlocker",
+    "partner:8fig",
+    "template:stockout-death-spiral-estimator",
+    "template:amazon-phantom-cash-audit",
+    "template:tiktok-shop-viral-curse-manager",
+    "repo:market-sniper-hub"
+  ],
+  "partners": [
+    "partner:8fig"
+  ],
+  "relatedGuides": [
+    "Amazon Lending Alternatives",
+    "How to Fund Inventory Without Nuking Margins",
+    "Onramp vs Payability vs 8fig",
+    "Revenue-Based Financing for eCommerce"
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "id": "ecom",
+  "slug": "ecom",
+  "label": "eCom",
+  "brandId": "moonshine-capital",
+  "brandName": "Moonshine Capital",
+  "route": {
+    "host": "distilledfunding.com",
+    "path": "/ecom"
+  },
+  "aliasPaths": [
+    "https://ecom.distilledfunding.com/"
+  ],
+  "sourceRouteId": "route:ecom-home",
+  "theme": {
+    "primaryColor": "#0f172a",
+    "accentColor": "#22c55e",
+    "highlightColor": "#ef4444",
+    "background": "dark"
+  },
+  "contentSources": {
+    "notion": [
+      "resource:funding-hub"
+    ],
+    "repos": [
+      "repo:seller-funding",
+      "repo:amazon-payout-unlocker",
+      "repo:market-sniper-hub"
+    ],
+    "sites": [
+      "site:seller-funding",
+      "site:amazon-payout-unlocker"
+    ],
+    "templates": [
+      "template:stockout-death-spiral-estimator",
+      "template:amazon-phantom-cash-audit",
+      "template:tiktok-shop-viral-curse-manager"
+    ]
+  },
+  "pageType": "vertical-hub",
+  "layout": "vertical-hub",
+  "seo": {
+    "title": "eCommerce Funding Hub | Moonshine Capital",
+    "description": "Funding paths, comparisons, tools, and seller-specific resources for eCommerce brands."
+  },
+  "hero": {
+    "headline": "Help eCom Sellers Unlock the Capital to Scale.",
+    "subheadline": "Inventory funding, payout smoothing, launch capital, and growth planning for Amazon, Shopify, Walmart, and TikTok Shop brands.",
+    "primaryCtaLabel": "Apply to Partner",
+    "primaryCtaType": "form",
+    "secondaryCtaLabel": "Compare Seller Funding Options",
+    "secondaryCtaUrl": "/compare/ecom"
+  },
+  "sections": [
+    "hero",
+    "problem-cards",
+    "product-grid",
+    "use-cases",
+    "calculator-strip",
+    "related-guides",
+    "faq",
+    "lead-capture"
+  ],
+  "collections": [
+    "ecom-core"
+  ],
+  "assetOrder": [
+    "site:seller-funding",
+    "site:amazon-payout-unlocker",
+    "partner:8fig",
+    "template:stockout-death-spiral-estimator",
+    "template:amazon-phantom-cash-audit",
+    "template:tiktok-shop-viral-curse-manager",
+    "repo:market-sniper-hub"
+  ]
+}

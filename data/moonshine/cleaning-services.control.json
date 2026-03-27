@@ -1,0 +1,105 @@
+{
+  "id": "cleaning-services",
+  "slug": "cleaning-services",
+  "label": "Cleaning Services",
+  "brandId": "moonshine-capital",
+  "brandName": "Moonshine Capital",
+  "route": {
+    "host": "distilledfunding.com",
+    "path": "/cleaning-services"
+  },
+  "aliasPaths": [],
+  "sourceRouteId": "route:cleaning-services",
+  "theme": {
+    "primaryColor": "#111827",
+    "accentColor": "#a78bfa",
+    "background": "dark"
+  },
+  "contentSources": {
+    "notion": ["resource:cleaning-funding-hub"],
+    "repos": ["repo:cleaning-funding-funnel"],
+    "sites": ["site:cleaning-funding-funnel"],
+    "templates": ["template:contract-cashflow-plan"]
+  },
+  "pageType": "vertical-funnel",
+  "layout": "comparison-plus-cta",
+  "seo": {
+    "title": "Cleaning Service Funding for Payroll, Contracts, and Growth",
+    "description": "Fast funding options for cleaning services to cover payroll, supplies, and new contract growth."
+  },
+  "hero": {
+    "headline": "Cleaning Service Funding for Payroll, Contracts, and Growth",
+    "subheadline": "Cleaning businesses win on consistency, but payroll hits before contract checks clear. This page fixes that gap.",
+    "primaryCtaLabel": "Check Cleaning Options",
+    "primaryCtaUrl": "/book",
+    "secondaryCtaLabel": "See Funding Hub",
+    "secondaryCtaUrl": "/funding"
+  },
+  "problem": [
+    "Payroll hits weekly while contracts pay monthly.",
+    "Supply purchases stack up before invoices clear.",
+    "Winning more contracts can create a cash crunch."
+  ],
+  "solution": "Give cleaning operators a funding page that matches contract timing to the right capital lane.",
+  "benefits": [
+    "Cover payroll gaps",
+    "Stock supplies reliably",
+    "Scale new contracts"
+  ],
+  "proof": [
+    {
+      "title": "Contract-aware framing",
+      "description": "The page speaks to recurring contracts and predictable service cycles."
+    },
+    {
+      "title": "Clear comparison",
+      "description": "Fast lanes vs. longer-term lanes are separated for clarity."
+    },
+    {
+      "title": "Low-friction CTA",
+      "description": "The next step is short and direct."
+    }
+  ],
+  "howItWorks": [
+    "Share your contract size and deposit rhythm.",
+    "Compare speed vs. cost tradeoffs.",
+    "Book the lane that keeps payroll on time."
+  ],
+  "useCases": [
+    {
+      "title": "New contract ramp",
+      "description": "Use it when a bigger contract starts before cash clears.",
+      "fit": ["contracts", "growth"]
+    },
+    {
+      "title": "Payroll bridge",
+      "description": "Use it to keep crews paid during invoice gaps.",
+      "fit": ["payroll", "timing"]
+    },
+    {
+      "title": "Supply bulk buy",
+      "description": "Use it to stock cleaning supplies at lower unit cost.",
+      "fit": ["supplies", "inventory"]
+    }
+  ],
+  "objections": [
+    {
+      "q": "Do I need long business history?",
+      "a": "Not always. Many options use recent deposits and contract history."
+    },
+    {
+      "q": "Is this only for big cleaning companies?",
+      "a": "No. It works for solo operators and small teams."
+    },
+    {
+      "q": "Can I use it for payroll?",
+      "a": "Yes. Payroll bridging is a core use case."
+    }
+  ],
+  "finalCta": {
+    "label": "Book a Cleaning Review",
+    "href": "/book",
+    "description": "Use this page to keep contracts profitable and crews paid."
+  },
+  "collections": ["funding-core"]
+}

@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import Link from "next/link";
-import { loadData } from "@/lib/verticals";
+import { getSiteConfig } from "@/lib/moonshine";
 
 export async function generateMetadata(): Promise<Metadata> {
-  const { site } = loadData();
+  const site = getSiteConfig();
   const url = `https://${site.domain}`;
   return {
     title: {
@@ -23,7 +23,7 @@ export async function generateMetadata(): Promise<Metadata> {
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
-  const { site } = loadData();
+  const site = getSiteConfig();
 
   return (
     <html lang="en" className="dark">

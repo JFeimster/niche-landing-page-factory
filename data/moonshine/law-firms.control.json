@@ -1,0 +1,105 @@
+{
+  "id": "law-firms",
+  "slug": "law-firms",
+  "label": "Law Firms",
+  "brandId": "moonshine-capital",
+  "brandName": "Moonshine Capital",
+  "route": {
+    "host": "distilledfunding.com",
+    "path": "/law-firms"
+  },
+  "aliasPaths": [],
+  "sourceRouteId": "route:law-firms",
+  "theme": {
+    "primaryColor": "#111827",
+    "accentColor": "#a855f7",
+    "background": "dark"
+  },
+  "contentSources": {
+    "notion": ["resource:law-firm-funding-hub"],
+    "repos": ["repo:law-firm-funding-funnel"],
+    "sites": ["site:law-firm-funding-funnel"],
+    "templates": ["template:case-load-cashflow-map"]
+  },
+  "pageType": "vertical-funnel",
+  "layout": "comparison-plus-cta",
+  "seo": {
+    "title": "Law Firm Funding for Case Loads, Payroll, and Expansion",
+    "description": "Capital options for law firms that need working capital, hiring runway, marketing spend, or expansion funding."
+  },
+  "hero": {
+    "headline": "Law Firm Funding for Case Loads, Payroll, and Expansion",
+    "subheadline": "Law firms need capital to hire, market, and handle uneven case cashflow without slowing the practice down.",
+    "primaryCtaLabel": "Check Law Firm Options",
+    "primaryCtaUrl": "/book",
+    "secondaryCtaLabel": "See Funding Hub",
+    "secondaryCtaUrl": "/funding"
+  },
+  "problem": [
+    "Case work pays over time, not always when expenses hit.",
+    "Hiring and marketing need cash before revenue catches up.",
+    "Generic financing pages do not respect the firm's operating cadence."
+  ],
+  "solution": "Position funding around case-load cycles, operating runway, and growth planning so the firm can move without feeling rushed into the wrong product.",
+  "benefits": [
+    "Bridge payroll",
+    "Fund marketing",
+    "Support expansion"
+  ],
+  "proof": [
+    {
+      "title": "Professional-services framing",
+      "description": "The page is written for a law firm's business realities, not consumer lending language."
+    },
+    {
+      "title": "Simple next action",
+      "description": "A booking CTA is easier to trust than a complicated form."
+    },
+    {
+      "title": "Clear buyer fit",
+      "description": "The language helps the right firms self-select fast."
+    }
+  ],
+  "howItWorks": [
+    "Share your firm type, case mix, and capital goal.",
+    "Compare options based on timing, structure, and repayment pressure.",
+    "Book the path that fits your operating model."
+  ],
+  "useCases": [
+    {
+      "title": "Hiring runway",
+      "description": "Use it when you need staff before the next wave of cases closes.",
+      "fit": ["hiring", "runway"]
+    },
+    {
+      "title": "Marketing spend",
+      "description": "Use it to fuel ads, intake, or referral growth campaigns.",
+      "fit": ["marketing", "growth"]
+    },
+    {
+      "title": "Expansion capital",
+      "description": "Use it when a new office or practice area needs upfront investment.",
+      "fit": ["expansion", "ops"]
+    }
+  ],
+  "objections": [
+    {
+      "q": "Does this work for contingency-heavy firms?",
+      "a": "Yes. That is exactly the type of cashflow story this page should support."
+    },
+    {
+      "q": "What if I only need short-term working capital?",
+      "a": "Then the page should surface the fastest lane and keep the conversation simple."
+    },
+    {
+      "q": "Will this feel too salesy?",
+      "a": "It should not. The goal is clarity, not pressure."
+    }
+  ],
+  "finalCta": {
+    "label": "Book a Firm Review",
+    "href": "/book",
+    "description": "Use this page to connect case-flow timing with a real capital path."
+  },
+  "collections": ["funding-core"]
+}

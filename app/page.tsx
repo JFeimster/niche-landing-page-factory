@@ -1,12 +1,13 @@
 import Link from "next/link";
-import { getAllVerticals } from "@/lib/verticals";
+import { getPublishedPages, getSiteConfig } from "@/lib/moonshine";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 
 export default function HomePage() {
-  const { site, verticals } = getAllVerticals();
-  const published = verticals.filter((v) => v.status === "published");
-  const drafts = verticals.filter((v) => v.status !== "published");
+  const site = getSiteConfig();
+  const pages = getPublishedPages();
+  const published = pages.filter((page) => !page.seo.noindex).sort((a, b) => a.slug.localeCompare(b.slug));
+  const drafts = pages.filter((page) => page.seo.noindex);
 
   return (
     <main className="mx-auto max-w-6xl px-4 py-12">
@@ -14,21 +15,20 @@ export default function HomePage() {
         {site.brandName}: Niche Landing Page Factory
       </h1>
       <p className="mt-3 max-w-3xl text-lg text-muted-foreground">
-        One JSON file. Infinite vertical pages. Publish by flipping <code className="rounded bg-muted px-1">status</code> to{" "}
-        <code className="rounded bg-muted px-1">published</code>.
+        Moonshine controls now drive this app. Publish by adding a control file, route mapping, and asset references.
       </p>
 
       <div className="mt-10 grid gap-4 md:grid-cols-2">
-        {published.map((v) => (
-          <Link key={v.slug} href={`/${v.slug}`} className="block">
+        {published.map((page) => (
+          <Link key={`${page.slug}-${page.path}`} href={page.path} className="block">
             <Card className="transition hover:bg-accent/40">
               <CardHeader className="flex flex-row items-center justify-between gap-4">
-                <CardTitle className="text-lg">{v.seo.title}</CardTitle>
+                <CardTitle className="text-lg">{page.seo.title}</CardTitle>
                 <Badge>Published</Badge>
               </CardHeader>
               <CardContent>
-                <p className="text-sm text-muted-foreground">{v.seo.description}</p>
-                <p className="mt-3 text-sm font-semibold">Route: /{v.slug}</p>
+                <p className="text-sm text-muted-foreground">{page.seo.description}</p>
+                <p className="mt-3 text-sm font-semibold">Route: {page.path}</p>
               </CardContent>
             </Card>
           </Link>
@@ -39,15 +39,15 @@ export default function HomePage() {
         <>
           <h2 className="mt-12 text-2xl font-bold tracking-tight">Drafts / Not Indexed</h2>
           <div className="mt-4 grid gap-4 md:grid-cols-2">
-            {drafts.map((v) => (
-              <Card key={v.slug} className="opacity-80">
+            {drafts.map((page) => (
+              <Card key={`${page.slug}-${page.path}`} className="opacity-80">
                 <CardHeader className="flex flex-row items-center justify-between gap-4">
-                  <CardTitle className="text-lg">{v.seo.title}</CardTitle>
-                  <Badge variant="secondary">{v.status}</Badge>
+                  <CardTitle className="text-lg">{page.seo.title}</CardTitle>
+                  <Badge variant="secondary">noindex</Badge>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-sm text-muted-foreground">{v.seo.description}</p>
-                  <p className="mt-3 text-sm font-semibold">Route: /{v.slug}</p>
+                  <p className="text-sm text-muted-foreground">{page.seo.description}</p>
+                  <p className="mt-3 text-sm font-semibold">Route: {page.path}</p>
                 </CardContent>
               </Card>
             ))}

@@ -1,0 +1,105 @@
+{
+  "id": "pest-control",
+  "slug": "pest-control",
+  "label": "Pest Control",
+  "brandId": "moonshine-capital",
+  "brandName": "Moonshine Capital",
+  "route": {
+    "host": "distilledfunding.com",
+    "path": "/pest-control"
+  },
+  "aliasPaths": [],
+  "sourceRouteId": "route:pest-control",
+  "theme": {
+    "primaryColor": "#111827",
+    "accentColor": "#f472b6",
+    "background": "dark"
+  },
+  "contentSources": {
+    "notion": ["resource:pest-control-funding-hub"],
+    "repos": ["repo:pest-control-funding-funnel"],
+    "sites": ["site:pest-control-funding-funnel"],
+    "templates": ["template:seasonal-service-cashflow-plan"]
+  },
+  "pageType": "vertical-funnel",
+  "layout": "comparison-plus-cta",
+  "seo": {
+    "title": "Pest Control Funding for Fleet, Marketing, and Growth",
+    "description": "Fast funding options for pest control companies to cover fleet costs, marketing, and seasonal demand."
+  },
+  "hero": {
+    "headline": "Pest Control Funding for Fleet, Marketing, and Growth",
+    "subheadline": "Seasonal demand and recurring plans create uneven cashflow. This page matches pest control operators to the right lanes.",
+    "primaryCtaLabel": "Check Pest Control Options",
+    "primaryCtaUrl": "/book",
+    "secondaryCtaLabel": "See Funding Hub",
+    "secondaryCtaUrl": "/funding"
+  },
+  "problem": [
+    "Seasonal demand spikes require more trucks and techs.",
+    "Marketing costs rise before recurring revenue catches up.",
+    "Fleet maintenance can disrupt cashflow."
+  ],
+  "solution": "Give pest control operators a page that matches seasonal revenue to fast, flexible capital.",
+  "benefits": [
+    "Fund fleet upgrades",
+    "Scale marketing",
+    "Handle seasonal spikes"
+  ],
+  "proof": [
+    {
+      "title": "Seasonal awareness",
+      "description": "The page understands spring and summer demand surges."
+    },
+    {
+      "title": "Recurring revenue framing",
+      "description": "It speaks to subscription and contract-driven cashflow."
+    },
+    {
+      "title": "Clear CTA",
+      "description": "A direct next step keeps decisions fast."
+    }
+  ],
+  "howItWorks": [
+    "Share your contract volume and deposit rhythm.",
+    "Compare rapid funding vs. steady lanes.",
+    "Book the lane that keeps routes full."
+  ],
+  "useCases": [
+    {
+      "title": "Fleet expansion",
+      "description": "Use it to add trucks and equipment before peak season.",
+      "fit": ["fleet", "growth"]
+    },
+    {
+      "title": "Marketing surge",
+      "description": "Use it to fund lead generation ahead of busy months.",
+      "fit": ["marketing", "seasonal"]
+    },
+    {
+      "title": "Equipment replacement",
+      "description": "Use it to replace sprayers and gear without delays.",
+      "fit": ["equipment", "ops"]
+    }
+  ],
+  "objections": [
+    {
+      "q": "Do I need perfect credit?",
+      "a": "Not always. Many options look at deposits and contract history."
+    },
+    {
+      "q": "Is this just for big operators?",
+      "a": "No. It works for local teams and solo operators."
+    },
+    {
+      "q": "Can funding move fast?",
+      "a": "Yes. Faster lanes are highlighted first."
+    }
+  ],
+  "finalCta": {
+    "label": "Book a Pest Control Review",
+    "href": "/book",
+    "description": "Use this page to keep routes full and cashflow steady."
+  },
+  "collections": ["funding-core"]
+}

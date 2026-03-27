@@ -1,0 +1,105 @@
+{
+  "id": "truckers",
+  "slug": "truckers",
+  "label": "Truckers",
+  "brandId": "moonshine-capital",
+  "brandName": "Moonshine Capital",
+  "route": {
+    "host": "distilledfunding.com",
+    "path": "/truckers"
+  },
+  "aliasPaths": [],
+  "sourceRouteId": "route:truckers",
+  "theme": {
+    "primaryColor": "#111827",
+    "accentColor": "#22c55e",
+    "background": "dark"
+  },
+  "contentSources": {
+    "notion": ["resource:trucking-funding-hub"],
+    "repos": ["repo:trucking-funding-funnel"],
+    "sites": ["site:trucking-funding-funnel"],
+    "templates": ["template:owner-operator-cashflow-map"]
+  },
+  "pageType": "vertical-funnel",
+  "layout": "comparison-plus-cta",
+  "seo": {
+    "title": "Trucker Funding for Fuel, Repairs, and Working Capital",
+    "description": "Funding options for truckers, owner-operators, and small fleets that need fuel, repairs, or working capital fast."
+  },
+  "hero": {
+    "headline": "Trucker Funding for Fuel, Repairs, and Working Capital",
+    "subheadline": "When a truck is down, revenue stops. This page helps truckers compare fast capital options that fit the realities of the road.",
+    "primaryCtaLabel": "Check Trucker Options",
+    "primaryCtaUrl": "/book",
+    "secondaryCtaLabel": "See Funding Hub",
+    "secondaryCtaUrl": "/funding"
+  },
+  "problem": [
+    "Repairs can hit without warning.",
+    "Fuel and maintenance drain cash before payouts land.",
+    "Traditional lenders move too slowly for downtime."
+  ],
+  "solution": "Put the buyer on a funding path that respects mileage, deposits, invoices, and operating urgency instead of generic business lending language.",
+  "benefits": [
+    "Repair fast",
+    "Keep trucks moving",
+    "Smooth cash gaps"
+  ],
+  "proof": [
+    {
+      "title": "Road-ready framing",
+      "description": "The page speaks to owner-operators and fleets in their own operating language."
+    },
+    {
+      "title": "Speed-first decisions",
+      "description": "The CTA pushes a quick review when downtime is costing money."
+    },
+    {
+      "title": "Practical next step",
+      "description": "A short booking step is easier than asking a driver to navigate a long form."
+    }
+  ],
+  "howItWorks": [
+    "Share your lane: owner-operator, small fleet, or growing carrier.",
+    "Compare options for repairs, fuel, or working capital.",
+    "Book the fastest path that fits your operating rhythm."
+  ],
+  "useCases": [
+    {
+      "title": "Breakdown repair",
+      "description": "Use it when a truck is down and you need cash to get back on the road.",
+      "fit": ["repairs", "urgent"]
+    },
+    {
+      "title": "Fuel and maintenance",
+      "description": "Use it for the steady operating expenses that hit before revenue settles.",
+      "fit": ["fuel", "maintenance"]
+    },
+    {
+      "title": "Fleet growth",
+      "description": "Use it when one truck becomes two and working capital needs to catch up.",
+      "fit": ["growth", "fleet"]
+    }
+  ],
+  "objections": [
+    {
+      "q": "Will this work for owner-operators?",
+      "a": "Yes. The page is designed around owner-operator cashflow, not just traditional fleet finance."
+    },
+    {
+      "q": "What if I have uneven deposits?",
+      "a": "Then the page should push the buyer toward the lane that best matches seasonal or route-driven income."
+    },
+    {
+      "q": "Can this help with emergency repairs?",
+      "a": "Yes. That is one of the main reasons this page exists."
+    }
+  ],
+  "finalCta": {
+    "label": "Book a Trucker Review",
+    "href": "/book",
+    "description": "Use this page to move from downtime to a real funding conversation."
+  },
+  "collections": ["funding-core"]
+}

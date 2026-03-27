@@ -1,0 +1,105 @@
+{
+  "id": "auto-repair",
+  "slug": "auto-repair",
+  "label": "Auto Repair",
+  "brandId": "moonshine-capital",
+  "brandName": "Moonshine Capital",
+  "route": {
+    "host": "distilledfunding.com",
+    "path": "/auto-repair"
+  },
+  "aliasPaths": [],
+  "sourceRouteId": "route:auto-repair",
+  "theme": {
+    "primaryColor": "#111827",
+    "accentColor": "#f97316",
+    "background": "dark"
+  },
+  "contentSources": {
+    "notion": ["resource:auto-repair-funding-hub"],
+    "repos": ["repo:auto-repair-funding-funnel"],
+    "sites": ["site:auto-repair-funding-funnel"],
+    "templates": ["template:parts-inventory-cashflow-plan"]
+  },
+  "pageType": "vertical-funnel",
+  "layout": "comparison-plus-cta",
+  "seo": {
+    "title": "Auto Repair Funding for Parts, Bays, and Payroll",
+    "description": "Fast funding options for auto repair shops to cover parts inventory, equipment, and payroll."
+  },
+  "hero": {
+    "headline": "Auto Repair Funding for Parts, Bays, and Payroll",
+    "subheadline": "Parts costs hit now, customers pay later. This page maps auto shop cashflow to the right funding lanes.",
+    "primaryCtaLabel": "Check Auto Repair Options",
+    "primaryCtaUrl": "/book",
+    "secondaryCtaLabel": "See Funding Hub",
+    "secondaryCtaUrl": "/funding"
+  },
+  "problem": [
+    "Parts inventory ties up cash fast.",
+    "Insurance reimbursements create timing gaps.",
+    "Equipment upgrades are expensive and urgent."
+  ],
+  "solution": "Connect auto shops to funding lanes built for parts-heavy, high-velocity operations.",
+  "benefits": [
+    "Stock parts inventory",
+    "Keep bays productive",
+    "Upgrade equipment fast"
+  ],
+  "proof": [
+    {
+      "title": "Parts-first focus",
+      "description": "The page starts with inventory and repair cycle realities."
+    },
+    {
+      "title": "Clear funding lanes",
+      "description": "Speed vs. cost is made explicit for shop owners."
+    },
+    {
+      "title": "Direct CTA",
+      "description": "A short next step keeps the buyer moving."
+    }
+  ],
+  "howItWorks": [
+    "Share your average ticket size and deposits.",
+    "Compare fast options against longer-term lanes.",
+    "Book the lane that keeps bays full."
+  ],
+  "useCases": [
+    {
+      "title": "Parts restock",
+      "description": "Use it to restock high-demand parts without delays.",
+      "fit": ["inventory", "speed"]
+    },
+    {
+      "title": "Equipment upgrade",
+      "description": "Use it to fund lifts, diagnostics, or bay expansion.",
+      "fit": ["equipment", "growth"]
+    },
+    {
+      "title": "Payroll bridge",
+      "description": "Use it to cover tech payroll during payment gaps.",
+      "fit": ["payroll", "timing"]
+    }
+  ],
+  "objections": [
+    {
+      "q": "Do I need perfect credit?",
+      "a": "Not always. Many options focus on deposits and ticket volume."
+    },
+    {
+      "q": "Is this only for large shops?",
+      "a": "No. It works for independent shops and multi-bay operators."
+    },
+    {
+      "q": "Can I fund parts quickly?",
+      "a": "Yes. The fastest lanes are highlighted first."
+    }
+  ],
+  "finalCta": {
+    "label": "Book an Auto Repair Review",
+    "href": "/book",
+    "description": "Use this page to keep bays moving and inventory stocked."
+  },
+  "collections": ["funding-core"]
+}

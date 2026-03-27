@@ -1,0 +1,105 @@
+{
+  "id": "roofers",
+  "slug": "roofers",
+  "label": "Roofers",
+  "brandId": "moonshine-capital",
+  "brandName": "Moonshine Capital",
+  "route": {
+    "host": "distilledfunding.com",
+    "path": "/roofers"
+  },
+  "aliasPaths": [],
+  "sourceRouteId": "route:roofers",
+  "theme": {
+    "primaryColor": "#111827",
+    "accentColor": "#f59e0b",
+    "background": "dark"
+  },
+  "contentSources": {
+    "notion": ["resource:roofer-funding-hub"],
+    "repos": ["repo:roofer-funding-funnel"],
+    "sites": ["site:roofer-funding-funnel"],
+    "templates": ["template:storm-season-cashflow-playbook"]
+  },
+  "pageType": "vertical-funnel",
+  "layout": "comparison-plus-cta",
+  "seo": {
+    "title": "Roofer Funding for Materials, Crews, and Storm Season",
+    "description": "Fast funding options for roofers who need to buy materials, pay crews, and keep up with storm-season demand."
+  },
+  "hero": {
+    "headline": "Roofer Funding for Materials, Crews, and Storm Season",
+    "subheadline": "Roofing cashflow gets lumpy fast. This page helps roofers find funding that fits project spikes, supplier timing, and weather-driven demand.",
+    "primaryCtaLabel": "Check Roofer Options",
+    "primaryCtaUrl": "/book",
+    "secondaryCtaLabel": "See Funding Hub",
+    "secondaryCtaUrl": "/funding"
+  },
+  "problem": [
+    "Materials need to be paid before the check clears.",
+    "Crew payroll cannot wait on storm-season billing cycles.",
+    "Fast growth can break cashflow if capital lags behind sales."
+  ],
+  "solution": "Give roofers a page that maps project timing to the right funding lane, so they can keep crews moving and material orders on schedule.",
+  "benefits": [
+    "Cover materials upfront",
+    "Keep crews paid",
+    "Handle storm spikes"
+  ],
+  "proof": [
+    {
+      "title": "Seasonal urgency",
+      "description": "The page recognizes that roofing demand can change fast with weather and claims volume."
+    },
+    {
+      "title": "Buyer-friendly framing",
+      "description": "The promise is written for contractors, not bankers."
+    },
+    {
+      "title": "Direct CTA",
+      "description": "Roofers get a clear next step instead of a maze of financing jargon."
+    }
+  ],
+  "howItWorks": [
+    "Share your current job mix and storm-season pressure.",
+    "Compare the fastest option against the most sustainable option.",
+    "Book the one that keeps materials and crews moving."
+  ],
+  "useCases": [
+    {
+      "title": "Storm surge",
+      "description": "Use it when weather-driven demand creates a short-term cash need.",
+      "fit": ["storm season", "urgent"]
+    },
+    {
+      "title": "Crew payroll",
+      "description": "Use it to keep installers and roof crews paid while invoices age.",
+      "fit": ["payroll", "ops"]
+    },
+    {
+      "title": "Materials order",
+      "description": "Use it to front-load shingles, underlayment, or other materials.",
+      "fit": ["materials", "projects"]
+    }
+  ],
+  "objections": [
+    {
+      "q": "Is this only for large roofing companies?",
+      "a": "No. It works for solo roofers, small crews, and growing local operators."
+    },
+    {
+      "q": "What if I need money before the next storm hits?",
+      "a": "Then this page should push the fastest available path first."
+    },
+    {
+      "q": "Do suppliers care about this?",
+      "a": "Suppliers care that you can keep buying materials. The page helps you get there."
+    }
+  ],
+  "finalCta": {
+    "label": "Book a Roofer Review",
+    "href": "/book",
+    "description": "Use this page to turn storm season into a clean capital conversation."
+  },
+  "collections": ["funding-core"]
+}

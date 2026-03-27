@@ -1,0 +1,105 @@
+{
+  "id": "restaurants",
+  "slug": "restaurants",
+  "label": "Restaurants",
+  "brandId": "moonshine-capital",
+  "brandName": "Moonshine Capital",
+  "route": {
+    "host": "distilledfunding.com",
+    "path": "/restaurants"
+  },
+  "aliasPaths": [],
+  "sourceRouteId": "route:restaurants",
+  "theme": {
+    "primaryColor": "#111827",
+    "accentColor": "#facc15",
+    "background": "dark"
+  },
+  "contentSources": {
+    "notion": ["resource:restaurant-funding-hub"],
+    "repos": ["repo:restaurant-funding-funnel"],
+    "sites": ["site:restaurant-funding-funnel"],
+    "templates": ["template:inventory-cashflow-plan"]
+  },
+  "pageType": "vertical-funnel",
+  "layout": "comparison-plus-cta",
+  "seo": {
+    "title": "Restaurant Funding for Inventory, Payroll, and Growth",
+    "description": "Fast funding options for restaurants to cover inventory, payroll, and equipment upgrades."
+  },
+  "hero": {
+    "headline": "Restaurant Funding for Inventory, Payroll, and Growth",
+    "subheadline": "Inventory and payroll do not pause when sales dip. This page maps restaurant cashflow to fast funding lanes.",
+    "primaryCtaLabel": "Check Restaurant Options",
+    "primaryCtaUrl": "/book",
+    "secondaryCtaLabel": "See Funding Hub",
+    "secondaryCtaUrl": "/funding"
+  },
+  "problem": [
+    "Inventory costs hit before revenue settles.",
+    "Payroll and rent stack up during slow weeks.",
+    "Equipment failures can stop service overnight."
+  ],
+  "solution": "Connect restaurants to funding lanes that keep inventory stocked and service running.",
+  "benefits": [
+    "Cover inventory fast",
+    "Bridge payroll gaps",
+    "Handle equipment repairs"
+  ],
+  "proof": [
+    {
+      "title": "Service-first framing",
+      "description": "The page is built for operators who cannot pause service."
+    },
+    {
+      "title": "Inventory focus",
+      "description": "It acknowledges food and beverage costs as the main pressure point."
+    },
+    {
+      "title": "Simple CTA",
+      "description": "A clear next step keeps decisions fast."
+    }
+  ],
+  "howItWorks": [
+    "Share your sales rhythm and inventory needs.",
+    "Compare fast funding against longer-term lanes.",
+    "Book the lane that keeps service steady."
+  ],
+  "useCases": [
+    {
+      "title": "Inventory rebuild",
+      "description": "Use it to restock ahead of a busy weekend.",
+      "fit": ["inventory", "speed"]
+    },
+    {
+      "title": "Equipment replacement",
+      "description": "Use it to replace critical kitchen equipment fast.",
+      "fit": ["equipment", "urgent"]
+    },
+    {
+      "title": "Seasonal dips",
+      "description": "Use it to bridge payroll during slow periods.",
+      "fit": ["payroll", "seasonal"]
+    }
+  ],
+  "objections": [
+    {
+      "q": "Are restaurant margins too thin for funding?",
+      "a": "Not always. Many options look at daily deposits and volume."
+    },
+    {
+      "q": "Is this only for big restaurants?",
+      "a": "No. It works for independent operators and small groups."
+    },
+    {
+      "q": "Can I fund equipment quickly?",
+      "a": "Yes. The fastest lanes are highlighted first."
+    }
+  ],
+  "finalCta": {
+    "label": "Book a Restaurant Review",
+    "href": "/book",
+    "description": "Use this page to keep inventory stocked and service running."
+  },
+  "collections": ["funding-core"]
+}

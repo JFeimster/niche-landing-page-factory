@@ -1,0 +1,122 @@
+{
+  "id": "dac-team",
+  "slug": "dac-team",
+  "label": "DAC Team",
+  "brandId": "moonshine-capital",
+  "brandName": "Moonshine Capital",
+  "route": {
+    "host": "partners.distilledfunding.com",
+    "path": "/dac-team"
+  },
+  "aliasPaths": [
+    "/DAC Team"
+  ],
+  "sourceRouteId": "route:partners-dac-team",
+  "theme": {
+    "primaryColor": "#1e40af",
+    "accentColor": "#10b981",
+    "highlightColor": "#f59e0b",
+    "background": "light"
+  },
+  "contentSources": {
+    "notion": [],
+    "repos": [
+      "repo:moonshine-broker",
+      "repo:dac-affiliate-enablement",
+      "repo:funding-partners-os",
+      "repo:partner-growth-hub",
+      "repo:partner-onboarding"
+    ],
+    "sites": [
+      "site:partners-home",
+      "site:funding-partners-os",
+      "site:dac-affiliate-enablement",
+      "site:partner-growth-hub",
+      "site:partner-onboarding",
+      "site:moonshine-broker"
+    ],
+    "templates": [
+      "template:partner-recruitment-landing-page",
+      "template:agent-onboarding-experience-designer",
+      "template:viral-referral-reward-engine"
+    ]
+  },
+  "pageType": "partner-recruitment",
+  "layout": "recruitment-funnel",
+  "seo": {
+    "title": "Join the DAC Team | Moonshine Capital",
+    "description": "Join Moonshine Capital's DAC team. Launch as an affiliate partner, independent funding agent, or agency builder."
+  },
+  "brief": {
+    "targetKeyword": "funding partner recruitment",
+    "searchIntent": "Commercial / partner acquisition",
+    "audience": "affiliate partners, independent funding agents, and agency builders",
+    "uniqueValueProposition": "Join Moonshine Capital's DAC team with scripts, systems, onboarding, and launch assets that help a partner move faster.",
+    "proofPoints": [
+      "Three partner paths: affiliate partner, independent agent, and agency builder.",
+      "Dedicated onboarding and enablement assets for activation.",
+      "Supportive partner ecosystem with a clear CTA and overview flow."
+    ],
+    "faqIdeas": [
+      "What is the DAC team?",
+      "How do I join as a partner?",
+      "What support do partners get after joining?"
+    ],
+    "internalLinks": [
+      "Partner Portal",
+      "Partner Onboarding",
+      "Funding Tools & Calculators"
+    ],
+    "schemaType": "FAQPage"
+  },
+  "hero": {
+    "headline": "Build Your Funding Business. Earn Like an Operator.",
+    "subheadline": "Join the DAC team through Moonshine Capital and get the scripts, systems, onboarding, and launch assets to start brokering real capital deals.",
+    "primaryCtaLabel": "Apply to Join the DAC Team",
+    "primaryCtaType": "form",
+    "secondaryCtaLabel": "Watch the 2-Min DAC Overview",
+    "secondaryCtaUrl": "https://bit.ly/47TX5SO"
+  },
+  "sections": [
+    "hero",
+    "income-calculator",
+    "partnership-model",
+    "how-it-works",
+    "tool-stack",
+    "proof",
+    "faq",
+    "application-form"
+  ],
+  "partnershipModel": [
+    {
+      "id": "affiliate-partner",
+      "label": "Affiliate Partner",
+      "bestFor": "Audience owners and content-driven referrers"
+    },
+    {
+      "id": "independent-agent",
+      "label": "Independent Agent",
+      "bestFor": "Sales pros, brokers, entrepreneurs"
+    },
+    {
+      "id": "agency-builder",
+      "label": "Agency Builder",
+      "bestFor": "Recruiters, leaders, team builders"
+    }
+  ],
+  "collections": [
+    "dac-team-core"
+  ],
+  "assetOrder": [
+    "site:dac-affiliate-enablement",
+    "site:moonshine-broker",
+    "site:partner-growth-hub",
+    "site:partner-onboarding",
+    "template:viral-referral-reward-engine"
+  ],
+  "ctaRoutes": {
+    "primaryApplyUrl": "https://bit.ly/DACagency",
+    "overviewUrl": "https://bit.ly/DACaffiliate",
+    "communityUrl": "https://www.distilledfunding.com/group/moonshine-moneymakers/"
+  }
+}

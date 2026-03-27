@@ -1,0 +1,105 @@
+{
+  "id": "landscapers",
+  "slug": "landscapers",
+  "label": "Landscapers",
+  "brandId": "moonshine-capital",
+  "brandName": "Moonshine Capital",
+  "route": {
+    "host": "distilledfunding.com",
+    "path": "/landscapers"
+  },
+  "aliasPaths": [],
+  "sourceRouteId": "route:landscapers",
+  "theme": {
+    "primaryColor": "#111827",
+    "accentColor": "#34d399",
+    "background": "dark"
+  },
+  "contentSources": {
+    "notion": ["resource:landscaper-funding-hub"],
+    "repos": ["repo:landscaper-funding-funnel"],
+    "sites": ["site:landscaper-funding-funnel"],
+    "templates": ["template:seasonal-crew-cashflow-plan"]
+  },
+  "pageType": "vertical-funnel",
+  "layout": "comparison-plus-cta",
+  "seo": {
+    "title": "Landscaper Funding for Crews, Equipment, and Seasonal Work",
+    "description": "Fast funding options for landscaping businesses to cover crews, equipment, and seasonal demand swings."
+  },
+  "hero": {
+    "headline": "Landscaper Funding for Crews, Equipment, and Seasonal Work",
+    "subheadline": "Seasonal contracts and equipment costs can squeeze cashflow. This page shows funding lanes that match landscaping revenue cycles.",
+    "primaryCtaLabel": "Check Landscaper Options",
+    "primaryCtaUrl": "/book",
+    "secondaryCtaLabel": "See Funding Hub",
+    "secondaryCtaUrl": "/funding"
+  },
+  "problem": [
+    "Seasonal revenue swings create cash gaps.",
+    "Equipment purchases hit before clients pay.",
+    "Crew payroll cannot pause when contracts do."
+  ],
+  "solution": "Match landscapers with funding lanes that align to seasonal deposits and contract timing.",
+  "benefits": [
+    "Cover equipment fast",
+    "Keep crews staffed",
+    "Smooth out seasonal dips"
+  ],
+  "proof": [
+    {
+      "title": "Seasonal context",
+      "description": "The page recognizes spring and summer demand spikes."
+    },
+    {
+      "title": "Buyer-first framing",
+      "description": "Copy focuses on crews, contracts, and equipment instead of lender jargon."
+    },
+    {
+      "title": "Simple CTA",
+      "description": "A clear next step keeps the lane decision fast."
+    }
+  ],
+  "howItWorks": [
+    "Share your contract mix and recent deposits.",
+    "Compare fast funding vs. sustainable options.",
+    "Book the lane that keeps your schedule full."
+  ],
+  "useCases": [
+    {
+      "title": "Equipment purchase",
+      "description": "Use it to buy mowers, trailers, or fleet upgrades.",
+      "fit": ["equipment", "upgrades"]
+    },
+    {
+      "title": "Seasonal staffing",
+      "description": "Use it to hire crews before peak season starts.",
+      "fit": ["seasonal", "payroll"]
+    },
+    {
+      "title": "Large contracts",
+      "description": "Use it to cover upfront costs for bigger jobs.",
+      "fit": ["contracts", "growth"]
+    }
+  ],
+  "objections": [
+    {
+      "q": "What if my revenue is seasonal?",
+      "a": "That is normal. The page compares lanes built for uneven cashflow."
+    },
+    {
+      "q": "Do I need years of history?",
+      "a": "Not always. Many options rely on recent deposits."
+    },
+    {
+      "q": "Is this just for big landscaping firms?",
+      "a": "No. It works for small crews and solo operators too."
+    }
+  ],
+  "finalCta": {
+    "label": "Book a Landscaping Review",
+    "href": "/book",
+    "description": "Use this page to keep crews moving through seasonal swings."
+  },
+  "collections": ["funding-core"]
+}
