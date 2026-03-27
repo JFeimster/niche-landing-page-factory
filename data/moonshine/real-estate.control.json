@@ -76,5 +76,23 @@
   "assetOrder": [
     "resource:funding-hub",
     "site:operator-funding-site"
-  ]
+  ],
+  "brief": {
+    "targetKeyword": "Real Estate funding",
+    "searchIntent": "Commercial / compare options",
+    "audience": "real estate operators who need working capital, growth capital, or project funding",
+    "uniqueValueProposition": "Explore capital paths for acquisition, rehab, bridge, DSCR, and rental portfolio growth.",
+    "proofPoints": [],
+    "faqIdeas": [
+      "How does real estate funding work?",
+      "What makes this real estate page different?",
+      "How fast can I get started?"
+    ],
+    "internalLinks": [
+      "Funding Hub",
+      "Book a Review",
+      "Tools"
+    ],
+    "schemaType": "WebPage"
+  }
 }

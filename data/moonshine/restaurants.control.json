@@ -16,10 +16,18 @@
     "background": "dark"
   },
   "contentSources": {
-    "notion": ["resource:restaurant-funding-hub"],
-    "repos": ["repo:restaurant-funding-funnel"],
-    "sites": ["site:restaurant-funding-funnel"],
-    "templates": ["template:inventory-cashflow-plan"]
+    "notion": [
+      "resource:restaurant-funding-hub"
+    ],
+    "repos": [
+      "repo:restaurant-funding-funnel"
+    ],
+    "sites": [
+      "site:restaurant-funding-funnel"
+    ],
+    "templates": [
+      "template:inventory-cashflow-plan"
+    ]
   },
   "pageType": "vertical-funnel",
   "layout": "comparison-plus-cta",
@@ -69,17 +77,26 @@
     {
       "title": "Inventory rebuild",
       "description": "Use it to restock ahead of a busy weekend.",
-      "fit": ["inventory", "speed"]
+      "fit": [
+        "inventory",
+        "speed"
+      ]
     },
     {
       "title": "Equipment replacement",
       "description": "Use it to replace critical kitchen equipment fast.",
-      "fit": ["equipment", "urgent"]
+      "fit": [
+        "equipment",
+        "urgent"
+      ]
     },
     {
       "title": "Seasonal dips",
       "description": "Use it to bridge payroll during slow periods.",
-      "fit": ["payroll", "seasonal"]
+      "fit": [
+        "payroll",
+        "seasonal"
+      ]
     }
   ],
   "objections": [
@@ -101,5 +118,33 @@
     "href": "/book",
     "description": "Use this page to keep inventory stocked and service running."
   },
-  "collections": ["funding-core"]
+  "collections": [
+    "funding-core"
+  ],
+  "brief": {
+    "targetKeyword": "Restaurants funding",
+    "searchIntent": "Commercial / compare options",
+    "audience": "restaurants operators who need working capital, growth capital, or project funding",
+    "uniqueValueProposition": "Inventory and payroll do not pause when sales dip. This page maps restaurant cashflow to fast funding lanes.",
+    "proofPoints": [
+      "Inventory costs hit before revenue settles.",
+      "Payroll and rent stack up during slow weeks.",
+      "Cover inventory fast",
+      "Bridge payroll gaps",
+      "Handle equipment repairs"
+    ],
+    "faqIdeas": [
+      "Are restaurant margins too thin for funding?",
+      "Is this only for big restaurants?",
+      "Can I fund equipment quickly?",
+      "How does restaurants funding work?",
+      "What makes this restaurants page different?"
+    ],
+    "internalLinks": [
+      "Funding Hub",
+      "Book a Review",
+      "Tools"
+    ],
+    "schemaType": "FAQPage"
+  }
 }

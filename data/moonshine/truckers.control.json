@@ -16,10 +16,18 @@
     "background": "dark"
   },
   "contentSources": {
-    "notion": ["resource:trucking-funding-hub"],
-    "repos": ["repo:trucking-funding-funnel"],
-    "sites": ["site:trucking-funding-funnel"],
-    "templates": ["template:owner-operator-cashflow-map"]
+    "notion": [
+      "resource:trucking-funding-hub"
+    ],
+    "repos": [
+      "repo:trucking-funding-funnel"
+    ],
+    "sites": [
+      "site:trucking-funding-funnel"
+    ],
+    "templates": [
+      "template:owner-operator-cashflow-map"
+    ]
   },
   "pageType": "vertical-funnel",
   "layout": "comparison-plus-cta",
@@ -69,17 +77,26 @@
     {
       "title": "Breakdown repair",
       "description": "Use it when a truck is down and you need cash to get back on the road.",
-      "fit": ["repairs", "urgent"]
+      "fit": [
+        "repairs",
+        "urgent"
+      ]
     },
     {
       "title": "Fuel and maintenance",
       "description": "Use it for the steady operating expenses that hit before revenue settles.",
-      "fit": ["fuel", "maintenance"]
+      "fit": [
+        "fuel",
+        "maintenance"
+      ]
     },
     {
       "title": "Fleet growth",
       "description": "Use it when one truck becomes two and working capital needs to catch up.",
-      "fit": ["growth", "fleet"]
+      "fit": [
+        "growth",
+        "fleet"
+      ]
     }
   ],
   "objections": [
@@ -101,5 +118,33 @@
     "href": "/book",
     "description": "Use this page to move from downtime to a real funding conversation."
   },
-  "collections": ["funding-core"]
+  "collections": [
+    "funding-core"
+  ],
+  "brief": {
+    "targetKeyword": "Truckers funding",
+    "searchIntent": "Commercial / compare options",
+    "audience": "truckers operators who need working capital, growth capital, or project funding",
+    "uniqueValueProposition": "When a truck is down, revenue stops. This page helps truckers compare fast capital options that fit the realities of the road.",
+    "proofPoints": [
+      "Repairs can hit without warning.",
+      "Fuel and maintenance drain cash before payouts land.",
+      "Repair fast",
+      "Keep trucks moving",
+      "Smooth cash gaps"
+    ],
+    "faqIdeas": [
+      "Will this work for owner-operators?",
+      "What if I have uneven deposits?",
+      "Can this help with emergency repairs?",
+      "How does truckers funding work?",
+      "What makes this truckers page different?"
+    ],
+    "internalLinks": [
+      "Funding Hub",
+      "Book a Review",
+      "Tools"
+    ],
+    "schemaType": "FAQPage"
+  }
 }

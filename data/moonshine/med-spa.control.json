@@ -16,10 +16,18 @@
     "background": "dark"
   },
   "contentSources": {
-    "notion": ["resource:med-spa-funding-hub"],
-    "repos": ["repo:med-spa-funding-funnel"],
-    "sites": ["site:med-spa-funding-funnel"],
-    "templates": ["template:appointment-driven-cashflow-map"]
+    "notion": [
+      "resource:med-spa-funding-hub"
+    ],
+    "repos": [
+      "repo:med-spa-funding-funnel"
+    ],
+    "sites": [
+      "site:med-spa-funding-funnel"
+    ],
+    "templates": [
+      "template:appointment-driven-cashflow-map"
+    ]
   },
   "pageType": "vertical-funnel",
   "layout": "comparison-plus-cta",
@@ -69,17 +77,26 @@
     {
       "title": "New equipment",
       "description": "Use it when adding a device or treatment requires upfront capital.",
-      "fit": ["equipment", "growth"]
+      "fit": [
+        "equipment",
+        "growth"
+      ]
     },
     {
       "title": "Payroll bridge",
       "description": "Use it when staffing costs come due before future appointments cash in.",
-      "fit": ["payroll", "timing"]
+      "fit": [
+        "payroll",
+        "timing"
+      ]
     },
     {
       "title": "Opening a second room",
       "description": "Use it when the business is ready to scale services or locations.",
-      "fit": ["expansion", "operations"]
+      "fit": [
+        "expansion",
+        "operations"
+      ]
     }
   ],
   "objections": [
@@ -101,5 +118,33 @@
     "href": "/book",
     "description": "Use this page to match appointment-driven revenue with the right capital option."
   },
-  "collections": ["funding-core"]
+  "collections": [
+    "funding-core"
+  ],
+  "brief": {
+    "targetKeyword": "Med Spa funding",
+    "searchIntent": "Commercial / compare options",
+    "audience": "med spa operators who need working capital, growth capital, or project funding",
+    "uniqueValueProposition": "Med spas juggle inventory, staffing, and equipment costs while appointments ramp. This page helps owners compare the fastest path to capital.",
+    "proofPoints": [
+      "Equipment and inventory can eat cash before bookings fill the calendar.",
+      "Payroll needs to stay on schedule even when demand is uneven.",
+      "Buy equipment sooner",
+      "Smooth payroll",
+      "Fund expansion"
+    ],
+    "faqIdeas": [
+      "Is this for established med spas only?",
+      "Do I need expensive collateral?",
+      "Can this help with marketing spend?",
+      "How does med spa funding work?",
+      "What makes this med spa page different?"
+    ],
+    "internalLinks": [
+      "Funding Hub",
+      "Book a Review",
+      "Tools"
+    ],
+    "schemaType": "FAQPage"
+  }
 }

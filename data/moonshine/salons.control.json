@@ -16,10 +16,18 @@
     "background": "dark"
   },
   "contentSources": {
-    "notion": ["resource:salon-funding-hub"],
-    "repos": ["repo:salon-funding-funnel"],
-    "sites": ["site:salon-funding-funnel"],
-    "templates": ["template:chair-suites-cashflow-plan"]
+    "notion": [
+      "resource:salon-funding-hub"
+    ],
+    "repos": [
+      "repo:salon-funding-funnel"
+    ],
+    "sites": [
+      "site:salon-funding-funnel"
+    ],
+    "templates": [
+      "template:chair-suites-cashflow-plan"
+    ]
   },
   "pageType": "vertical-funnel",
   "layout": "comparison-plus-cta",
@@ -79,17 +87,26 @@
     {
       "title": "Suite buildout",
       "description": "Use it when expanding the salon floor or adding chairs.",
-      "fit": ["buildout", "expansion"]
+      "fit": [
+        "buildout",
+        "expansion"
+      ]
     },
     {
       "title": "Product restock",
       "description": "Use it to replenish retail and backbar inventory quickly.",
-      "fit": ["inventory", "product"]
+      "fit": [
+        "inventory",
+        "product"
+      ]
     },
     {
       "title": "Hiring runway",
       "description": "Use it to add stylists and assistants before revenue fully scales.",
-      "fit": ["staffing", "growth"]
+      "fit": [
+        "staffing",
+        "growth"
+      ]
     }
   ],
   "objections": [
@@ -117,5 +134,30 @@
   ],
   "collections": [
     "funding-core"
-  ]
+  ],
+  "brief": {
+    "targetKeyword": "Salons funding",
+    "searchIntent": "Commercial / compare options",
+    "audience": "salons operators who need working capital, growth capital, or project funding",
+    "uniqueValueProposition": "Buildouts, chairs, and product inventory cost money before new revenue shows up. This page maps salon cashflow to funding lanes that keep appointments booked.",
+    "proofPoints": [
+      "Buildouts and chair purchases are expensive upfront.",
+      "Product inventory and supplies need replenishing fast.",
+      "Fund chairs and suites",
+      "Keep product shelves stocked",
+      "Support hiring and expansion"
+    ],
+    "faqIdeas": [
+      "Is this only for big salons?",
+      "Can I use this for a buildout?",
+      "Will this help with product inventory?",
+      "How does salons funding work?",
+      "What makes this salons page different?"
+    ],
+    "internalLinks": [
+      "Funding Hub",
+      "Book a Review"
+    ],
+    "schemaType": "FAQPage"
+  }
 }

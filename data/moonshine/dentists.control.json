@@ -16,10 +16,18 @@
     "background": "dark"
   },
   "contentSources": {
-    "notion": ["resource:dental-funding-hub"],
-    "repos": ["repo:dental-funding-funnel"],
-    "sites": ["site:dental-funding-funnel"],
-    "templates": ["template:practice-growth-cashflow-map"]
+    "notion": [
+      "resource:dental-funding-hub"
+    ],
+    "repos": [
+      "repo:dental-funding-funnel"
+    ],
+    "sites": [
+      "site:dental-funding-funnel"
+    ],
+    "templates": [
+      "template:practice-growth-cashflow-map"
+    ]
   },
   "pageType": "vertical-funnel",
   "layout": "comparison-plus-cta",
@@ -69,17 +77,26 @@
     {
       "title": "Equipment purchase",
       "description": "Use it when imaging or chair upgrades need upfront spend.",
-      "fit": ["equipment", "capital"]
+      "fit": [
+        "equipment",
+        "capital"
+      ]
     },
     {
       "title": "Office buildout",
       "description": "Use it when expansion requires construction and setup costs.",
-      "fit": ["buildout", "expansion"]
+      "fit": [
+        "buildout",
+        "expansion"
+      ]
     },
     {
       "title": "Staffing runway",
       "description": "Use it when adding hygienists or support staff before revenue catches up.",
-      "fit": ["payroll", "growth"]
+      "fit": [
+        "payroll",
+        "growth"
+      ]
     }
   ],
   "objections": [
@@ -101,5 +118,33 @@
     "href": "/book",
     "description": "Use this page to connect practice growth with the right funding lane."
   },
-  "collections": ["funding-core"]
+  "collections": [
+    "funding-core"
+  ],
+  "brief": {
+    "targetKeyword": "Dentists funding",
+    "searchIntent": "Commercial / compare options",
+    "audience": "dentists operators who need working capital, growth capital, or project funding",
+    "uniqueValueProposition": "Dental practices need capital for chairs, imaging, buildouts, and staffing without slowing down patient flow.",
+    "proofPoints": [
+      "Equipment upgrades are expensive.",
+      "Buildouts take cash before the practice can fully ramp.",
+      "Upgrade equipment",
+      "Fund buildouts",
+      "Support hiring"
+    ],
+    "faqIdeas": [
+      "Will this fit a solo practice?",
+      "Can I use this for expansion only?",
+      "Is this just another generic loan page?",
+      "How does dentists funding work?",
+      "What makes this dentists page different?"
+    ],
+    "internalLinks": [
+      "Funding Hub",
+      "Book a Review",
+      "Tools"
+    ],
+    "schemaType": "FAQPage"
+  }
 }

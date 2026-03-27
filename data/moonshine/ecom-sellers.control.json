@@ -44,7 +44,7 @@
     "description": "Capital paths for Amazon, Shopify, Walmart, and TikTok Shop sellers. Compare options for inventory, ad spend, payouts, and growth."
   },
   "hero": {
-    "headline": "Capital for Sellers Who\u2019d Prefer Not to Die in a Stockout.",
+    "headline": "Capital for Sellers Who’d Prefer Not to Die in a Stockout.",
     "subheadline": "Inventory, launch, ad-spend, and cash-flow funding for Amazon, Shopify, Walmart, and TikTok Shop operators.",
     "primaryCtaLabel": "Find My Best Seller Funding Path",
     "primaryCtaType": "quiz",
@@ -82,5 +82,24 @@
     "How to Fund Inventory Without Nuking Margins",
     "Onramp vs Payability vs 8fig",
     "Revenue-Based Financing for eCommerce"
-  ]
+  ],
+  "brief": {
+    "targetKeyword": "eCom Sellers funding",
+    "searchIntent": "Commercial / compare options",
+    "audience": "ecom sellers operators who need working capital, growth capital, or project funding",
+    "uniqueValueProposition": "Inventory, launch, ad-spend, and cash-flow funding for Amazon, Shopify, Walmart, and TikTok Shop operators.",
+    "proofPoints": [],
+    "faqIdeas": [
+      "How does ecom sellers funding work?",
+      "What makes this ecom sellers page different?",
+      "How fast can I get started?"
+    ],
+    "internalLinks": [
+      "Amazon Lending Alternatives",
+      "How to Fund Inventory Without Nuking Margins",
+      "Onramp vs Payability vs 8fig",
+      "Revenue-Based Financing for eCommerce"
+    ],
+    "schemaType": "WebPage"
+  }
 }

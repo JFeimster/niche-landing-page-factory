@@ -124,5 +124,25 @@
     "site:bizcredit-os",
     "site:bizfin-bank",
     "site:finops-ai"
-  ]
+  ],
+  "brief": {
+    "targetKeyword": "Moonshine funding",
+    "searchIntent": "Commercial / compare options",
+    "audience": "moonshine operators who need working capital, growth capital, or project funding",
+    "uniqueValueProposition": "One command center for capital, credit, banking, tools, AI, and partner opportunities built for operators, not permission-seekers.",
+    "proofPoints": [],
+    "faqIdeas": [
+      "How does moonshine funding work?",
+      "What makes this moonshine page different?",
+      "How fast can I get started?"
+    ],
+    "internalLinks": [
+      "funding home",
+      "partners home",
+      "credit home",
+      "banking home",
+      "tools home"
+    ],
+    "schemaType": "WebPage"
+  }
 }

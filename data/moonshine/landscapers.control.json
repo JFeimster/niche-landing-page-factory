@@ -16,10 +16,18 @@
     "background": "dark"
   },
   "contentSources": {
-    "notion": ["resource:landscaper-funding-hub"],
-    "repos": ["repo:landscaper-funding-funnel"],
-    "sites": ["site:landscaper-funding-funnel"],
-    "templates": ["template:seasonal-crew-cashflow-plan"]
+    "notion": [
+      "resource:landscaper-funding-hub"
+    ],
+    "repos": [
+      "repo:landscaper-funding-funnel"
+    ],
+    "sites": [
+      "site:landscaper-funding-funnel"
+    ],
+    "templates": [
+      "template:seasonal-crew-cashflow-plan"
+    ]
   },
   "pageType": "vertical-funnel",
   "layout": "comparison-plus-cta",
@@ -69,17 +77,26 @@
     {
       "title": "Equipment purchase",
       "description": "Use it to buy mowers, trailers, or fleet upgrades.",
-      "fit": ["equipment", "upgrades"]
+      "fit": [
+        "equipment",
+        "upgrades"
+      ]
     },
     {
       "title": "Seasonal staffing",
       "description": "Use it to hire crews before peak season starts.",
-      "fit": ["seasonal", "payroll"]
+      "fit": [
+        "seasonal",
+        "payroll"
+      ]
     },
     {
       "title": "Large contracts",
       "description": "Use it to cover upfront costs for bigger jobs.",
-      "fit": ["contracts", "growth"]
+      "fit": [
+        "contracts",
+        "growth"
+      ]
     }
   ],
   "objections": [
@@ -101,5 +118,33 @@
     "href": "/book",
     "description": "Use this page to keep crews moving through seasonal swings."
   },
-  "collections": ["funding-core"]
+  "collections": [
+    "funding-core"
+  ],
+  "brief": {
+    "targetKeyword": "Landscapers funding",
+    "searchIntent": "Commercial / compare options",
+    "audience": "landscapers operators who need working capital, growth capital, or project funding",
+    "uniqueValueProposition": "Seasonal contracts and equipment costs can squeeze cashflow. This page shows funding lanes that match landscaping revenue cycles.",
+    "proofPoints": [
+      "Seasonal revenue swings create cash gaps.",
+      "Equipment purchases hit before clients pay.",
+      "Cover equipment fast",
+      "Keep crews staffed",
+      "Smooth out seasonal dips"
+    ],
+    "faqIdeas": [
+      "What if my revenue is seasonal?",
+      "Do I need years of history?",
+      "Is this just for big landscaping firms?",
+      "How does landscapers funding work?",
+      "What makes this landscapers page different?"
+    ],
+    "internalLinks": [
+      "Funding Hub",
+      "Book a Review",
+      "Tools"
+    ],
+    "schemaType": "FAQPage"
+  }
 }

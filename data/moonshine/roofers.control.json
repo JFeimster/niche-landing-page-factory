@@ -16,10 +16,18 @@
     "background": "dark"
   },
   "contentSources": {
-    "notion": ["resource:roofer-funding-hub"],
-    "repos": ["repo:roofer-funding-funnel"],
-    "sites": ["site:roofer-funding-funnel"],
-    "templates": ["template:storm-season-cashflow-playbook"]
+    "notion": [
+      "resource:roofer-funding-hub"
+    ],
+    "repos": [
+      "repo:roofer-funding-funnel"
+    ],
+    "sites": [
+      "site:roofer-funding-funnel"
+    ],
+    "templates": [
+      "template:storm-season-cashflow-playbook"
+    ]
   },
   "pageType": "vertical-funnel",
   "layout": "comparison-plus-cta",
@@ -69,17 +77,26 @@
     {
       "title": "Storm surge",
       "description": "Use it when weather-driven demand creates a short-term cash need.",
-      "fit": ["storm season", "urgent"]
+      "fit": [
+        "storm season",
+        "urgent"
+      ]
     },
     {
       "title": "Crew payroll",
       "description": "Use it to keep installers and roof crews paid while invoices age.",
-      "fit": ["payroll", "ops"]
+      "fit": [
+        "payroll",
+        "ops"
+      ]
     },
     {
       "title": "Materials order",
       "description": "Use it to front-load shingles, underlayment, or other materials.",
-      "fit": ["materials", "projects"]
+      "fit": [
+        "materials",
+        "projects"
+      ]
     }
   ],
   "objections": [
@@ -101,5 +118,33 @@
     "href": "/book",
     "description": "Use this page to turn storm season into a clean capital conversation."
   },
-  "collections": ["funding-core"]
+  "collections": [
+    "funding-core"
+  ],
+  "brief": {
+    "targetKeyword": "Roofers funding",
+    "searchIntent": "Commercial / compare options",
+    "audience": "roofers operators who need working capital, growth capital, or project funding",
+    "uniqueValueProposition": "Roofing cashflow gets lumpy fast. This page helps roofers find funding that fits project spikes, supplier timing, and weather-driven demand.",
+    "proofPoints": [
+      "Materials need to be paid before the check clears.",
+      "Crew payroll cannot wait on storm-season billing cycles.",
+      "Cover materials upfront",
+      "Keep crews paid",
+      "Handle storm spikes"
+    ],
+    "faqIdeas": [
+      "Is this only for large roofing companies?",
+      "What if I need money before the next storm hits?",
+      "Do suppliers care about this?",
+      "How does roofers funding work?",
+      "What makes this roofers page different?"
+    ],
+    "internalLinks": [
+      "Funding Hub",
+      "Book a Review",
+      "Tools"
+    ],
+    "schemaType": "FAQPage"
+  }
 }

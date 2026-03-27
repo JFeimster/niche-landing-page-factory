@@ -16,10 +16,18 @@
     "background": "dark"
   },
   "contentSources": {
-    "notion": ["resource:pest-control-funding-hub"],
-    "repos": ["repo:pest-control-funding-funnel"],
-    "sites": ["site:pest-control-funding-funnel"],
-    "templates": ["template:seasonal-service-cashflow-plan"]
+    "notion": [
+      "resource:pest-control-funding-hub"
+    ],
+    "repos": [
+      "repo:pest-control-funding-funnel"
+    ],
+    "sites": [
+      "site:pest-control-funding-funnel"
+    ],
+    "templates": [
+      "template:seasonal-service-cashflow-plan"
+    ]
   },
   "pageType": "vertical-funnel",
   "layout": "comparison-plus-cta",
@@ -69,17 +77,26 @@
     {
       "title": "Fleet expansion",
       "description": "Use it to add trucks and equipment before peak season.",
-      "fit": ["fleet", "growth"]
+      "fit": [
+        "fleet",
+        "growth"
+      ]
     },
     {
       "title": "Marketing surge",
       "description": "Use it to fund lead generation ahead of busy months.",
-      "fit": ["marketing", "seasonal"]
+      "fit": [
+        "marketing",
+        "seasonal"
+      ]
     },
     {
       "title": "Equipment replacement",
       "description": "Use it to replace sprayers and gear without delays.",
-      "fit": ["equipment", "ops"]
+      "fit": [
+        "equipment",
+        "ops"
+      ]
     }
   ],
   "objections": [
@@ -101,5 +118,33 @@
     "href": "/book",
     "description": "Use this page to keep routes full and cashflow steady."
   },
-  "collections": ["funding-core"]
+  "collections": [
+    "funding-core"
+  ],
+  "brief": {
+    "targetKeyword": "Pest Control funding",
+    "searchIntent": "Commercial / compare options",
+    "audience": "pest control operators who need working capital, growth capital, or project funding",
+    "uniqueValueProposition": "Seasonal demand and recurring plans create uneven cashflow. This page matches pest control operators to the right lanes.",
+    "proofPoints": [
+      "Seasonal demand spikes require more trucks and techs.",
+      "Marketing costs rise before recurring revenue catches up.",
+      "Fund fleet upgrades",
+      "Scale marketing",
+      "Handle seasonal spikes"
+    ],
+    "faqIdeas": [
+      "Do I need perfect credit?",
+      "Is this just for big operators?",
+      "Can funding move fast?",
+      "How does pest control funding work?",
+      "What makes this pest control page different?"
+    ],
+    "internalLinks": [
+      "Funding Hub",
+      "Book a Review",
+      "Tools"
+    ],
+    "schemaType": "FAQPage"
+  }
 }

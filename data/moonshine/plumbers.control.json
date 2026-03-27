@@ -16,10 +16,18 @@
     "background": "dark"
   },
   "contentSources": {
-    "notion": ["resource:plumber-funding-hub"],
-    "repos": ["repo:plumber-funding-funnel"],
-    "sites": ["site:plumber-funding-funnel"],
-    "templates": ["template:emergency-job-cashflow-plan"]
+    "notion": [
+      "resource:plumber-funding-hub"
+    ],
+    "repos": [
+      "repo:plumber-funding-funnel"
+    ],
+    "sites": [
+      "site:plumber-funding-funnel"
+    ],
+    "templates": [
+      "template:emergency-job-cashflow-plan"
+    ]
   },
   "pageType": "vertical-funnel",
   "layout": "comparison-plus-cta",
@@ -69,17 +77,26 @@
     {
       "title": "Emergency repair surge",
       "description": "Use this page when call volume spikes and cash needs to land fast.",
-      "fit": ["urgent", "emergency"]
+      "fit": [
+        "urgent",
+        "emergency"
+      ]
     },
     {
       "title": "Parts-heavy jobs",
       "description": "Use it to fund large parts orders before payments clear.",
-      "fit": ["materials", "inventory"]
+      "fit": [
+        "materials",
+        "inventory"
+      ]
     },
     {
       "title": "Crew expansion",
       "description": "Use it to add trucks or techs without stalling payroll.",
-      "fit": ["growth", "payroll"]
+      "fit": [
+        "growth",
+        "payroll"
+      ]
     }
   ],
   "objections": [
@@ -101,5 +118,33 @@
     "href": "/book",
     "description": "Use this page to turn urgent jobs into stable cashflow."
   },
-  "collections": ["funding-core"]
+  "collections": [
+    "funding-core"
+  ],
+  "brief": {
+    "targetKeyword": "Plumbers funding",
+    "searchIntent": "Commercial / compare options",
+    "audience": "plumbers operators who need working capital, growth capital, or project funding",
+    "uniqueValueProposition": "Emergency calls do not wait for net-30 checks. This page maps plumber cashflow to fast funding lanes that keep trucks moving.",
+    "proofPoints": [
+      "Emergency jobs require parts before invoices clear.",
+      "Crew payroll cannot wait on insurance timelines.",
+      "Front materials fast",
+      "Keep trucks staffed",
+      "Smooth out emergency spikes"
+    ],
+    "faqIdeas": [
+      "Do I need perfect credit?",
+      "Is this only for big plumbing companies?",
+      "Can this help with same-week jobs?",
+      "How does plumbers funding work?",
+      "What makes this plumbers page different?"
+    ],
+    "internalLinks": [
+      "Funding Hub",
+      "Book a Review",
+      "Tools"
+    ],
+    "schemaType": "FAQPage"
+  }
 }

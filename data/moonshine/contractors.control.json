@@ -16,10 +16,18 @@
     "background": "dark"
   },
   "contentSources": {
-    "notion": ["resource:contractor-funding-hub"],
-    "repos": ["repo:contractor-funding-funnel"],
-    "sites": ["site:contractor-funding-funnel"],
-    "templates": ["template:contractor-cashflow-planner"]
+    "notion": [
+      "resource:contractor-funding-hub"
+    ],
+    "repos": [
+      "repo:contractor-funding-funnel"
+    ],
+    "sites": [
+      "site:contractor-funding-funnel"
+    ],
+    "templates": [
+      "template:contractor-cashflow-planner"
+    ]
   },
   "pageType": "vertical-funnel",
   "layout": "comparison-plus-cta",
@@ -69,17 +77,26 @@
     {
       "title": "Materials purchase",
       "description": "Use the page when you need to front-load supplies for a larger project.",
-      "fit": ["materials", "large jobs"]
+      "fit": [
+        "materials",
+        "large jobs"
+      ]
     },
     {
       "title": "Payroll bridge",
       "description": "Use it when crews need to be paid before the client releases funds.",
-      "fit": ["payroll", "timing gap"]
+      "fit": [
+        "payroll",
+        "timing gap"
+      ]
     },
     {
       "title": "Growth campaign",
       "description": "Use it for ads, outbound, or SEO when you want more contractor leads.",
-      "fit": ["lead gen", "growth"]
+      "fit": [
+        "lead gen",
+        "growth"
+      ]
     }
   ],
   "objections": [
@@ -101,5 +118,33 @@
     "href": "/book",
     "description": "Use this page to turn project cashflow into a faster capital conversation."
   },
-  "collections": ["funding-core"]
+  "collections": [
+    "funding-core"
+  ],
+  "brief": {
+    "targetKeyword": "Contractors funding",
+    "searchIntent": "Commercial / compare options",
+    "audience": "contractors operators who need working capital, growth capital, or project funding",
+    "uniqueValueProposition": "When the job starts before the money lands, you need funding that understands supplier invoices, payroll timing, and project momentum.",
+    "proofPoints": [
+      "Materials get expensive before the first draw clears.",
+      "Payroll cannot wait on client payment cycles.",
+      "Cover upfront materials",
+      "Bridge payroll gaps",
+      "Move faster on new bids"
+    ],
+    "faqIdeas": [
+      "Do I need perfect credit?",
+      "What if my jobs are seasonal?",
+      "Can this help with emergency jobs?",
+      "How does contractors funding work?",
+      "What makes this contractors page different?"
+    ],
+    "internalLinks": [
+      "Funding Hub",
+      "Book a Review",
+      "Tools"
+    ],
+    "schemaType": "FAQPage"
+  }
 }

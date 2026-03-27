@@ -16,10 +16,18 @@
     "background": "dark"
   },
   "contentSources": {
-    "notion": ["resource:law-firm-funding-hub"],
-    "repos": ["repo:law-firm-funding-funnel"],
-    "sites": ["site:law-firm-funding-funnel"],
-    "templates": ["template:case-load-cashflow-map"]
+    "notion": [
+      "resource:law-firm-funding-hub"
+    ],
+    "repos": [
+      "repo:law-firm-funding-funnel"
+    ],
+    "sites": [
+      "site:law-firm-funding-funnel"
+    ],
+    "templates": [
+      "template:case-load-cashflow-map"
+    ]
   },
   "pageType": "vertical-funnel",
   "layout": "comparison-plus-cta",
@@ -69,17 +77,26 @@
     {
       "title": "Hiring runway",
       "description": "Use it when you need staff before the next wave of cases closes.",
-      "fit": ["hiring", "runway"]
+      "fit": [
+        "hiring",
+        "runway"
+      ]
     },
     {
       "title": "Marketing spend",
       "description": "Use it to fuel ads, intake, or referral growth campaigns.",
-      "fit": ["marketing", "growth"]
+      "fit": [
+        "marketing",
+        "growth"
+      ]
     },
     {
       "title": "Expansion capital",
       "description": "Use it when a new office or practice area needs upfront investment.",
-      "fit": ["expansion", "ops"]
+      "fit": [
+        "expansion",
+        "ops"
+      ]
     }
   ],
   "objections": [
@@ -101,5 +118,33 @@
     "href": "/book",
     "description": "Use this page to connect case-flow timing with a real capital path."
   },
-  "collections": ["funding-core"]
+  "collections": [
+    "funding-core"
+  ],
+  "brief": {
+    "targetKeyword": "Law Firms funding",
+    "searchIntent": "Commercial / compare options",
+    "audience": "law firms operators who need working capital, growth capital, or project funding",
+    "uniqueValueProposition": "Law firms need capital to hire, market, and handle uneven case cashflow without slowing the practice down.",
+    "proofPoints": [
+      "Case work pays over time, not always when expenses hit.",
+      "Hiring and marketing need cash before revenue catches up.",
+      "Bridge payroll",
+      "Fund marketing",
+      "Support expansion"
+    ],
+    "faqIdeas": [
+      "Does this work for contingency-heavy firms?",
+      "What if I only need short-term working capital?",
+      "Will this feel too salesy?",
+      "How does law firms funding work?",
+      "What makes this law firms page different?"
+    ],
+    "internalLinks": [
+      "Funding Hub",
+      "Book a Review",
+      "Tools"
+    ],
+    "schemaType": "FAQPage"
+  }
 }

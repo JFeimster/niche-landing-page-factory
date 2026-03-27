@@ -16,10 +16,18 @@
     "background": "dark"
   },
   "contentSources": {
-    "notion": ["resource:cleaning-funding-hub"],
-    "repos": ["repo:cleaning-funding-funnel"],
-    "sites": ["site:cleaning-funding-funnel"],
-    "templates": ["template:contract-cashflow-plan"]
+    "notion": [
+      "resource:cleaning-funding-hub"
+    ],
+    "repos": [
+      "repo:cleaning-funding-funnel"
+    ],
+    "sites": [
+      "site:cleaning-funding-funnel"
+    ],
+    "templates": [
+      "template:contract-cashflow-plan"
+    ]
   },
   "pageType": "vertical-funnel",
   "layout": "comparison-plus-cta",
@@ -69,17 +77,26 @@
     {
       "title": "New contract ramp",
       "description": "Use it when a bigger contract starts before cash clears.",
-      "fit": ["contracts", "growth"]
+      "fit": [
+        "contracts",
+        "growth"
+      ]
     },
     {
       "title": "Payroll bridge",
       "description": "Use it to keep crews paid during invoice gaps.",
-      "fit": ["payroll", "timing"]
+      "fit": [
+        "payroll",
+        "timing"
+      ]
     },
     {
       "title": "Supply bulk buy",
       "description": "Use it to stock cleaning supplies at lower unit cost.",
-      "fit": ["supplies", "inventory"]
+      "fit": [
+        "supplies",
+        "inventory"
+      ]
     }
   ],
   "objections": [
@@ -101,5 +118,33 @@
     "href": "/book",
     "description": "Use this page to keep contracts profitable and crews paid."
   },
-  "collections": ["funding-core"]
+  "collections": [
+    "funding-core"
+  ],
+  "brief": {
+    "targetKeyword": "Cleaning Services funding",
+    "searchIntent": "Commercial / compare options",
+    "audience": "cleaning services operators who need working capital, growth capital, or project funding",
+    "uniqueValueProposition": "Cleaning businesses win on consistency, but payroll hits before contract checks clear. This page fixes that gap.",
+    "proofPoints": [
+      "Payroll hits weekly while contracts pay monthly.",
+      "Supply purchases stack up before invoices clear.",
+      "Cover payroll gaps",
+      "Stock supplies reliably",
+      "Scale new contracts"
+    ],
+    "faqIdeas": [
+      "Do I need long business history?",
+      "Is this only for big cleaning companies?",
+      "Can I use it for payroll?",
+      "How does cleaning services funding work?",
+      "What makes this cleaning services page different?"
+    ],
+    "internalLinks": [
+      "Funding Hub",
+      "Book a Review",
+      "Tools"
+    ],
+    "schemaType": "FAQPage"
+  }
 }

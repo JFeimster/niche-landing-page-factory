@@ -16,10 +16,18 @@
     "background": "dark"
   },
   "contentSources": {
-    "notion": ["resource:property-management-funding-hub"],
-    "repos": ["repo:property-management-funding-funnel"],
-    "sites": ["site:property-management-funding-funnel"],
-    "templates": ["template:turn-and-renovation-cashflow-plan"]
+    "notion": [
+      "resource:property-management-funding-hub"
+    ],
+    "repos": [
+      "repo:property-management-funding-funnel"
+    ],
+    "sites": [
+      "site:property-management-funding-funnel"
+    ],
+    "templates": [
+      "template:turn-and-renovation-cashflow-plan"
+    ]
   },
   "pageType": "vertical-funnel",
   "layout": "comparison-plus-cta",
@@ -79,17 +87,26 @@
     {
       "title": "Unit turn costs",
       "description": "Use it when a vacant unit needs work before it can re-rent.",
-      "fit": ["turns", "repairs"]
+      "fit": [
+        "turns",
+        "repairs"
+      ]
     },
     {
       "title": "Maintenance backlog",
       "description": "Use it to cover urgent vendor work without delaying repairs.",
-      "fit": ["vendors", "urgent"]
+      "fit": [
+        "vendors",
+        "urgent"
+      ]
     },
     {
       "title": "Growth and acquisitions",
       "description": "Use it when portfolio expansion needs working capital support.",
-      "fit": ["growth", "acquisition"]
+      "fit": [
+        "growth",
+        "acquisition"
+      ]
     }
   ],
   "objections": [
@@ -117,5 +134,30 @@
   ],
   "collections": [
     "funding-core"
-  ]
+  ],
+  "brief": {
+    "targetKeyword": "Property Management funding",
+    "searchIntent": "Commercial / compare options",
+    "audience": "property management operators who need working capital, growth capital, or project funding",
+    "uniqueValueProposition": "Turn costs, maintenance, and staffing do not wait for rent cycles. This page maps property management cashflow to funding lanes that keep portfolios moving.",
+    "proofPoints": [
+      "Unit turns create upfront repair and cleaning costs.",
+      "Maintenance issues can hit before rent collections catch up.",
+      "Cover turn costs fast",
+      "Bridge maintenance gaps",
+      "Support portfolio growth"
+    ],
+    "faqIdeas": [
+      "Is this only for large portfolios?",
+      "Can this help with unit turns?",
+      "Do I need a perfect rent roll?",
+      "How does property management funding work?",
+      "What makes this property management page different?"
+    ],
+    "internalLinks": [
+      "Funding Hub",
+      "Book a Review"
+    ],
+    "schemaType": "FAQPage"
+  }
 }

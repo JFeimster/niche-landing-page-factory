@@ -67,5 +67,23 @@
     "template:business-credit-builder-roadmap",
     "template:startup-credit-stacker-console",
     "tool:credit-score-simulator"
-  ]
+  ],
+  "brief": {
+    "targetKeyword": "Business Credit & Personal Credit Strategy hub",
+    "searchIntent": "Commercial / navigational",
+    "audience": "operators comparing capital paths across a broad category",
+    "uniqueValueProposition": "Business credit, personal credit prep, incubator paths, score simulation, and roadmaps built for actual funding readiness.",
+    "proofPoints": [],
+    "faqIdeas": [
+      "How does credit funding work?",
+      "What makes this credit page different?",
+      "How fast can I get started?"
+    ],
+    "internalLinks": [
+      "Contractors",
+      "Truckers",
+      "Roofers"
+    ],
+    "schemaType": "WebPage"
+  }
 }

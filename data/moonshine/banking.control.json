@@ -42,7 +42,7 @@
     "description": "Modern business banking, fintech comparisons, instant payout systems, and operator-friendly account strategy."
   },
   "hero": {
-    "headline": "Choose a Banking Stack That Doesn\u2019t Fight Your Business Model.",
+    "headline": "Choose a Banking Stack That Doesn’t Fight Your Business Model.",
     "subheadline": "Modern business banking, instant payout options, fintech comparisons, and operator-friendly account strategy.",
     "primaryCtaLabel": "Compare Banking Options",
     "primaryCtaUrl": "/compare/banking",
@@ -73,5 +73,23 @@
     "template:smb-financial-os",
     "template:instant-payout-network",
     "template:open-banking-connector"
-  ]
+  ],
+  "brief": {
+    "targetKeyword": "Business Banking & Fintech Stack hub",
+    "searchIntent": "Commercial / navigational",
+    "audience": "operators comparing capital paths across a broad category",
+    "uniqueValueProposition": "Modern business banking, instant payout options, fintech comparisons, and operator-friendly account strategy.",
+    "proofPoints": [],
+    "faqIdeas": [
+      "How does banking funding work?",
+      "What makes this banking page different?",
+      "How fast can I get started?"
+    ],
+    "internalLinks": [
+      "Contractors",
+      "Truckers",
+      "Roofers"
+    ],
+    "schemaType": "WebPage"
+  }
 }

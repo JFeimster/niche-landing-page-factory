@@ -16,10 +16,18 @@
     "background": "dark"
   },
   "contentSources": {
-    "notion": ["resource:security-company-funding-hub"],
-    "repos": ["repo:security-company-funding-funnel"],
-    "sites": ["site:security-company-funding-funnel"],
-    "templates": ["template:contract-expansion-cashflow-plan"]
+    "notion": [
+      "resource:security-company-funding-hub"
+    ],
+    "repos": [
+      "repo:security-company-funding-funnel"
+    ],
+    "sites": [
+      "site:security-company-funding-funnel"
+    ],
+    "templates": [
+      "template:contract-expansion-cashflow-plan"
+    ]
   },
   "pageType": "vertical-funnel",
   "layout": "comparison-plus-cta",
@@ -79,17 +87,26 @@
     {
       "title": "New contract ramp",
       "description": "Use it when a new contract requires immediate staffing and equipment spend.",
-      "fit": ["contracts", "ramp"]
+      "fit": [
+        "contracts",
+        "ramp"
+      ]
     },
     {
       "title": "Fleet repair",
       "description": "Use it to repair or replace patrol vehicles without missing coverage.",
-      "fit": ["vehicles", "fleet"]
+      "fit": [
+        "vehicles",
+        "fleet"
+      ]
     },
     {
       "title": "Payroll bridge",
       "description": "Use it to keep guards paid while receivables catch up.",
-      "fit": ["payroll", "timing"]
+      "fit": [
+        "payroll",
+        "timing"
+      ]
     }
   ],
   "objections": [
@@ -117,5 +134,30 @@
   ],
   "collections": [
     "funding-core"
-  ]
+  ],
+  "brief": {
+    "targetKeyword": "Security Companies funding",
+    "searchIntent": "Commercial / compare options",
+    "audience": "security companies operators who need working capital, growth capital, or project funding",
+    "uniqueValueProposition": "Security contracts often pay on a delay while staffing and fleet costs hit now. This page maps security company cashflow to funding lanes that keep coverage steady.",
+    "proofPoints": [
+      "Contracts can pay slower than payroll runs.",
+      "Vehicles and patrol equipment need upfront capital.",
+      "Bridge contract gaps",
+      "Cover patrol vehicles",
+      "Support staffing and growth"
+    ],
+    "faqIdeas": [
+      "Is this only for large security firms?",
+      "Can this help with new contracts?",
+      "Do I need perfect financials?",
+      "How does security companies funding work?",
+      "What makes this security companies page different?"
+    ],
+    "internalLinks": [
+      "Funding Hub",
+      "Book a Review"
+    ],
+    "schemaType": "FAQPage"
+  }
 }

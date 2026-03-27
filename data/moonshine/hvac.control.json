@@ -16,10 +16,18 @@
     "background": "dark"
   },
   "contentSources": {
-    "notion": ["resource:hvac-funding-hub"],
-    "repos": ["repo:hvac-funding-funnel"],
-    "sites": ["site:hvac-funding-funnel"],
-    "templates": ["template:seasonal-demand-cashflow-plan"]
+    "notion": [
+      "resource:hvac-funding-hub"
+    ],
+    "repos": [
+      "repo:hvac-funding-funnel"
+    ],
+    "sites": [
+      "site:hvac-funding-funnel"
+    ],
+    "templates": [
+      "template:seasonal-demand-cashflow-plan"
+    ]
   },
   "pageType": "vertical-funnel",
   "layout": "comparison-plus-cta",
@@ -69,17 +77,26 @@
     {
       "title": "Peak season backlog",
       "description": "Use it when demand outpaces available capital.",
-      "fit": ["seasonal", "surge"]
+      "fit": [
+        "seasonal",
+        "surge"
+      ]
     },
     {
       "title": "Equipment replacement",
       "description": "Use it to replace units without delaying installs.",
-      "fit": ["equipment", "installations"]
+      "fit": [
+        "equipment",
+        "installations"
+      ]
     },
     {
       "title": "Crew expansion",
       "description": "Use it to add techs before the next heat wave hits.",
-      "fit": ["growth", "payroll"]
+      "fit": [
+        "growth",
+        "payroll"
+      ]
     }
   ],
   "objections": [
@@ -101,5 +118,33 @@
     "href": "/book",
     "description": "Use this page to turn seasonal demand into stable cashflow."
   },
-  "collections": ["funding-core"]
+  "collections": [
+    "funding-core"
+  ],
+  "brief": {
+    "targetKeyword": "HVAC funding",
+    "searchIntent": "Commercial / compare options",
+    "audience": "hvac operators who need working capital, growth capital, or project funding",
+    "uniqueValueProposition": "When peak season hits, equipment and labor costs hit first. This page maps HVAC cashflow to fast funding lanes.",
+    "proofPoints": [
+      "Equipment purchases hit before deposits clear.",
+      "Seasonal demand creates sudden payroll pressure.",
+      "Cover equipment fast",
+      "Keep crews scheduled",
+      "Absorb seasonal spikes"
+    ],
+    "faqIdeas": [
+      "Is this only for large HVAC companies?",
+      "What if seasonality makes revenue uneven?",
+      "Can it fund equipment quickly?",
+      "How does hvac funding work?",
+      "What makes this hvac page different?"
+    ],
+    "internalLinks": [
+      "Funding Hub",
+      "Book a Review",
+      "Tools"
+    ],
+    "schemaType": "FAQPage"
+  }
 }

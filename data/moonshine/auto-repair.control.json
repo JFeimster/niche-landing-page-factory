@@ -16,10 +16,18 @@
     "background": "dark"
   },
   "contentSources": {
-    "notion": ["resource:auto-repair-funding-hub"],
-    "repos": ["repo:auto-repair-funding-funnel"],
-    "sites": ["site:auto-repair-funding-funnel"],
-    "templates": ["template:parts-inventory-cashflow-plan"]
+    "notion": [
+      "resource:auto-repair-funding-hub"
+    ],
+    "repos": [
+      "repo:auto-repair-funding-funnel"
+    ],
+    "sites": [
+      "site:auto-repair-funding-funnel"
+    ],
+    "templates": [
+      "template:parts-inventory-cashflow-plan"
+    ]
   },
   "pageType": "vertical-funnel",
   "layout": "comparison-plus-cta",
@@ -69,17 +77,26 @@
     {
       "title": "Parts restock",
       "description": "Use it to restock high-demand parts without delays.",
-      "fit": ["inventory", "speed"]
+      "fit": [
+        "inventory",
+        "speed"
+      ]
     },
     {
       "title": "Equipment upgrade",
       "description": "Use it to fund lifts, diagnostics, or bay expansion.",
-      "fit": ["equipment", "growth"]
+      "fit": [
+        "equipment",
+        "growth"
+      ]
     },
     {
       "title": "Payroll bridge",
       "description": "Use it to cover tech payroll during payment gaps.",
-      "fit": ["payroll", "timing"]
+      "fit": [
+        "payroll",
+        "timing"
+      ]
     }
   ],
   "objections": [
@@ -101,5 +118,33 @@
     "href": "/book",
     "description": "Use this page to keep bays moving and inventory stocked."
   },
-  "collections": ["funding-core"]
+  "collections": [
+    "funding-core"
+  ],
+  "brief": {
+    "targetKeyword": "Auto Repair funding",
+    "searchIntent": "Commercial / compare options",
+    "audience": "auto repair operators who need working capital, growth capital, or project funding",
+    "uniqueValueProposition": "Parts costs hit now, customers pay later. This page maps auto shop cashflow to the right funding lanes.",
+    "proofPoints": [
+      "Parts inventory ties up cash fast.",
+      "Insurance reimbursements create timing gaps.",
+      "Stock parts inventory",
+      "Keep bays productive",
+      "Upgrade equipment fast"
+    ],
+    "faqIdeas": [
+      "Do I need perfect credit?",
+      "Is this only for large shops?",
+      "Can I fund parts quickly?",
+      "How does auto repair funding work?",
+      "What makes this auto repair page different?"
+    ],
+    "internalLinks": [
+      "Funding Hub",
+      "Book a Review",
+      "Tools"
+    ],
+    "schemaType": "FAQPage"
+  }
 }

@@ -48,9 +48,9 @@
     "headline": "Find the Right Capital Before You Apply Blindly Like a Maniac.",
     "subheadline": "Business funding, real estate capital, personal funding, and strategy tools organized into one clean command center.",
     "primaryCtaLabel": "Start Funding Pathfinder",
-      "primaryCtaUrl": "https://chatgpt.com/g/g-6876b717ca808191aea5343f89c670e3-funding-pathfinder-gpt",
-      "secondaryCtaLabel": "Browse Funding Categories",
-      "secondaryCtaUrl": "#funding-categories"
+    "primaryCtaUrl": "https://chatgpt.com/g/g-6876b717ca808191aea5343f89c670e3-funding-pathfinder-gpt",
+    "secondaryCtaLabel": "Browse Funding Categories",
+    "secondaryCtaUrl": "#funding-categories"
   },
   "problem": [
     "Most buyers do not know which capital lane fits their situation, so they apply blind and waste time.",
@@ -87,17 +87,26 @@
     {
       "title": "Pre-qualification page",
       "description": "Ideal when the visitor needs to know whether they should apply, prepare, or look elsewhere.",
-      "fit": ["high intent", "fast decision"]
+      "fit": [
+        "high intent",
+        "fast decision"
+      ]
     },
     {
       "title": "Industry-specific campaign",
       "description": "Ideal for paid traffic or outbound where the audience expects language that sounds native to their niche.",
-      "fit": ["paid search", "cold outbound"]
+      "fit": [
+        "paid search",
+        "cold outbound"
+      ]
     },
     {
       "title": "Content hub landing page",
       "description": "Ideal when the page needs to connect educational content to a specific conversion path.",
-      "fit": ["SEO", "topic clusters"]
+      "fit": [
+        "SEO",
+        "topic clusters"
+      ]
     }
   ],
   "objections": [
@@ -144,5 +153,31 @@
     "site:funding-ceo",
     "site:ai-funding-pathfinder",
     "site:ai-funding-coach"
-  ]
+  ],
+  "brief": {
+    "targetKeyword": "Funding funding",
+    "searchIntent": "Commercial / compare options",
+    "audience": "funding operators who need working capital, growth capital, or project funding",
+    "uniqueValueProposition": "Business funding, real estate capital, personal funding, and strategy tools organized into one clean command center.",
+    "proofPoints": [
+      "Most buyers do not know which capital lane fits their situation, so they apply blind and waste time.",
+      "Different verticals need different proof, different objections, and different language to feel credible.",
+      "Clearer qualification",
+      "Faster trust",
+      "Higher conversion intent"
+    ],
+    "faqIdeas": [
+      "Won't these pages feel repetitive?",
+      "How many verticals should I launch first?",
+      "What makes a vertical page worthwhile?",
+      "How does funding funding work?",
+      "What makes this funding page different?"
+    ],
+    "internalLinks": [
+      "Funding Hub",
+      "Book a Review",
+      "Tools"
+    ],
+    "schemaType": "FAQPage"
+  }
 }

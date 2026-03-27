@@ -77,5 +77,23 @@
     "widget:funding-calculator-widget",
     "widget:qualifying-quiz-funnel",
     "template:funding-product-comparison-tool"
-  ]
+  ],
+  "brief": {
+    "targetKeyword": "Funding Tools & Calculators tool",
+    "searchIntent": "Transactional / utility",
+    "audience": "operators who want faster answers from calculators and utilities",
+    "uniqueValueProposition": "Make smarter financing decisions with calculators, comparison tools, quizzes, templates, and embedded widgets.",
+    "proofPoints": [],
+    "faqIdeas": [
+      "How does tools funding work?",
+      "What makes this tools page different?",
+      "How fast can I get started?"
+    ],
+    "internalLinks": [
+      "Funding Hub",
+      "Book a Review",
+      "Templates"
+    ],
+    "schemaType": "ItemList"
+  }
 }

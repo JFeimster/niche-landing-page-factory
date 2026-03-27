@@ -16,10 +16,18 @@
     "background": "dark"
   },
   "contentSources": {
-    "notion": ["resource:solar-funding-hub"],
-    "repos": ["repo:solar-funding-funnel"],
-    "sites": ["site:solar-funding-funnel"],
-    "templates": ["template:install-cycle-cashflow-plan"]
+    "notion": [
+      "resource:solar-funding-hub"
+    ],
+    "repos": [
+      "repo:solar-funding-funnel"
+    ],
+    "sites": [
+      "site:solar-funding-funnel"
+    ],
+    "templates": [
+      "template:install-cycle-cashflow-plan"
+    ]
   },
   "pageType": "vertical-funnel",
   "layout": "comparison-plus-cta",
@@ -69,17 +77,26 @@
     {
       "title": "Equipment purchase",
       "description": "Use it to fund panels, inverters, and hardware.",
-      "fit": ["equipment", "inventory"]
+      "fit": [
+        "equipment",
+        "inventory"
+      ]
     },
     {
       "title": "Project backlog",
       "description": "Use it when payouts lag but installs continue.",
-      "fit": ["project lag", "cashflow"]
+      "fit": [
+        "project lag",
+        "cashflow"
+      ]
     },
     {
       "title": "Crew expansion",
       "description": "Use it to add install teams during demand spikes.",
-      "fit": ["growth", "payroll"]
+      "fit": [
+        "growth",
+        "payroll"
+      ]
     }
   ],
   "objections": [
@@ -101,5 +118,33 @@
     "href": "/book",
     "description": "Use this page to keep installs moving between sale and payout."
   },
-  "collections": ["funding-core"]
+  "collections": [
+    "funding-core"
+  ],
+  "brief": {
+    "targetKeyword": "Solar Installers funding",
+    "searchIntent": "Commercial / compare options",
+    "audience": "solar installers operators who need working capital, growth capital, or project funding",
+    "uniqueValueProposition": "Solar projects are big-ticket with long cycles. This page keeps cashflow moving between sale, install, and payout.",
+    "proofPoints": [
+      "Equipment costs hit before project payouts land.",
+      "Sales cycles can be long, causing cash gaps.",
+      "Cover equipment fast",
+      "Bridge project lag",
+      "Keep crews active"
+    ],
+    "faqIdeas": [
+      "Do I need long business history?",
+      "Is this only for big installers?",
+      "Can funding cover equipment quickly?",
+      "How does solar installers funding work?",
+      "What makes this solar installers page different?"
+    ],
+    "internalLinks": [
+      "Funding Hub",
+      "Book a Review",
+      "Tools"
+    ],
+    "schemaType": "FAQPage"
+  }
 }

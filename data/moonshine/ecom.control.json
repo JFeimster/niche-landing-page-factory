@@ -72,5 +72,23 @@
     "template:amazon-phantom-cash-audit",
     "template:tiktok-shop-viral-curse-manager",
     "repo:market-sniper-hub"
-  ]
+  ],
+  "brief": {
+    "targetKeyword": "eCom funding",
+    "searchIntent": "Commercial / compare options",
+    "audience": "ecom operators who need working capital, growth capital, or project funding",
+    "uniqueValueProposition": "Inventory funding, payout smoothing, launch capital, and growth planning for Amazon, Shopify, Walmart, and TikTok Shop brands.",
+    "proofPoints": [],
+    "faqIdeas": [
+      "How does ecom funding work?",
+      "What makes this ecom page different?",
+      "How fast can I get started?"
+    ],
+    "internalLinks": [
+      "Funding Hub",
+      "Book a Review",
+      "Tools"
+    ],
+    "schemaType": "WebPage"
+  }
 }
