@@ -1,0 +1,121 @@
+{
+  "id": "moving-companies",
+  "slug": "moving-companies",
+  "label": "Moving Companies",
+  "brandId": "moonshine-capital",
+  "brandName": "Moonshine Capital",
+  "route": {
+    "host": "distilledfunding.com",
+    "path": "/moving-companies"
+  },
+  "aliasPaths": [],
+  "sourceRouteId": "route:moving-companies",
+  "theme": {
+    "primaryColor": "#111827",
+    "accentColor": "#38bdf8",
+    "background": "dark"
+  },
+  "contentSources": {
+    "notion": ["resource:moving-company-funding-hub"],
+    "repos": ["repo:moving-company-funding-funnel"],
+    "sites": ["site:moving-company-funding-funnel"],
+    "templates": ["template:route-density-cashflow-plan"]
+  },
+  "pageType": "vertical-funnel",
+  "layout": "comparison-plus-cta",
+  "seo": {
+    "title": "Moving Company Funding for Trucks, Fuel, and Crew Payroll",
+    "description": "Fast funding options for moving companies that need trucks, fuel, crews, and cash flow between jobs."
+  },
+  "hero": {
+    "headline": "Moving Company Funding for Trucks, Fuel, and Crew Payroll",
+    "subheadline": "Moves get booked first and paid later. This page maps moving company cashflow to funding lanes that keep trucks rolling and crews on schedule.",
+    "primaryCtaLabel": "Check Moving Options",
+    "primaryCtaUrl": "/book",
+    "secondaryCtaLabel": "See Funding Hub",
+    "secondaryCtaUrl": "/funding"
+  },
+  "sections": [
+    "hero",
+    "problem-cards",
+    "product-grid",
+    "use-cases",
+    "how-it-works",
+    "proof",
+    "faq",
+    "lead-capture"
+  ],
+  "problem": [
+    "Fuel and truck costs hit before customer payments land.",
+    "Crew payroll can stack up during busy move weeks.",
+    "Seasonal spikes make cashflow unpredictable."
+  ],
+  "solution": "Connect moving companies to funding lanes built for route-heavy, schedule-driven operations that need cash before revenue settles.",
+  "benefits": [
+    "Cover fuel and truck expenses",
+    "Keep crews paid between jobs",
+    "Handle seasonal move spikes"
+  ],
+  "proof": [
+    {
+      "title": "Schedule-driven framing",
+      "description": "The page speaks to dispatch, routes, and move timing instead of generic small-business debt."
+    },
+    {
+      "title": "Fleet-first positioning",
+      "description": "It highlights trucks, fuel, and payroll as the real capital pressure points."
+    },
+    {
+      "title": "Direct CTA",
+      "description": "The page keeps the next step short and obvious."
+    }
+  ],
+  "howItWorks": [
+    "Share your route volume, truck needs, and payout timing.",
+    "Compare the fastest lane against the most flexible lane.",
+    "Book the option that keeps the schedule full."
+  ],
+  "useCases": [
+    {
+      "title": "Peak season move surge",
+      "description": "Use it when bookings spike faster than deposits clear.",
+      "fit": ["seasonal", "volume"]
+    },
+    {
+      "title": "Fleet repair",
+      "description": "Use it to repair or replace trucks without slowing dispatch.",
+      "fit": ["trucks", "equipment"]
+    },
+    {
+      "title": "Crew payroll bridge",
+      "description": "Use it to keep movers paid between customer settlements.",
+      "fit": ["payroll", "timing"]
+    }
+  ],
+  "objections": [
+    {
+      "q": "Is this only for large moving companies?",
+      "a": "No. It works for solo operators, local crews, and growing fleets."
+    },
+    {
+      "q": "What if my revenue is seasonal?",
+      "a": "That is common. The page is built around schedule and deposit timing."
+    },
+    {
+      "q": "Can I use this for truck repairs?",
+      "a": "Yes. The page highlights fleet and operating capital needs first."
+    }
+  ],
+  "finalCta": {
+    "label": "Book a Moving Review",
+    "href": "/book",
+    "description": "Use this page to turn route volume into a cleaner capital conversation."
+  },
+  "relatedGuides": [
+    "Funding Hub",
+    "Book a Review"
+  ],
+  "collections": [
+    "funding-core"
+  ]
+}

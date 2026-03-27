@@ -337,6 +337,94 @@
       ]
     },
     {
+      "id": "route:chiropractors",
+      "host": "distilledfunding.com",
+      "path": "/chiropractors",
+      "pageType": "vertical-funnel",
+      "title": "Chiropractor Funding",
+      "layout": "comparison-plus-cta",
+      "collections": [
+        "funding-core"
+      ]
+    },
+    {
+      "id": "route:veterinarians",
+      "host": "distilledfunding.com",
+      "path": "/veterinarians",
+      "pageType": "vertical-funnel",
+      "title": "Veterinary Funding",
+      "layout": "comparison-plus-cta",
+      "collections": [
+        "funding-core"
+      ]
+    },
+    {
+      "id": "route:daycare-centers",
+      "host": "distilledfunding.com",
+      "path": "/daycare-centers",
+      "pageType": "vertical-funnel",
+      "title": "Daycare Funding",
+      "layout": "comparison-plus-cta",
+      "collections": [
+        "funding-core"
+      ]
+    },
+    {
+      "id": "route:gyms",
+      "host": "distilledfunding.com",
+      "path": "/gyms",
+      "pageType": "vertical-funnel",
+      "title": "Gym Funding",
+      "layout": "comparison-plus-cta",
+      "collections": [
+        "funding-core"
+      ]
+    },
+    {
+      "id": "route:moving-companies",
+      "host": "distilledfunding.com",
+      "path": "/moving-companies",
+      "pageType": "vertical-funnel",
+      "title": "Moving Company Funding",
+      "layout": "comparison-plus-cta",
+      "collections": [
+        "funding-core"
+      ]
+    },
+    {
+      "id": "route:property-management",
+      "host": "distilledfunding.com",
+      "path": "/property-management",
+      "pageType": "vertical-funnel",
+      "title": "Property Management Funding",
+      "layout": "comparison-plus-cta",
+      "collections": [
+        "funding-core"
+      ]
+    },
+    {
+      "id": "route:salons",
+      "host": "distilledfunding.com",
+      "path": "/salons",
+      "pageType": "vertical-funnel",
+      "title": "Salon Funding",
+      "layout": "comparison-plus-cta",
+      "collections": [
+        "funding-core"
+      ]
+    },
+    {
+      "id": "route:security-companies",
+      "host": "distilledfunding.com",
+      "path": "/security-companies",
+      "pageType": "vertical-funnel",
+      "title": "Security Company Funding",
+      "layout": "comparison-plus-cta",
+      "collections": [
+        "funding-core"
+      ]
+    },
+    {
       "id": "route:funding-business",
       "host": "distilledfunding.com",
       "path": "/funding/business",

@@ -1,0 +1,121 @@
+{
+  "id": "property-management",
+  "slug": "property-management",
+  "label": "Property Management",
+  "brandId": "moonshine-capital",
+  "brandName": "Moonshine Capital",
+  "route": {
+    "host": "distilledfunding.com",
+    "path": "/property-management"
+  },
+  "aliasPaths": [],
+  "sourceRouteId": "route:property-management",
+  "theme": {
+    "primaryColor": "#111827",
+    "accentColor": "#22c55e",
+    "background": "dark"
+  },
+  "contentSources": {
+    "notion": ["resource:property-management-funding-hub"],
+    "repos": ["repo:property-management-funding-funnel"],
+    "sites": ["site:property-management-funding-funnel"],
+    "templates": ["template:turn-and-renovation-cashflow-plan"]
+  },
+  "pageType": "vertical-funnel",
+  "layout": "comparison-plus-cta",
+  "seo": {
+    "title": "Property Management Funding for Turns, Repairs, and Growth",
+    "description": "Fast funding options for property management teams covering unit turns, repairs, staffing, and acquisition growth."
+  },
+  "hero": {
+    "headline": "Property Management Funding for Turns, Repairs, and Growth",
+    "subheadline": "Turn costs, maintenance, and staffing do not wait for rent cycles. This page maps property management cashflow to funding lanes that keep portfolios moving.",
+    "primaryCtaLabel": "Check Property Management Options",
+    "primaryCtaUrl": "/book",
+    "secondaryCtaLabel": "See Funding Hub",
+    "secondaryCtaUrl": "/funding"
+  },
+  "sections": [
+    "hero",
+    "problem-cards",
+    "product-grid",
+    "use-cases",
+    "how-it-works",
+    "proof",
+    "faq",
+    "lead-capture"
+  ],
+  "problem": [
+    "Unit turns create upfront repair and cleaning costs.",
+    "Maintenance issues can hit before rent collections catch up.",
+    "Growth and staffing pressure the same cash pool."
+  ],
+  "solution": "Connect property management firms to funding lanes built for turnover cycles, repairs, and portfolio growth instead of generic bank delays.",
+  "benefits": [
+    "Cover turn costs fast",
+    "Bridge maintenance gaps",
+    "Support portfolio growth"
+  ],
+  "proof": [
+    {
+      "title": "Portfolio-first framing",
+      "description": "The copy reflects the cadence of rent rolls, turns, and maintenance calls."
+    },
+    {
+      "title": "Operational language",
+      "description": "It speaks to units, vendors, and occupancy, not broad small-business clichés."
+    },
+    {
+      "title": "Clean next step",
+      "description": "A short review path keeps busy operators moving."
+    }
+  ],
+  "howItWorks": [
+    "Share your rent cycle, turn volume, and maintenance needs.",
+    "Compare speed, repayment structure, and flexibility.",
+    "Book the lane that keeps the portfolio healthy."
+  ],
+  "useCases": [
+    {
+      "title": "Unit turn costs",
+      "description": "Use it when a vacant unit needs work before it can re-rent.",
+      "fit": ["turns", "repairs"]
+    },
+    {
+      "title": "Maintenance backlog",
+      "description": "Use it to cover urgent vendor work without delaying repairs.",
+      "fit": ["vendors", "urgent"]
+    },
+    {
+      "title": "Growth and acquisitions",
+      "description": "Use it when portfolio expansion needs working capital support.",
+      "fit": ["growth", "acquisition"]
+    }
+  ],
+  "objections": [
+    {
+      "q": "Is this only for large portfolios?",
+      "a": "No. It works for independent managers and growing teams."
+    },
+    {
+      "q": "Can this help with unit turns?",
+      "a": "Yes. The page is built around turn costs and occupancy timing."
+    },
+    {
+      "q": "Do I need a perfect rent roll?",
+      "a": "Not always. Many options focus on current operating cadence."
+    }
+  ],
+  "finalCta": {
+    "label": "Book a Property Management Review",
+    "href": "/book",
+    "description": "Use this page to turn occupancy pressure into a cleaner capital conversation."
+  },
+  "relatedGuides": [
+    "Funding Hub",
+    "Book a Review"
+  ],
+  "collections": [
+    "funding-core"
+  ]
+}

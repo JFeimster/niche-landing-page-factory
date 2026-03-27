@@ -1,0 +1,150 @@
+{
+  "id": "daycare-centers",
+  "slug": "daycare-centers",
+  "label": "Daycare Centers",
+  "brandId": "moonshine-capital",
+  "brandName": "Moonshine Capital",
+  "route": {
+    "host": "distilledfunding.com",
+    "path": "/daycare-centers"
+  },
+  "aliasPaths": [],
+  "sourceRouteId": "route:daycare-centers",
+  "theme": {
+    "primaryColor": "#111827",
+    "accentColor": "#f59e0b",
+    "background": "dark"
+  },
+  "contentSources": {
+    "notion": [
+      "resource:daycare-funding-hub"
+    ],
+    "repos": [
+      "repo:daycare-funding-funnel"
+    ],
+    "sites": [
+      "site:daycare-funding-funnel"
+    ],
+    "templates": [
+      "template:tuition-cashflow-plan"
+    ]
+  },
+  "pageType": "vertical-funnel",
+  "layout": "comparison-plus-cta",
+  "seo": {
+    "title": "Daycare Funding for Payroll, Renovations, and Enrollment Growth",
+    "description": "Funding options for daycare centers that need payroll support, classroom upgrades, licensing-related improvements, or expansion capital."
+  },
+  "hero": {
+    "headline": "Daycare Funding for Payroll, Renovations, and Enrollment Growth",
+    "subheadline": "Daycare centers juggle payroll, compliance costs, and classroom upgrades while tuition timing stays uneven. This page helps owners compare funding lanes that fit that rhythm.",
+    "primaryCtaLabel": "Check Daycare Options",
+    "primaryCtaUrl": "/book",
+    "secondaryCtaLabel": "See Funding Hub",
+    "secondaryCtaUrl": "/funding"
+  },
+  "problem": [
+    "Payroll is constant even when enrollment ramps slowly.",
+    "Renovations, equipment, and compliance upgrades require upfront cash.",
+    "Tuition timing can leave operators profitable on paper but tight in practice."
+  ],
+  "solution": "Help daycare operators compare funding paths built around recurring tuition income and the real cost of keeping classrooms staffed and compliant.",
+  "benefits": [
+    "Support payroll consistency",
+    "Fund classroom improvements",
+    "Create enrollment runway"
+  ],
+  "proof": [
+    {
+      "title": "Operator-specific framing",
+      "description": "The copy speaks to enrollment timing, staffing, and center improvements."
+    },
+    {
+      "title": "High-trust CTA path",
+      "description": "Owners get a straightforward review path rather than a confusing generic application."
+    },
+    {
+      "title": "Growth and stability angles",
+      "description": "The page supports both short-term stability and expansion planning."
+    }
+  ],
+  "howItWorks": [
+    "Share whether the need is payroll support, improvements, or growth capital.",
+    "Compare fast-access options against lower-friction structured lanes.",
+    "Book the path that fits tuition timing and center needs."
+  ],
+  "useCases": [
+    {
+      "title": "Payroll support",
+      "description": "Use it when staffing must stay stable while enrollment builds.",
+      "fit": [
+        "payroll",
+        "operations"
+      ]
+    },
+    {
+      "title": "Classroom upgrades",
+      "description": "Use it for furniture, equipment, or facility changes tied to growth and compliance.",
+      "fit": [
+        "renovations",
+        "equipment"
+      ]
+    },
+    {
+      "title": "Second center expansion",
+      "description": "Use it when the business is ready to add rooms or another location.",
+      "fit": [
+        "expansion",
+        "growth"
+      ]
+    }
+  ],
+  "objections": [
+    {
+      "q": "Can this work for a single daycare location?",
+      "a": "Yes. It is useful for independent centers as well as operators adding locations."
+    },
+    {
+      "q": "Is this only for renovations?",
+      "a": "No. It can support payroll, enrollment runway, and other operating needs."
+    },
+    {
+      "q": "What if tuition deposits are uneven?",
+      "a": "That is common, and the page is designed to match funding to that reality."
+    }
+  ],
+  "finalCta": {
+    "label": "Book a Daycare Review",
+    "href": "/book",
+    "description": "Use this page to turn tuition-driven cashflow into a cleaner capital plan."
+  },
+  "collections": [
+    "funding-core"
+  ],
+  "brief": {
+    "targetKeyword": "Daycare Centers funding",
+    "searchIntent": "Commercial / compare options",
+    "audience": "daycare centers operators who need working capital, growth capital, or project funding",
+    "uniqueValueProposition": "Daycare centers juggle payroll, compliance costs, and classroom upgrades while tuition timing stays uneven. This page helps owners compare funding lanes that fit that rhythm.",
+    "proofPoints": [
+      "Payroll is constant even when enrollment ramps slowly.",
+      "Renovations, equipment, and compliance upgrades require upfront cash.",
+      "Support payroll consistency",
+      "Fund classroom improvements",
+      "Create enrollment runway"
+    ],
+    "faqIdeas": [
+      "Can this work for a single daycare location?",
+      "Is this only for renovations?",
+      "What if tuition deposits are uneven?",
+      "How does daycare centers funding work?",
+      "What makes this daycare centers page different?"
+    ],
+    "internalLinks": [
+      "Funding Hub",
+      "Book a Review",
+      "Tools"
+    ],
+    "schemaType": "FAQPage"
+  }
+}

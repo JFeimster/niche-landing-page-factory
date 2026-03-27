@@ -116,6 +116,46 @@
       "label": "Pest Control",
       "path": "/pest-control",
       "filename": "pest-control.control.json"
+    },
+    {
+      "label": "Chiropractors",
+      "path": "/chiropractors",
+      "filename": "chiropractors.control.json"
+    },
+    {
+      "label": "Veterinarians",
+      "path": "/veterinarians",
+      "filename": "veterinarians.control.json"
+    },
+    {
+      "label": "Daycare Centers",
+      "path": "/daycare-centers",
+      "filename": "daycare-centers.control.json"
+    },
+    {
+      "label": "Gyms",
+      "path": "/gyms",
+      "filename": "gyms.control.json"
+    },
+    {
+      "label": "Moving Companies",
+      "path": "/moving-companies",
+      "filename": "moving-companies.control.json"
+    },
+    {
+      "label": "Property Management",
+      "path": "/property-management",
+      "filename": "property-management.control.json"
+    },
+    {
+      "label": "Salons",
+      "path": "/salons",
+      "filename": "salons.control.json"
+    },
+    {
+      "label": "Security Companies",
+      "path": "/security-companies",
+      "filename": "security-companies.control.json"
     }
   ],
   "guarantee": "Every file contains the contentSources object with notion, repos, sites, and templates arrays."

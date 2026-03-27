@@ -1,23 +1,31 @@
 import assetsJson from "@/data/moonshine/assets.json";
 import bankingControlJson from "@/data/moonshine/banking.control.json";
+import chiropractorsControlJson from "@/data/moonshine/chiropractors.control.json";
 import creditControlJson from "@/data/moonshine/credit.control.json";
 import dacTeamControlJson from "@/data/moonshine/dac-team.control.json";
 import autoRepairControlJson from "@/data/moonshine/auto-repair.control.json";
 import cleaningServicesControlJson from "@/data/moonshine/cleaning-services.control.json";
+import daycareCentersControlJson from "@/data/moonshine/daycare-centers.control.json";
 import ecomControlJson from "@/data/moonshine/ecom.control.json";
 import ecomSellersControlJson from "@/data/moonshine/ecom-sellers.control.json";
 import fundingControlJson from "@/data/moonshine/funding.control.json";
+import gymsControlJson from "@/data/moonshine/gyms.control.json";
 import hvacControlJson from "@/data/moonshine/hvac.control.json";
 import landscapersControlJson from "@/data/moonshine/landscapers.control.json";
 import manifestJson from "@/data/moonshine/manifest.json";
 import moonshineControlJson from "@/data/moonshine/moonshine.control.json";
+import movingCompaniesControlJson from "@/data/moonshine/moving-companies.control.json";
 import pestControlControlJson from "@/data/moonshine/pest-control.control.json";
 import plumbersControlJson from "@/data/moonshine/plumbers.control.json";
+import propertyManagementControlJson from "@/data/moonshine/property-management.control.json";
 import realEstateControlJson from "@/data/moonshine/real-estate.control.json";
 import restaurantsControlJson from "@/data/moonshine/restaurants.control.json";
 import routesJson from "@/data/moonshine/routes.json";
+import salonsControlJson from "@/data/moonshine/salons.control.json";
+import securityCompaniesControlJson from "@/data/moonshine/security-companies.control.json";
 import solarInstallersControlJson from "@/data/moonshine/solar-installers.control.json";
 import toolsControlJson from "@/data/moonshine/tools.control.json";
+import veterinariansControlJson from "@/data/moonshine/veterinarians.control.json";
 
 type Cta = { label: string; href: string };
 
@@ -317,22 +325,30 @@ const assets = assetsJson as MoonshineAssets;
 
 const controlsByFilename: Record<string, MoonshineControl> = {
   "auto-repair.control.json": autoRepairControlJson as MoonshineControl,
+  "chiropractors.control.json": chiropractorsControlJson as MoonshineControl,
   "cleaning-services.control.json": cleaningServicesControlJson as MoonshineControl,
+  "daycare-centers.control.json": daycareCentersControlJson as MoonshineControl,
   "moonshine.control.json": moonshineControlJson as MoonshineControl,
   "ecom-sellers.control.json": ecomSellersControlJson as MoonshineControl,
   "real-estate.control.json": realEstateControlJson as MoonshineControl,
   "dac-team.control.json": dacTeamControlJson as MoonshineControl,
   "ecom.control.json": ecomControlJson as MoonshineControl,
   "funding.control.json": fundingControlJson as MoonshineControl,
+  "gyms.control.json": gymsControlJson as MoonshineControl,
   "hvac.control.json": hvacControlJson as MoonshineControl,
   "landscapers.control.json": landscapersControlJson as MoonshineControl,
+  "moving-companies.control.json": movingCompaniesControlJson as MoonshineControl,
   "pest-control.control.json": pestControlControlJson as MoonshineControl,
   "plumbers.control.json": plumbersControlJson as MoonshineControl,
+  "property-management.control.json": propertyManagementControlJson as MoonshineControl,
   "tools.control.json": toolsControlJson as MoonshineControl,
   "banking.control.json": bankingControlJson as MoonshineControl,
   "credit.control.json": creditControlJson as MoonshineControl,
   "restaurants.control.json": restaurantsControlJson as MoonshineControl,
+  "salons.control.json": salonsControlJson as MoonshineControl,
+  "security-companies.control.json": securityCompaniesControlJson as MoonshineControl,
   "solar-installers.control.json": solarInstallersControlJson as MoonshineControl,
+  "veterinarians.control.json": veterinariansControlJson as MoonshineControl,
 };
 
 function normalizeHost(host?: string | null): string {

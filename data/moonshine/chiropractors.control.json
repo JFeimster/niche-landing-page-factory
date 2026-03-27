@@ -1,0 +1,150 @@
+{
+  "id": "chiropractors",
+  "slug": "chiropractors",
+  "label": "Chiropractors",
+  "brandId": "moonshine-capital",
+  "brandName": "Moonshine Capital",
+  "route": {
+    "host": "distilledfunding.com",
+    "path": "/chiropractors"
+  },
+  "aliasPaths": [],
+  "sourceRouteId": "route:chiropractors",
+  "theme": {
+    "primaryColor": "#111827",
+    "accentColor": "#60a5fa",
+    "background": "dark"
+  },
+  "contentSources": {
+    "notion": [
+      "resource:chiropractor-funding-hub"
+    ],
+    "repos": [
+      "repo:chiropractor-funding-funnel"
+    ],
+    "sites": [
+      "site:chiropractor-funding-funnel"
+    ],
+    "templates": [
+      "template:appointment-cashflow-plan"
+    ]
+  },
+  "pageType": "vertical-funnel",
+  "layout": "comparison-plus-cta",
+  "seo": {
+    "title": "Chiropractor Funding for Equipment, Payroll, and Practice Growth",
+    "description": "Funding options for chiropractors who need equipment, marketing runway, payroll support, or practice expansion capital."
+  },
+  "hero": {
+    "headline": "Chiropractor Funding for Equipment, Payroll, and Practice Growth",
+    "subheadline": "Chiropractic practices need capital for equipment, staff, and patient acquisition without waiting through a slow bank process.",
+    "primaryCtaLabel": "Check Chiropractor Options",
+    "primaryCtaUrl": "/book",
+    "secondaryCtaLabel": "See Funding Hub",
+    "secondaryCtaUrl": "/funding"
+  },
+  "problem": [
+    "Equipment upgrades are expensive before patient volume catches up.",
+    "Payroll and lease costs arrive whether collections are smooth or not.",
+    "Marketing growth can stall when cashflow stays too tight."
+  ],
+  "solution": "Position chiropractors around funding lanes that match appointment-driven revenue so they can buy equipment, market the practice, and keep staff supported.",
+  "benefits": [
+    "Upgrade treatment equipment",
+    "Support payroll and overhead",
+    "Fund patient acquisition"
+  ],
+  "proof": [
+    {
+      "title": "Practice-fit framing",
+      "description": "The page is written around chiropractic operations instead of generic small-business language."
+    },
+    {
+      "title": "Clear speed vs. structure choice",
+      "description": "Readers can compare fast options with more stable long-term lanes."
+    },
+    {
+      "title": "Actionable next step",
+      "description": "A short booking CTA is easier than forcing a long application too early."
+    }
+  ],
+  "howItWorks": [
+    "Share whether the need is equipment, payroll support, or growth spend.",
+    "Compare the fastest lane against the most sustainable lane.",
+    "Book the option that fits the practice's current cash rhythm."
+  ],
+  "useCases": [
+    {
+      "title": "Equipment upgrade",
+      "description": "Use it when the practice needs new tables, imaging, or therapy equipment.",
+      "fit": [
+        "equipment",
+        "growth"
+      ]
+    },
+    {
+      "title": "Marketing runway",
+      "description": "Use it to fund ads, referral campaigns, or local expansion efforts.",
+      "fit": [
+        "marketing",
+        "lead gen"
+      ]
+    },
+    {
+      "title": "Staff support",
+      "description": "Use it when payroll or admin growth needs to happen before collections fully ramp.",
+      "fit": [
+        "payroll",
+        "operations"
+      ]
+    }
+  ],
+  "objections": [
+    {
+      "q": "Is this only for large chiropractic clinics?",
+      "a": "No. It works for solo practices, small clinics, and multi-provider offices."
+    },
+    {
+      "q": "Can this help with marketing rather than equipment?",
+      "a": "Yes. The page is useful for growth capital, not just equipment purchases."
+    },
+    {
+      "q": "What if collections are uneven month to month?",
+      "a": "That is common, and the point is to match the funding lane to the actual revenue pattern."
+    }
+  ],
+  "finalCta": {
+    "label": "Book a Chiropractor Review",
+    "href": "/book",
+    "description": "Use this page to connect appointment revenue to the right capital path."
+  },
+  "collections": [
+    "funding-core"
+  ],
+  "brief": {
+    "targetKeyword": "Chiropractors funding",
+    "searchIntent": "Commercial / compare options",
+    "audience": "chiropractors operators who need working capital, growth capital, or project funding",
+    "uniqueValueProposition": "Chiropractic practices need capital for equipment, staff, and patient acquisition without waiting through a slow bank process.",
+    "proofPoints": [
+      "Equipment upgrades are expensive before patient volume catches up.",
+      "Payroll and lease costs arrive whether collections are smooth or not.",
+      "Upgrade treatment equipment",
+      "Support payroll and overhead",
+      "Fund patient acquisition"
+    ],
+    "faqIdeas": [
+      "Is this only for large chiropractic clinics?",
+      "Can this help with marketing rather than equipment?",
+      "What if collections are uneven month to month?",
+      "How does chiropractors funding work?",
+      "What makes this chiropractors page different?"
+    ],
+    "internalLinks": [
+      "Funding Hub",
+      "Book a Review",
+      "Tools"
+    ],
+    "schemaType": "FAQPage"
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "id": "gyms",
+  "slug": "gyms",
+  "label": "Gyms",
+  "brandId": "moonshine-capital",
+  "brandName": "Moonshine Capital",
+  "route": {
+    "host": "distilledfunding.com",
+    "path": "/gyms"
+  },
+  "aliasPaths": [],
+  "sourceRouteId": "route:gyms",
+  "theme": {
+    "primaryColor": "#111827",
+    "accentColor": "#ef4444",
+    "background": "dark"
+  },
+  "contentSources": {
+    "notion": [
+      "resource:gym-funding-hub"
+    ],
+    "repos": [
+      "repo:gym-funding-funnel"
+    ],
+    "sites": [
+      "site:gym-funding-funnel"
+    ],
+    "templates": [
+      "template:membership-cashflow-map"
+    ]
+  },
+  "pageType": "vertical-funnel",
+  "layout": "comparison-plus-cta",
+  "seo": {
+    "title": "Gym Funding for Equipment, Buildouts, and Membership Growth",
+    "description": "Funding options for gyms and fitness studios that need equipment, marketing runway, buildout capital, or staff support."
+  },
+  "hero": {
+    "headline": "Gym Funding for Equipment, Buildouts, and Membership Growth",
+    "subheadline": "Gyms need capital for equipment, buildouts, and marketing before memberships fully scale. This page helps owners compare the right funding lane.",
+    "primaryCtaLabel": "Check Gym Options",
+    "primaryCtaUrl": "/book",
+    "secondaryCtaLabel": "See Funding Hub",
+    "secondaryCtaUrl": "/funding"
+  },
+  "problem": [
+    "Equipment costs stack up before membership revenue fully stabilizes.",
+    "Buildouts and leasehold improvements eat capital fast.",
+    "Growth marketing requires runway before the new members arrive."
+  ],
+  "solution": "Position gym owners around funding paths that fit recurring membership revenue and the real cost of equipment, buildouts, and acquisition.",
+  "benefits": [
+    "Add equipment faster",
+    "Support buildouts",
+    "Fund membership growth"
+  ],
+  "proof": [
+    {
+      "title": "Membership-revenue framing",
+      "description": "The page is built around recurring gym economics instead of generic business copy."
+    },
+    {
+      "title": "Fast self-selection",
+      "description": "The reader can compare quick access against lower-pressure longer-term options."
+    },
+    {
+      "title": "Conversion-ready CTA",
+      "description": "The page leads to a short next step that fits busy operators."
+    }
+  ],
+  "howItWorks": [
+    "Share whether the capital need is equipment, buildout, or member growth.",
+    "Compare faster access against more stable repayment structures.",
+    "Book the lane that best matches membership cashflow."
+  ],
+  "useCases": [
+    {
+      "title": "Equipment refresh",
+      "description": "Use it when cardio, strength, or specialty equipment needs upgrading.",
+      "fit": [
+        "equipment",
+        "operations"
+      ]
+    },
+    {
+      "title": "Studio buildout",
+      "description": "Use it when opening, expanding, or remodeling a gym location.",
+      "fit": [
+        "buildout",
+        "expansion"
+      ]
+    },
+    {
+      "title": "Membership acquisition",
+      "description": "Use it when marketing spend needs to lead membership growth instead of lagging it.",
+      "fit": [
+        "marketing",
+        "growth"
+      ]
+    }
+  ],
+  "objections": [
+    {
+      "q": "Does this only work for large gyms?",
+      "a": "No. It is useful for gyms, boutique studios, and multi-location operators."
+    },
+    {
+      "q": "Can this help with equipment and marketing at the same time?",
+      "a": "Yes. The page is built for multi-purpose capital needs."
+    },
+    {
+      "q": "What if membership growth is uneven?",
+      "a": "That is common, and the goal is to match funding to that pace rather than pretend it is perfectly smooth."
+    }
+  ],
+  "finalCta": {
+    "label": "Book a Gym Review",
+    "href": "/book",
+    "description": "Use this page to connect member growth with a cleaner capital plan."
+  },
+  "collections": [
+    "funding-core"
+  ],
+  "brief": {
+    "targetKeyword": "Gyms funding",
+    "searchIntent": "Commercial / compare options",
+    "audience": "gyms operators who need working capital, growth capital, or project funding",
+    "uniqueValueProposition": "Gyms need capital for equipment, buildouts, and marketing before memberships fully scale. This page helps owners compare the right funding lane.",
+    "proofPoints": [
+      "Equipment costs stack up before membership revenue fully stabilizes.",
+      "Buildouts and leasehold improvements eat capital fast.",
+      "Add equipment faster",
+      "Support buildouts",
+      "Fund membership growth"
+    ],
+    "faqIdeas": [
+      "Does this only work for large gyms?",
+      "Can this help with equipment and marketing at the same time?",
+      "What if membership growth is uneven?",
+      "How does gyms funding work?",
+      "What makes this gyms page different?"
+    ],
+    "internalLinks": [
+      "Funding Hub",
+      "Book a Review",
+      "Tools"
+    ],
+    "schemaType": "FAQPage"
+  }
+}

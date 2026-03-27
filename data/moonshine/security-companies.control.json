@@ -1,0 +1,121 @@
+{
+  "id": "security-companies",
+  "slug": "security-companies",
+  "label": "Security Companies",
+  "brandId": "moonshine-capital",
+  "brandName": "Moonshine Capital",
+  "route": {
+    "host": "distilledfunding.com",
+    "path": "/security-companies"
+  },
+  "aliasPaths": [],
+  "sourceRouteId": "route:security-companies",
+  "theme": {
+    "primaryColor": "#111827",
+    "accentColor": "#f97316",
+    "background": "dark"
+  },
+  "contentSources": {
+    "notion": ["resource:security-company-funding-hub"],
+    "repos": ["repo:security-company-funding-funnel"],
+    "sites": ["site:security-company-funding-funnel"],
+    "templates": ["template:contract-expansion-cashflow-plan"]
+  },
+  "pageType": "vertical-funnel",
+  "layout": "comparison-plus-cta",
+  "seo": {
+    "title": "Security Company Funding for Contracts, Vehicles, and Payroll",
+    "description": "Fast funding options for security companies covering contracts, patrol vehicles, staffing, and expansion capital."
+  },
+  "hero": {
+    "headline": "Security Company Funding for Contracts, Vehicles, and Payroll",
+    "subheadline": "Security contracts often pay on a delay while staffing and fleet costs hit now. This page maps security company cashflow to funding lanes that keep coverage steady.",
+    "primaryCtaLabel": "Check Security Options",
+    "primaryCtaUrl": "/book",
+    "secondaryCtaLabel": "See Funding Hub",
+    "secondaryCtaUrl": "/funding"
+  },
+  "sections": [
+    "hero",
+    "problem-cards",
+    "product-grid",
+    "use-cases",
+    "how-it-works",
+    "proof",
+    "faq",
+    "lead-capture"
+  ],
+  "problem": [
+    "Contracts can pay slower than payroll runs.",
+    "Vehicles and patrol equipment need upfront capital.",
+    "Coverage growth increases staffing pressure."
+  ],
+  "solution": "Connect security firms to funding lanes built for contract timing, staffing, and fleet costs instead of generic bank delays.",
+  "benefits": [
+    "Bridge contract gaps",
+    "Cover patrol vehicles",
+    "Support staffing and growth"
+  ],
+  "proof": [
+    {
+      "title": "Contract-aware framing",
+      "description": "The page reflects the timing of security contracts and recurring coverage."
+    },
+    {
+      "title": "Fleet and staffing language",
+      "description": "It speaks directly to vehicles, guards, and payroll pressure."
+    },
+    {
+      "title": "Simple CTA",
+      "description": "The next step keeps the path to capital short and obvious."
+    }
+  ],
+  "howItWorks": [
+    "Share your contract timing, fleet needs, and staffing goals.",
+    "Compare the fastest lane against the most flexible lane.",
+    "Book the lane that keeps coverage consistent."
+  ],
+  "useCases": [
+    {
+      "title": "New contract ramp",
+      "description": "Use it when a new contract requires immediate staffing and equipment spend.",
+      "fit": ["contracts", "ramp"]
+    },
+    {
+      "title": "Fleet repair",
+      "description": "Use it to repair or replace patrol vehicles without missing coverage.",
+      "fit": ["vehicles", "fleet"]
+    },
+    {
+      "title": "Payroll bridge",
+      "description": "Use it to keep guards paid while receivables catch up.",
+      "fit": ["payroll", "timing"]
+    }
+  ],
+  "objections": [
+    {
+      "q": "Is this only for large security firms?",
+      "a": "No. It works for regional firms, local providers, and growing teams."
+    },
+    {
+      "q": "Can this help with new contracts?",
+      "a": "Yes. The page is built around contract ramp and coverage timing."
+    },
+    {
+      "q": "Do I need perfect financials?",
+      "a": "Not always. Many options focus on contract volume and current activity."
+    }
+  ],
+  "finalCta": {
+    "label": "Book a Security Review",
+    "href": "/book",
+    "description": "Use this page to turn contract growth into a stronger capital plan."
+  },
+  "relatedGuides": [
+    "Funding Hub",
+    "Book a Review"
+  ],
+  "collections": [
+    "funding-core"
+  ]
+}

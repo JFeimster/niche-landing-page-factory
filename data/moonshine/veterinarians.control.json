@@ -1,0 +1,150 @@
+{
+  "id": "veterinarians",
+  "slug": "veterinarians",
+  "label": "Veterinarians",
+  "brandId": "moonshine-capital",
+  "brandName": "Moonshine Capital",
+  "route": {
+    "host": "distilledfunding.com",
+    "path": "/veterinarians"
+  },
+  "aliasPaths": [],
+  "sourceRouteId": "route:veterinarians",
+  "theme": {
+    "primaryColor": "#111827",
+    "accentColor": "#34d399",
+    "background": "dark"
+  },
+  "contentSources": {
+    "notion": [
+      "resource:veterinary-funding-hub"
+    ],
+    "repos": [
+      "repo:veterinary-funding-funnel"
+    ],
+    "sites": [
+      "site:veterinary-funding-funnel"
+    ],
+    "templates": [
+      "template:clinic-growth-capital-map"
+    ]
+  },
+  "pageType": "vertical-funnel",
+  "layout": "comparison-plus-cta",
+  "seo": {
+    "title": "Veterinary Funding for Equipment, Payroll, and Clinic Growth",
+    "description": "Funding options for veterinarians who need capital for equipment, staffing, buildouts, or clinic expansion."
+  },
+  "hero": {
+    "headline": "Veterinary Funding for Equipment, Payroll, and Clinic Growth",
+    "subheadline": "Veterinary clinics carry payroll, medical equipment, and inventory costs that can outpace cashflow during growth periods.",
+    "primaryCtaLabel": "Check Veterinary Options",
+    "primaryCtaUrl": "/book",
+    "secondaryCtaLabel": "See Funding Hub",
+    "secondaryCtaUrl": "/funding"
+  },
+  "problem": [
+    "Medical equipment and diagnostic tools require heavy upfront spending.",
+    "Staffing and payroll pressure can rise before revenue fully settles.",
+    "Clinic expansion gets expensive fast when inventory and buildout costs stack up."
+  ],
+  "solution": "Match veterinary practices to funding lanes that fit treatment-driven revenue and support equipment, staffing, and clinic expansion without forcing a generic lending story.",
+  "benefits": [
+    "Buy equipment sooner",
+    "Protect payroll and staffing",
+    "Support clinic expansion"
+  ],
+  "proof": [
+    {
+      "title": "Clinic-specific positioning",
+      "description": "The copy reflects how veterinary practices actually spend on care delivery and growth."
+    },
+    {
+      "title": "Flexible use-case fit",
+      "description": "The page covers equipment, payroll, and expansion instead of one narrow borrowing angle."
+    },
+    {
+      "title": "Short path to action",
+      "description": "The CTA helps clinic owners move quickly into a real review."
+    }
+  ],
+  "howItWorks": [
+    "Share whether the capital need is equipment, staffing, or expansion.",
+    "Compare fast access options against more structured lanes.",
+    "Book the path that fits the clinic's current cash needs."
+  ],
+  "useCases": [
+    {
+      "title": "Diagnostic equipment",
+      "description": "Use it when the clinic needs imaging, lab gear, or treatment equipment.",
+      "fit": [
+        "equipment",
+        "clinical ops"
+      ]
+    },
+    {
+      "title": "Hiring support",
+      "description": "Use it when veterinarians, techs, or front-desk staff need to be added before revenue fully ramps.",
+      "fit": [
+        "payroll",
+        "staffing"
+      ]
+    },
+    {
+      "title": "Second location growth",
+      "description": "Use it when an existing practice is adding space or opening another clinic.",
+      "fit": [
+        "expansion",
+        "buildout"
+      ]
+    }
+  ],
+  "objections": [
+    {
+      "q": "Can this work for a single-location clinic?",
+      "a": "Yes. It is useful for both independent clinics and growing multi-location practices."
+    },
+    {
+      "q": "Is this just for equipment financing?",
+      "a": "No. It can support staffing, inventory, and expansion needs too."
+    },
+    {
+      "q": "What if the clinic is profitable but cash-tight?",
+      "a": "That is exactly the kind of timing problem this page is designed to address."
+    }
+  ],
+  "finalCta": {
+    "label": "Book a Veterinary Review",
+    "href": "/book",
+    "description": "Use this page to match clinic growth with the right funding lane."
+  },
+  "collections": [
+    "funding-core"
+  ],
+  "brief": {
+    "targetKeyword": "Veterinarians funding",
+    "searchIntent": "Commercial / compare options",
+    "audience": "veterinarians operators who need working capital, growth capital, or project funding",
+    "uniqueValueProposition": "Veterinary clinics carry payroll, medical equipment, and inventory costs that can outpace cashflow during growth periods.",
+    "proofPoints": [
+      "Medical equipment and diagnostic tools require heavy upfront spending.",
+      "Staffing and payroll pressure can rise before revenue fully settles.",
+      "Buy equipment sooner",
+      "Protect payroll and staffing",
+      "Support clinic expansion"
+    ],
+    "faqIdeas": [
+      "Can this work for a single-location clinic?",
+      "Is this just for equipment financing?",
+      "What if the clinic is profitable but cash-tight?",
+      "How does veterinarians funding work?",
+      "What makes this veterinarians page different?"
+    ],
+    "internalLinks": [
+      "Funding Hub",
+      "Book a Review",
+      "Tools"
+    ],
+    "schemaType": "FAQPage"
+  }
+}

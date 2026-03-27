@@ -1,0 +1,121 @@
+{
+  "id": "salons",
+  "slug": "salons",
+  "label": "Salons",
+  "brandId": "moonshine-capital",
+  "brandName": "Moonshine Capital",
+  "route": {
+    "host": "distilledfunding.com",
+    "path": "/salons"
+  },
+  "aliasPaths": [],
+  "sourceRouteId": "route:salons",
+  "theme": {
+    "primaryColor": "#111827",
+    "accentColor": "#ec4899",
+    "background": "dark"
+  },
+  "contentSources": {
+    "notion": ["resource:salon-funding-hub"],
+    "repos": ["repo:salon-funding-funnel"],
+    "sites": ["site:salon-funding-funnel"],
+    "templates": ["template:chair-suites-cashflow-plan"]
+  },
+  "pageType": "vertical-funnel",
+  "layout": "comparison-plus-cta",
+  "seo": {
+    "title": "Salon Funding for Chairs, Suites, and Growth",
+    "description": "Fast funding options for salons covering chairs, buildouts, product inventory, and staffing growth."
+  },
+  "hero": {
+    "headline": "Salon Funding for Chairs, Suites, and Growth",
+    "subheadline": "Buildouts, chairs, and product inventory cost money before new revenue shows up. This page maps salon cashflow to funding lanes that keep appointments booked.",
+    "primaryCtaLabel": "Check Salon Options",
+    "primaryCtaUrl": "/book",
+    "secondaryCtaLabel": "See Funding Hub",
+    "secondaryCtaUrl": "/funding"
+  },
+  "sections": [
+    "hero",
+    "problem-cards",
+    "product-grid",
+    "use-cases",
+    "how-it-works",
+    "proof",
+    "faq",
+    "lead-capture"
+  ],
+  "problem": [
+    "Buildouts and chair purchases are expensive upfront.",
+    "Product inventory and supplies need replenishing fast.",
+    "Staffing and suite growth pressure cash flow."
+  ],
+  "solution": "Connect salons to funding lanes built for beauty businesses that need upfront capital for space, inventory, and growth.",
+  "benefits": [
+    "Fund chairs and suites",
+    "Keep product shelves stocked",
+    "Support hiring and expansion"
+  ],
+  "proof": [
+    {
+      "title": "Beauty-business language",
+      "description": "The page speaks to chairs, suites, and appointments, which makes it feel specific to salon owners."
+    },
+    {
+      "title": "Growth-ready framing",
+      "description": "It separates buildout, inventory, and staffing needs so buyers can self-select."
+    },
+    {
+      "title": "Clear CTA",
+      "description": "The next step is short and easy to understand."
+    }
+  ],
+  "howItWorks": [
+    "Share your suite, inventory, or staffing needs.",
+    "Compare fast lanes with longer-term growth options.",
+    "Book the path that keeps appointments moving."
+  ],
+  "useCases": [
+    {
+      "title": "Suite buildout",
+      "description": "Use it when expanding the salon floor or adding chairs.",
+      "fit": ["buildout", "expansion"]
+    },
+    {
+      "title": "Product restock",
+      "description": "Use it to replenish retail and backbar inventory quickly.",
+      "fit": ["inventory", "product"]
+    },
+    {
+      "title": "Hiring runway",
+      "description": "Use it to add stylists and assistants before revenue fully scales.",
+      "fit": ["staffing", "growth"]
+    }
+  ],
+  "objections": [
+    {
+      "q": "Is this only for big salons?",
+      "a": "No. It works for independent salons, suite owners, and growing brands."
+    },
+    {
+      "q": "Can I use this for a buildout?",
+      "a": "Yes. That is one of the main use cases for the page."
+    },
+    {
+      "q": "Will this help with product inventory?",
+      "a": "Yes. The page is built to surface inventory-friendly capital first."
+    }
+  ],
+  "finalCta": {
+    "label": "Book a Salon Review",
+    "href": "/book",
+    "description": "Use this page to turn salon growth goals into a clearer capital plan."
+  },
+  "relatedGuides": [
+    "Funding Hub",
+    "Book a Review"
+  ],
+  "collections": [
+    "funding-core"
+  ]
+}
